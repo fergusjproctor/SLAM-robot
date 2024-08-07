@@ -2,8 +2,11 @@
 // Based on original script by Lauren from DFRobot, Product name: Wheel Encoders for DFRobot 3PA and 4WD Rovers
 
 
+
 #define LEFT 0 // #        left wheel encoder  -> Digital pin 2, interrupt 0
 #define RIGHT 1 // #        right wheel encoder -> Digital pin 3, interrupt 1
+
+
 
 // store current count of coder
 long coder[2] = {
@@ -26,9 +29,9 @@ void setup(){
 
 void loop(){
 
-  static unsigned long timer = 0;                //print manager timer
+  static unsigned long enc_time = 0;                //print manager enc_time
   
-  if(millis() - timer > delta * 1000){
+  if(millis() - enc_time > delta * 1000){
  
     //record the latest speed value
     lastSpeed[LEFT] = coder[LEFT] / delta;   
@@ -48,10 +51,10 @@ void loop(){
     Serial.print("[Right Wheel]");
     Serial.println(coder_abs[RIGHT]);
     
-    // reset current coder value and timer
+    // reset current coder value and enc_time
     coder[LEFT] = 0;               
     coder[RIGHT] = 0;
-    timer = millis();
+    enc_time = millis();
   }
 }
 
