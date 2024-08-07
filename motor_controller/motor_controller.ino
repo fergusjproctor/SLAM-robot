@@ -1,12 +1,12 @@
 // Sketch used to control 4 motors of mobile platform. Based on test sketch test_arduino_scripts/motor_driver_buttons
-// 
+// Code inefficient, but given it´ll be replaced by ROS2 controller refactoring was not undertaken.
 
 // Pin groups:
 // Input: pin 2
 // PWM speed: pins 5,6 and 10,11 (front left right, back left right)
 // Direction: (3,4), (7,8) and (A0,A1), (A2,A3)
 
-
+// Pin connected to pull up interrupt button
 int buttonDPin = 2;
 
 // Global variables
@@ -57,7 +57,7 @@ void setup() {
   Serial.begin(9600);
 }
 
-void Adelante(int speed) {
+void Forward(int speed) {
   // Front Left Motor
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
@@ -79,7 +79,7 @@ void Adelante(int speed) {
   analogWrite(END, speed);
 }
 
-void Atras(int speed) {
+void Back(int speed) {
   // Front Left Motor
   digitalWrite(IN1, LOW);
   digitalWrite(IN2, HIGH);
@@ -101,7 +101,7 @@ void Atras(int speed) {
   analogWrite(END, speed / 2);
 }
 
-void Derecha(int speed) {
+void Right(int speed) {
   // Front Left Motor
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
@@ -123,7 +123,7 @@ void Derecha(int speed) {
   analogWrite(END, 2 * speed / 5);
 }
 
-void Izquierda(int speed) {
+void Left(int speed) {
   // Front Left Motor
   digitalWrite(IN1, LOW);
   digitalWrite(IN2, HIGH);
@@ -145,7 +145,7 @@ void Izquierda(int speed) {
   analogWrite(END, 4 * speed / 5);
 }
 
-void Parar() {
+void Stop() {
   // Front Left Motor
   digitalWrite(IN1, LOW);
   digitalWrite(IN2, LOW);
@@ -179,19 +179,19 @@ void loop() {
       toggleStateS = (toggleStateS + 1) % 5;
       switch (toggleStateS) {
         case 0:
-          Adelante(speed);
+          Forward(speed);
           break;
         case 1:
-          Atras(speed);
+          Back(speed);
           break;
         case 2:
-          Izquierda(speed);
+          Left(speed);
           break;
         case 3:
-          Derecha(speed);
+          Right(speed);
           break;
         case 4:
-          Parar();
+          Stop();
           break;
       }
       lastButtonDState = 0;
