@@ -4,10 +4,16 @@
 // Pin groups:
 // Input: pin 2
 // PWM speed: pins 5,6 and 10,11 (front left right, back left right)
-// Direction: (3,4), (7,8) and (A0,A1), (A2,A3)
+// Direction: (12,4), (7,8) and (A0,A1), (A2,A3)
 
+
+// Updating interrupt pins to test  digitalPinToInterrupt() function
+#include <EnableInterrupt.h>
 // Pin connected to pull up interrupt button
-int buttonDPin = 2;
+int buttonDPin = 9;
+
+
+
 
 // Global variables
 int toggleStateS;
@@ -20,7 +26,7 @@ int speed;
 
 // Motor A (Front Left)
 int ENA = 5;
-int IN1 = 3;
+int IN1 = 12;
 int IN2 = 4;
 
 // Motor B (Front Right)
@@ -38,6 +44,25 @@ int END = 11;
 int IN7 = A2;
 int IN8 = A3;
 
+
+//encoder inputs and variables
+#define LEFT 0 // #        left wheel encoder  -> Digital pin 2, interrupt 0
+#define RIGHT 1 // #        right wheel encoder -> Digital pin 3, interrupt 1
+
+
+
+// store current count of coder
+long coder[2] = {
+  0,0};
+// store absolute count of coder
+long coder_abs[2] = {
+  0,0};
+// store current speed of coder
+float lastSpeed[2] = {
+  0,0};
+float delta = 2; // Period of measuring cycle, T seconds speed is measured at
+
+
 void setup() {
   // Initialize all pins as outputs
   pinMode(ENA, OUTPUT);
@@ -53,7 +78,13 @@ void setup() {
   pinMode(IN7, OUTPUT);
   pinMode(IN8, OUTPUT);
   pinMode(buttonDPin, INPUT_PULLUP);
-  attachInterrupt(digitalPinToInterrupt(buttonDPin), ISR_buttonD, CHANGE);
+  enableInterrupt(buttonDPin, ISR_buttonD, CHANGE);
+
+  //encoder setup
+  enableInterrupt(2, LwheelSpeed, CHANGE);    //init the interrupt mode for digital pin 2 (interrupt 0)
+  enableInterrupt(3, RwheelSpeed, CHANGE);   //init the interrupt mode for digital pin 3 (interrupt 1)
+
+
   Serial.begin(9600);
 }
 
@@ -168,6 +199,7 @@ void Stop() {
 }
 
 void loop() {
+  // code pertaining to reading pullup buttons' interrupt
   int buttonDState = digitalRead(buttonDPin);
   
   if ((millis() - lastPress) > debounceTime && buttonDFlag) {
@@ -201,8 +233,51 @@ void loop() {
     }
     buttonDFlag = 0;
   }
+  // code pertaining to reading encoder value
+  static unsigned long enc_time = 0;                //print manager enc_time
+  
+  if(millis() - enc_time > delta * 1000){
+ 
+    //record the latest speed value
+    lastSpeed[LEFT] = coder[LEFT] / delta;   
+    lastSpeed[RIGHT] = coder[RIGHT] / delta;
+    // update total displacement
+    coder_abs[LEFT] += coder[LEFT];
+    coder_abs[RIGHT] += coder[RIGHT];
+    // print values
+    Serial.println("Speed value: ");
+    Serial.print("[Left Wheel]");
+    Serial.print(lastSpeed[LEFT]);
+    Serial.print("[Right Wheel]");
+    Serial.println(lastSpeed[RIGHT]);
+    Serial.println("Coder value: ");
+    Serial.print("[Left Wheel]");
+    Serial.print(coder_abs[LEFT]);
+    Serial.print("[Right Wheel]");
+    Serial.println(coder_abs[RIGHT]);
+    
+    // reset current coder value and enc_time
+    coder[LEFT] = 0;               
+    coder[RIGHT] = 0;
+    enc_time = millis();
+  }
 }
 
 void ISR_buttonD() {
+  Serial.print("Button ISR called, button value");
+  Serial.println(digitalRead(buttonDPin));
   buttonDFlag = 1;
+}
+
+// encoder ISRs
+// ISR used to add 1 to count whenever encoder photosensor changes from 1 to 0 or vice versa
+void LwheelSpeed()
+{
+  coder[LEFT] ++;  //count the left wheel encoder interrupts
+}
+
+
+void RwheelSpeed()
+{
+  coder[RIGHT] ++; //count the right wheel encoder interrupts
 }
