@@ -78,14 +78,14 @@ void setup() {
   pinMode(IN7, OUTPUT);
   pinMode(IN8, OUTPUT);
   pinMode(buttonDPin, INPUT_PULLUP);
-  enableInterrupt(buttonDPin, ISR_buttonD, CHANGE);
+  enableInterrupt(buttonDPin, ISRButtonD, CHANGE);
 
   //encoder setup
   enableInterrupt(2, LwheelSpeed, CHANGE);    //init the interrupt mode for digital pin 2 (interrupt 0)
   enableInterrupt(3, RwheelSpeed, CHANGE);   //init the interrupt mode for digital pin 3 (interrupt 1)
 
 
-  Serial.begin(9600);
+  Serial.begin(38400);
 }
 
 void Forward(int speed) {
@@ -199,6 +199,22 @@ void Stop() {
 }
 
 void loop() {
+  // Check if data is available to read
+  if (Serial.available() > 0) {
+    // Read a single character
+    char ch = Serial.read();
+    
+    if (ch != '0') {
+    // Print the received character
+    Serial.print("ISR called with character: ");
+    Serial.println(ch);
+    // You can add any additional handling code here
+    Forward(255);
+    delay(2000);
+    Stop();
+    }
+
+  }
   // code pertaining to reading pullup buttons' interrupt
   int buttonDState = digitalRead(buttonDPin);
   
@@ -263,7 +279,7 @@ void loop() {
   }
 }
 
-void ISR_buttonD() {
+void ISRButtonD(){
   Serial.print("Button ISR called, button value");
   Serial.println(digitalRead(buttonDPin));
   buttonDFlag = 1;
