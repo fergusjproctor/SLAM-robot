@@ -1,4 +1,4 @@
-// Sketch used to control 4 motors of mobile platform. Based on test sketch test_arduino_scripts/motor_driver_buttons
+// Sketch used to control 4 motors of mobile platform. 
 // Code inefficient, but given it´ll be replaced by ROS2 controller refactoring was not undertaken.
 
 // Pin groups:
@@ -9,10 +9,6 @@
 
 // Updating interrupt pins to test  digitalPinToInterrupt() function
 #include <EnableInterrupt.h>
-// Pin connected to pull up interrupt button
-int buttonDPin = 9;
-
-
 
 
 // Global variables
@@ -49,7 +45,12 @@ int IN8 = A3;
 #define LEFT 0 // #        left wheel encoder  -> Digital pin 2, interrupt 0
 #define RIGHT 1 // #        right wheel encoder -> Digital pin 3, interrupt 1
 
-
+//bluetooth remote control commands
+#define FORWARD 'F'
+#define BACKWARD 'B'
+#define LEFT 'L'
+#define RIGHT 'R'
+#define STOP 'C' // circle button
 
 // store current count of coder
 long coder[2] = {
@@ -77,8 +78,6 @@ void setup() {
   pinMode(IN6, OUTPUT);
   pinMode(IN7, OUTPUT);
   pinMode(IN8, OUTPUT);
-  pinMode(buttonDPin, INPUT_PULLUP);
-  enableInterrupt(buttonDPin, ISRButtonD, CHANGE);
 
   //encoder setup
   enableInterrupt(2, LwheelSpeed, CHANGE);    //init the interrupt mode for digital pin 2 (interrupt 0)
@@ -208,46 +207,28 @@ void loop() {
     // Print the received character
     Serial.print("ISR called with character: ");
     Serial.println(ch);
-    // You can add any additional handling code here
-    Forward(255);
-    delay(2000);
-    Stop();
-    }
-
-  }
-  // code pertaining to reading pullup buttons' interrupt
-  int buttonDState = digitalRead(buttonDPin);
-  
-  if ((millis() - lastPress) > debounceTime && buttonDFlag) {
-    Serial.print("Button D state:");
-    Serial.print(buttonDState);
-    lastPress = millis();
-    if (digitalRead(buttonDPin) == 0 && lastButtonDState == 1) {
-      speed = 255;
+    speed = 255;
       toggleStateS = (toggleStateS + 1) % 5;
-      switch (toggleStateS) {
-        case 0:
+      switch (ch) {
+        case FORWARD:
           Forward(speed);
           break;
-        case 1:
+        case BACKWARD:
           Back(speed);
           break;
-        case 2:
+        case LEFT:
           Left(speed);
           break;
-        case 3:
+        case RIGHT:
           Right(speed);
           break;
-        case 4:
+        case STOP:
           Stop();
           break;
       }
-      lastButtonDState = 0;
     }
-    if (digitalRead(buttonDPin) == 1 && lastButtonDState == 0) {
-      lastButtonDState = 1;
-    }
-    buttonDFlag = 0;
+
+  
   }
   // code pertaining to reading encoder value
   static unsigned long enc_time = 0;                //print manager enc_time
@@ -278,13 +259,6 @@ void loop() {
     enc_time = millis();
   }
 }
-
-void ISRButtonD(){
-  Serial.print("Button ISR called, button value");
-  Serial.println(digitalRead(buttonDPin));
-  buttonDFlag = 1;
-}
-
 // encoder ISRs
 // ISR used to add 1 to count whenever encoder photosensor changes from 1 to 0 or vice versa
 void LwheelSpeed()
