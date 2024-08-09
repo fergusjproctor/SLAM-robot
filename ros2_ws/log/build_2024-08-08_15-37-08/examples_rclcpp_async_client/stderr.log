@@ -1,0 +1,14 @@
+CMake Error: failed to create symbolic link 'C:/Users/felix/dev/SLAM-robot/ros2_ws/install/lib/examples_rclcpp_async_client/client_main.exe': A required privilege is not held by the client.
+
+CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:302 (message):
+  Could not create symlink
+  'C:/Users/felix/dev/SLAM-robot/ros2_ws/install/lib/examples_rclcpp_async_client/client_main.exe'
+  pointing to
+  'C:/Users/felix/dev/SLAM-robot/ros2_ws/build/examples_rclcpp_async_client/Release/client_main.exe'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:264 (_ament_cmake_symlink_install_create_symlink)
+  ament_cmake_symlink_install_targets_0_Release.cmake:1 (ament_cmake_symlink_install_targets)
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (include)
+  cmake_install.cmake:36 (include)
+
+

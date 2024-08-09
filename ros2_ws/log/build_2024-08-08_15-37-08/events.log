@@ -1,0 +1,1262 @@
+[0.000000] (-) TimerEvent: {}
+[0.000000] (examples_rclcpp_async_client) JobQueued: {'identifier': 'examples_rclcpp_async_client', 'dependencies': OrderedDict()}
+[0.000000] (examples_rclcpp_cbg_executor) JobQueued: {'identifier': 'examples_rclcpp_cbg_executor', 'dependencies': OrderedDict()}
+[0.000000] (examples_rclcpp_minimal_action_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_client', 'dependencies': OrderedDict()}
+[0.000000] (examples_rclcpp_minimal_action_server) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_server', 'dependencies': OrderedDict()}
+[0.000000] (examples_rclcpp_minimal_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_client', 'dependencies': OrderedDict()}
+[0.015000] (examples_rclcpp_minimal_composition) JobQueued: {'identifier': 'examples_rclcpp_minimal_composition', 'dependencies': OrderedDict()}
+[0.015000] (examples_rclcpp_minimal_publisher) JobQueued: {'identifier': 'examples_rclcpp_minimal_publisher', 'dependencies': OrderedDict()}
+[0.015000] (examples_rclcpp_minimal_service) JobQueued: {'identifier': 'examples_rclcpp_minimal_service', 'dependencies': OrderedDict()}
+[0.015000] (examples_rclcpp_minimal_subscriber) JobQueued: {'identifier': 'examples_rclcpp_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.015000] (examples_rclcpp_minimal_timer) JobQueued: {'identifier': 'examples_rclcpp_minimal_timer', 'dependencies': OrderedDict()}
+[0.015000] (examples_rclcpp_multithreaded_executor) JobQueued: {'identifier': 'examples_rclcpp_multithreaded_executor', 'dependencies': OrderedDict()}
+[0.015000] (examples_rclcpp_wait_set) JobQueued: {'identifier': 'examples_rclcpp_wait_set', 'dependencies': OrderedDict()}
+[0.015000] (examples_rclpy_executors) JobQueued: {'identifier': 'examples_rclpy_executors', 'dependencies': OrderedDict()}
+[0.015000] (examples_rclpy_guard_conditions) JobQueued: {'identifier': 'examples_rclpy_guard_conditions', 'dependencies': OrderedDict()}
+[0.015000] (examples_rclpy_minimal_action_client) JobQueued: {'identifier': 'examples_rclpy_minimal_action_client', 'dependencies': OrderedDict()}
+[0.015000] (examples_rclpy_minimal_action_server) JobQueued: {'identifier': 'examples_rclpy_minimal_action_server', 'dependencies': OrderedDict()}
+[0.015000] (examples_rclpy_minimal_client) JobQueued: {'identifier': 'examples_rclpy_minimal_client', 'dependencies': OrderedDict()}
+[0.015000] (examples_rclpy_minimal_publisher) JobQueued: {'identifier': 'examples_rclpy_minimal_publisher', 'dependencies': OrderedDict()}
+[0.015000] (examples_rclpy_minimal_service) JobQueued: {'identifier': 'examples_rclpy_minimal_service', 'dependencies': OrderedDict()}
+[0.015000] (examples_rclpy_minimal_subscriber) JobQueued: {'identifier': 'examples_rclpy_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.015000] (examples_rclpy_pointcloud_publisher) JobQueued: {'identifier': 'examples_rclpy_pointcloud_publisher', 'dependencies': OrderedDict()}
+[0.015000] (launch_testing_examples) JobQueued: {'identifier': 'launch_testing_examples', 'dependencies': OrderedDict()}
+[0.015000] (examples_rclcpp_async_client) JobStarted: {'identifier': 'examples_rclcpp_async_client'}
+[0.109000] (-) TimerEvent: {}
+[0.203000] (examples_rclcpp_cbg_executor) JobStarted: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.218000] (-) TimerEvent: {}
+[0.328000] (-) TimerEvent: {}
+[0.375000] (examples_rclcpp_minimal_action_client) JobStarted: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.437000] (-) TimerEvent: {}
+[0.547000] (examples_rclcpp_minimal_action_server) JobStarted: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.547000] (-) TimerEvent: {}
+[0.656000] (-) TimerEvent: {}
+[0.734000] (examples_rclcpp_cbg_executor) JobProgress: {'identifier': 'examples_rclcpp_cbg_executor', 'progress': 'cmake'}
+[0.734000] (examples_rclcpp_cbg_executor) Command: {'cmd': ['C:\\Program Files\\CMake\\bin\\cmake.EXE', 'C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\src\\examples\\rclcpp\\executors\\cbg_executor', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\install', '-G', 'Visual Studio 16 2019'], 'cwd': 'C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_cbg_executor', 'env': OrderedDict([('ALLUSERSPROFILE', 'C:\\ProgramData'), ('AMENT_PREFIX_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows'), ('APPDATA', 'C:\\Users\\felix\\AppData\\Roaming'), ('asl.log', 'Destination=file'), ('ChocolateyInstall', 'C:\\ProgramData\\chocolatey'), ('ChocolateyLastPathUpdate', '133640553997549682'), ('CMAKE_PREFIX_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/pybind11_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/orocos_kdl_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows'), ('COLCON', '1'), ('COLCON_PREFIX_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\'), ('CommandPromptType', 'Native'), ('CommonProgramFiles', 'C:\\Program Files\\Common Files'), ('CommonProgramFiles(x86)', 'C:\\Program Files (x86)\\Common Files'), ('CommonProgramW6432', 'C:\\Program Files\\Common Files'), ('COMPUTERNAME', 'DESKTOP-5G511IC'), ('ComSpec', 'C:\\WINDOWS\\system32\\cmd.exe'), ('DevEnvDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\'), ('DriverData', 'C:\\Windows\\System32\\Drivers\\DriverData'), ('ExtensionSdkDir', 'C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs'), ('Framework40Version', 'v4.0'), ('FrameworkDir', 'C:\\Windows\\Microsoft.NET\\Framework\\'), ('FrameworkDir32', 'C:\\Windows\\Microsoft.NET\\Framework\\'), ('FrameworkVersion', 'v4.0.30319'), ('FrameworkVersion32', 'v4.0.30319'), ('HOMEDRIVE', 'C:'), ('HOMEPATH', '\\Users\\felix'), ('INCLUDE', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\include;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\cppwinrt'), ('LIB', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\ucrt\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\um\\x86'), ('LIBPATH', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319'), ('LOCALAPPDATA', 'C:\\Users\\felix\\AppData\\Local'), ('LOGONSERVER', '\\\\DESKTOP-5G511IC'), ('NUMBER_OF_PROCESSORS', '4'), ('OneDrive', 'C:\\Users\\felix\\OneDrive - La Salle Centro Universitario'), ('OneDriveCommercial', 'C:\\Users\\felix\\OneDrive - La Salle Centro Universitario'), ('OneDriveConsumer', 'C:\\Users\\felix\\OneDrive'), ('OpenCV_DIR', 'C:\\opencv'), ('OPENSSL_CONF', 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg'), ('OS', 'Windows_NT'), ('Path', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/zstd_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/zstd_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/uncrustify_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/sqlite3_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/sqlite3_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/spdlog_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/spdlog_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_ogre_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_ogre_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_assimp_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_assimp_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/orocos_kdl_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/mimick_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libyaml_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libyaml_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/liblz4_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/liblz4_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libcurl_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libcurl_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\Scripts;C:\\ros2-package-windows-AMD64\\ros2-windows\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\\\Extensions\\Microsoft\\IntelliCode\\CLI;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\AutoFirma\\AutoFirma;C:\\Program Files\\Git\\cmd;C:\\Users\\felix\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\felix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin'), ('PATHEXT', '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'), ('PKG_CONFIG_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\lib\\pkgconfig'), ('PROCESSOR_ARCHITECTURE', 'AMD64'), ('PROCESSOR_IDENTIFIER', 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'), ('PROCESSOR_LEVEL', '6'), ('PROCESSOR_REVISION', '4e03'), ('ProgramData', 'C:\\ProgramData'), ('ProgramFiles', 'C:\\Program Files'), ('ProgramFiles(x86)', 'C:\\Program Files (x86)'), ('ProgramW6432', 'C:\\Program Files'), ('PROMPT', '$P$G'), ('PSModulePath', 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'), ('PUBLIC', 'C:\\Users\\Public'), ('PYTHONPATH', 'C:\\ci\\ws\\install\\lib\\python3.8\\dist-packages;C:\\ros2-package-windows-AMD64\\ros2-windows\\Lib\\site-packages'), ('Qt5_DIR', 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64'), ('QT_QPA_PLATFORM_PLUGIN_PATH', 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\plugins\\platforms'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('ROS_DISTRO', 'rolling'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('SESSIONNAME', 'Console'), ('SystemDrive', 'C:'), ('SystemRoot', 'C:\\WINDOWS'), ('TEMP', 'C:\\Users\\felix\\AppData\\Local\\Temp'), ('TMP', 'C:\\Users\\felix\\AppData\\Local\\Temp'), ('UCRTVersion', '10.0.19041.0'), ('UniversalCRTSdkDir', 'C:\\Program Files (x86)\\Windows Kits\\10\\'), ('USERDOMAIN', 'DESKTOP-5G511IC'), ('USERDOMAIN_ROAMINGPROFILE', 'DESKTOP-5G511IC'), ('USERNAME', 'felix'), ('USERPROFILE', 'C:\\Users\\felix'), ('VCIDEInstallDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\'), ('VCINSTALLDIR', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\'), ('VCToolsInstallDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\'), ('VCToolsRedistDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Redist\\MSVC\\14.29.30133\\'), ('VCToolsVersion', '14.29.30133'), ('VisualStudioVersion', '16.0'), ('VS160COMNTOOLS', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\'), ('VSCMD_ARG_app_plat', 'Desktop'), ('VSCMD_ARG_HOST_ARCH', 'x86'), ('VSCMD_ARG_TGT_ARCH', 'x86'), ('VSCMD_VER', '16.11.37'), ('VSINSTALLDIR', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\'), ('windir', 'C:\\WINDOWS'), ('WindowsLibPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0'), ('WindowsSdkBinPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\'), ('WindowsSdkDir', 'C:\\Program Files (x86)\\Windows Kits\\10\\'), ('WindowsSDKLibVersion', '10.0.19041.0\\'), ('WindowsSdkVerBinPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\'), ('WindowsSDKVersion', '10.0.19041.0\\'), ('__devinit_path', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit\\devinit.exe'), ('__DOTNET_ADD_32BIT', '1'), ('__DOTNET_PREFERRED_BITNESS', '32'), ('__VSCMD_PREINIT_PATH', 'C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\AutoFirma\\AutoFirma;C:\\Program Files\\Git\\cmd;C:\\Users\\felix\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\felix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin'), ('__VSCMD_script_err_count', '0')]), 'shell': False}
+[0.765000] (-) TimerEvent: {}
+[0.875000] (-) TimerEvent: {}
+[0.890000] (examples_rclcpp_async_client) JobProgress: {'identifier': 'examples_rclcpp_async_client', 'progress': 'cmake'}
+[0.890000] (examples_rclcpp_async_client) Command: {'cmd': ['C:\\Program Files\\CMake\\bin\\cmake.EXE', 'C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\src\\examples\\rclcpp\\services\\async_client', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\install', '-G', 'Visual Studio 16 2019'], 'cwd': 'C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_async_client', 'env': OrderedDict([('ALLUSERSPROFILE', 'C:\\ProgramData'), ('AMENT_PREFIX_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows'), ('APPDATA', 'C:\\Users\\felix\\AppData\\Roaming'), ('asl.log', 'Destination=file'), ('ChocolateyInstall', 'C:\\ProgramData\\chocolatey'), ('ChocolateyLastPathUpdate', '133640553997549682'), ('CMAKE_PREFIX_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/pybind11_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/orocos_kdl_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows'), ('COLCON', '1'), ('COLCON_PREFIX_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\'), ('CommandPromptType', 'Native'), ('CommonProgramFiles', 'C:\\Program Files\\Common Files'), ('CommonProgramFiles(x86)', 'C:\\Program Files (x86)\\Common Files'), ('CommonProgramW6432', 'C:\\Program Files\\Common Files'), ('COMPUTERNAME', 'DESKTOP-5G511IC'), ('ComSpec', 'C:\\WINDOWS\\system32\\cmd.exe'), ('DevEnvDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\'), ('DriverData', 'C:\\Windows\\System32\\Drivers\\DriverData'), ('ExtensionSdkDir', 'C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs'), ('Framework40Version', 'v4.0'), ('FrameworkDir', 'C:\\Windows\\Microsoft.NET\\Framework\\'), ('FrameworkDir32', 'C:\\Windows\\Microsoft.NET\\Framework\\'), ('FrameworkVersion', 'v4.0.30319'), ('FrameworkVersion32', 'v4.0.30319'), ('HOMEDRIVE', 'C:'), ('HOMEPATH', '\\Users\\felix'), ('INCLUDE', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\include;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\cppwinrt'), ('LIB', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\ucrt\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\um\\x86'), ('LIBPATH', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319'), ('LOCALAPPDATA', 'C:\\Users\\felix\\AppData\\Local'), ('LOGONSERVER', '\\\\DESKTOP-5G511IC'), ('NUMBER_OF_PROCESSORS', '4'), ('OneDrive', 'C:\\Users\\felix\\OneDrive - La Salle Centro Universitario'), ('OneDriveCommercial', 'C:\\Users\\felix\\OneDrive - La Salle Centro Universitario'), ('OneDriveConsumer', 'C:\\Users\\felix\\OneDrive'), ('OpenCV_DIR', 'C:\\opencv'), ('OPENSSL_CONF', 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg'), ('OS', 'Windows_NT'), ('Path', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/zstd_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/zstd_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/uncrustify_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/sqlite3_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/sqlite3_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/spdlog_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/spdlog_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_ogre_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_ogre_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_assimp_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_assimp_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/orocos_kdl_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/mimick_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libyaml_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libyaml_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/liblz4_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/liblz4_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libcurl_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libcurl_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\Scripts;C:\\ros2-package-windows-AMD64\\ros2-windows\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\\\Extensions\\Microsoft\\IntelliCode\\CLI;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\AutoFirma\\AutoFirma;C:\\Program Files\\Git\\cmd;C:\\Users\\felix\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\felix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin'), ('PATHEXT', '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'), ('PKG_CONFIG_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\lib\\pkgconfig'), ('PROCESSOR_ARCHITECTURE', 'AMD64'), ('PROCESSOR_IDENTIFIER', 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'), ('PROCESSOR_LEVEL', '6'), ('PROCESSOR_REVISION', '4e03'), ('ProgramData', 'C:\\ProgramData'), ('ProgramFiles', 'C:\\Program Files'), ('ProgramFiles(x86)', 'C:\\Program Files (x86)'), ('ProgramW6432', 'C:\\Program Files'), ('PROMPT', '$P$G'), ('PSModulePath', 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'), ('PUBLIC', 'C:\\Users\\Public'), ('PYTHONPATH', 'C:\\ci\\ws\\install\\lib\\python3.8\\dist-packages;C:\\ros2-package-windows-AMD64\\ros2-windows\\Lib\\site-packages'), ('Qt5_DIR', 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64'), ('QT_QPA_PLATFORM_PLUGIN_PATH', 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\plugins\\platforms'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('ROS_DISTRO', 'rolling'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('SESSIONNAME', 'Console'), ('SystemDrive', 'C:'), ('SystemRoot', 'C:\\WINDOWS'), ('TEMP', 'C:\\Users\\felix\\AppData\\Local\\Temp'), ('TMP', 'C:\\Users\\felix\\AppData\\Local\\Temp'), ('UCRTVersion', '10.0.19041.0'), ('UniversalCRTSdkDir', 'C:\\Program Files (x86)\\Windows Kits\\10\\'), ('USERDOMAIN', 'DESKTOP-5G511IC'), ('USERDOMAIN_ROAMINGPROFILE', 'DESKTOP-5G511IC'), ('USERNAME', 'felix'), ('USERPROFILE', 'C:\\Users\\felix'), ('VCIDEInstallDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\'), ('VCINSTALLDIR', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\'), ('VCToolsInstallDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\'), ('VCToolsRedistDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Redist\\MSVC\\14.29.30133\\'), ('VCToolsVersion', '14.29.30133'), ('VisualStudioVersion', '16.0'), ('VS160COMNTOOLS', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\'), ('VSCMD_ARG_app_plat', 'Desktop'), ('VSCMD_ARG_HOST_ARCH', 'x86'), ('VSCMD_ARG_TGT_ARCH', 'x86'), ('VSCMD_VER', '16.11.37'), ('VSINSTALLDIR', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\'), ('windir', 'C:\\WINDOWS'), ('WindowsLibPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0'), ('WindowsSdkBinPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\'), ('WindowsSdkDir', 'C:\\Program Files (x86)\\Windows Kits\\10\\'), ('WindowsSDKLibVersion', '10.0.19041.0\\'), ('WindowsSdkVerBinPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\'), ('WindowsSDKVersion', '10.0.19041.0\\'), ('__devinit_path', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit\\devinit.exe'), ('__DOTNET_ADD_32BIT', '1'), ('__DOTNET_PREFERRED_BITNESS', '32'), ('__VSCMD_PREINIT_PATH', 'C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\AutoFirma\\AutoFirma;C:\\Program Files\\Git\\cmd;C:\\Users\\felix\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\felix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin'), ('__VSCMD_script_err_count', '0')]), 'shell': False}
+[0.906000] (examples_rclcpp_minimal_action_client) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_client', 'progress': 'cmake'}
+[0.906000] (examples_rclcpp_minimal_action_client) Command: {'cmd': ['C:\\Program Files\\CMake\\bin\\cmake.EXE', 'C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\src\\examples\\rclcpp\\actions\\minimal_action_client', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\install', '-G', 'Visual Studio 16 2019'], 'cwd': 'C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_minimal_action_client', 'env': OrderedDict([('ALLUSERSPROFILE', 'C:\\ProgramData'), ('AMENT_PREFIX_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows'), ('APPDATA', 'C:\\Users\\felix\\AppData\\Roaming'), ('asl.log', 'Destination=file'), ('ChocolateyInstall', 'C:\\ProgramData\\chocolatey'), ('ChocolateyLastPathUpdate', '133640553997549682'), ('CMAKE_PREFIX_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/pybind11_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/orocos_kdl_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows'), ('COLCON', '1'), ('COLCON_PREFIX_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\'), ('CommandPromptType', 'Native'), ('CommonProgramFiles', 'C:\\Program Files\\Common Files'), ('CommonProgramFiles(x86)', 'C:\\Program Files (x86)\\Common Files'), ('CommonProgramW6432', 'C:\\Program Files\\Common Files'), ('COMPUTERNAME', 'DESKTOP-5G511IC'), ('ComSpec', 'C:\\WINDOWS\\system32\\cmd.exe'), ('DevEnvDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\'), ('DriverData', 'C:\\Windows\\System32\\Drivers\\DriverData'), ('ExtensionSdkDir', 'C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs'), ('Framework40Version', 'v4.0'), ('FrameworkDir', 'C:\\Windows\\Microsoft.NET\\Framework\\'), ('FrameworkDir32', 'C:\\Windows\\Microsoft.NET\\Framework\\'), ('FrameworkVersion', 'v4.0.30319'), ('FrameworkVersion32', 'v4.0.30319'), ('HOMEDRIVE', 'C:'), ('HOMEPATH', '\\Users\\felix'), ('INCLUDE', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\include;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\cppwinrt'), ('LIB', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\ucrt\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\um\\x86'), ('LIBPATH', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319'), ('LOCALAPPDATA', 'C:\\Users\\felix\\AppData\\Local'), ('LOGONSERVER', '\\\\DESKTOP-5G511IC'), ('NUMBER_OF_PROCESSORS', '4'), ('OneDrive', 'C:\\Users\\felix\\OneDrive - La Salle Centro Universitario'), ('OneDriveCommercial', 'C:\\Users\\felix\\OneDrive - La Salle Centro Universitario'), ('OneDriveConsumer', 'C:\\Users\\felix\\OneDrive'), ('OpenCV_DIR', 'C:\\opencv'), ('OPENSSL_CONF', 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg'), ('OS', 'Windows_NT'), ('Path', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/zstd_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/zstd_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/uncrustify_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/sqlite3_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/sqlite3_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/spdlog_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/spdlog_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_ogre_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_ogre_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_assimp_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_assimp_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/orocos_kdl_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/mimick_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libyaml_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libyaml_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/liblz4_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/liblz4_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libcurl_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libcurl_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\Scripts;C:\\ros2-package-windows-AMD64\\ros2-windows\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\\\Extensions\\Microsoft\\IntelliCode\\CLI;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\AutoFirma\\AutoFirma;C:\\Program Files\\Git\\cmd;C:\\Users\\felix\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\felix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin'), ('PATHEXT', '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'), ('PKG_CONFIG_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\lib\\pkgconfig'), ('PROCESSOR_ARCHITECTURE', 'AMD64'), ('PROCESSOR_IDENTIFIER', 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'), ('PROCESSOR_LEVEL', '6'), ('PROCESSOR_REVISION', '4e03'), ('ProgramData', 'C:\\ProgramData'), ('ProgramFiles', 'C:\\Program Files'), ('ProgramFiles(x86)', 'C:\\Program Files (x86)'), ('ProgramW6432', 'C:\\Program Files'), ('PROMPT', '$P$G'), ('PSModulePath', 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'), ('PUBLIC', 'C:\\Users\\Public'), ('PYTHONPATH', 'C:\\ci\\ws\\install\\lib\\python3.8\\dist-packages;C:\\ros2-package-windows-AMD64\\ros2-windows\\Lib\\site-packages'), ('Qt5_DIR', 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64'), ('QT_QPA_PLATFORM_PLUGIN_PATH', 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\plugins\\platforms'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('ROS_DISTRO', 'rolling'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('SESSIONNAME', 'Console'), ('SystemDrive', 'C:'), ('SystemRoot', 'C:\\WINDOWS'), ('TEMP', 'C:\\Users\\felix\\AppData\\Local\\Temp'), ('TMP', 'C:\\Users\\felix\\AppData\\Local\\Temp'), ('UCRTVersion', '10.0.19041.0'), ('UniversalCRTSdkDir', 'C:\\Program Files (x86)\\Windows Kits\\10\\'), ('USERDOMAIN', 'DESKTOP-5G511IC'), ('USERDOMAIN_ROAMINGPROFILE', 'DESKTOP-5G511IC'), ('USERNAME', 'felix'), ('USERPROFILE', 'C:\\Users\\felix'), ('VCIDEInstallDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\'), ('VCINSTALLDIR', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\'), ('VCToolsInstallDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\'), ('VCToolsRedistDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Redist\\MSVC\\14.29.30133\\'), ('VCToolsVersion', '14.29.30133'), ('VisualStudioVersion', '16.0'), ('VS160COMNTOOLS', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\'), ('VSCMD_ARG_app_plat', 'Desktop'), ('VSCMD_ARG_HOST_ARCH', 'x86'), ('VSCMD_ARG_TGT_ARCH', 'x86'), ('VSCMD_VER', '16.11.37'), ('VSINSTALLDIR', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\'), ('windir', 'C:\\WINDOWS'), ('WindowsLibPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0'), ('WindowsSdkBinPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\'), ('WindowsSdkDir', 'C:\\Program Files (x86)\\Windows Kits\\10\\'), ('WindowsSDKLibVersion', '10.0.19041.0\\'), ('WindowsSdkVerBinPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\'), ('WindowsSDKVersion', '10.0.19041.0\\'), ('__devinit_path', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit\\devinit.exe'), ('__DOTNET_ADD_32BIT', '1'), ('__DOTNET_PREFERRED_BITNESS', '32'), ('__VSCMD_PREINIT_PATH', 'C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\AutoFirma\\AutoFirma;C:\\Program Files\\Git\\cmd;C:\\Users\\felix\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\felix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin'), ('__VSCMD_script_err_count', '0')]), 'shell': False}
+[0.922000] (examples_rclcpp_minimal_action_server) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_server', 'progress': 'cmake'}
+[0.937000] (examples_rclcpp_minimal_action_server) Command: {'cmd': ['C:\\Program Files\\CMake\\bin\\cmake.EXE', 'C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\src\\examples\\rclcpp\\actions\\minimal_action_server', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\install', '-G', 'Visual Studio 16 2019'], 'cwd': 'C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_minimal_action_server', 'env': OrderedDict([('ALLUSERSPROFILE', 'C:\\ProgramData'), ('AMENT_PREFIX_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows'), ('APPDATA', 'C:\\Users\\felix\\AppData\\Roaming'), ('asl.log', 'Destination=file'), ('ChocolateyInstall', 'C:\\ProgramData\\chocolatey'), ('ChocolateyLastPathUpdate', '133640553997549682'), ('CMAKE_PREFIX_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/pybind11_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/orocos_kdl_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows'), ('COLCON', '1'), ('COLCON_PREFIX_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\'), ('CommandPromptType', 'Native'), ('CommonProgramFiles', 'C:\\Program Files\\Common Files'), ('CommonProgramFiles(x86)', 'C:\\Program Files (x86)\\Common Files'), ('CommonProgramW6432', 'C:\\Program Files\\Common Files'), ('COMPUTERNAME', 'DESKTOP-5G511IC'), ('ComSpec', 'C:\\WINDOWS\\system32\\cmd.exe'), ('DevEnvDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\'), ('DriverData', 'C:\\Windows\\System32\\Drivers\\DriverData'), ('ExtensionSdkDir', 'C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs'), ('Framework40Version', 'v4.0'), ('FrameworkDir', 'C:\\Windows\\Microsoft.NET\\Framework\\'), ('FrameworkDir32', 'C:\\Windows\\Microsoft.NET\\Framework\\'), ('FrameworkVersion', 'v4.0.30319'), ('FrameworkVersion32', 'v4.0.30319'), ('HOMEDRIVE', 'C:'), ('HOMEPATH', '\\Users\\felix'), ('INCLUDE', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\include;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\cppwinrt'), ('LIB', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\ucrt\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\um\\x86'), ('LIBPATH', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319'), ('LOCALAPPDATA', 'C:\\Users\\felix\\AppData\\Local'), ('LOGONSERVER', '\\\\DESKTOP-5G511IC'), ('NUMBER_OF_PROCESSORS', '4'), ('OneDrive', 'C:\\Users\\felix\\OneDrive - La Salle Centro Universitario'), ('OneDriveCommercial', 'C:\\Users\\felix\\OneDrive - La Salle Centro Universitario'), ('OneDriveConsumer', 'C:\\Users\\felix\\OneDrive'), ('OpenCV_DIR', 'C:\\opencv'), ('OPENSSL_CONF', 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg'), ('OS', 'Windows_NT'), ('Path', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/zstd_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/zstd_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/uncrustify_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/sqlite3_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/sqlite3_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/spdlog_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/spdlog_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_ogre_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_ogre_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_assimp_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_assimp_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/orocos_kdl_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/mimick_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libyaml_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libyaml_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/liblz4_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/liblz4_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libcurl_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libcurl_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\Scripts;C:\\ros2-package-windows-AMD64\\ros2-windows\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\\\Extensions\\Microsoft\\IntelliCode\\CLI;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\AutoFirma\\AutoFirma;C:\\Program Files\\Git\\cmd;C:\\Users\\felix\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\felix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin'), ('PATHEXT', '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'), ('PKG_CONFIG_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\lib\\pkgconfig'), ('PROCESSOR_ARCHITECTURE', 'AMD64'), ('PROCESSOR_IDENTIFIER', 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'), ('PROCESSOR_LEVEL', '6'), ('PROCESSOR_REVISION', '4e03'), ('ProgramData', 'C:\\ProgramData'), ('ProgramFiles', 'C:\\Program Files'), ('ProgramFiles(x86)', 'C:\\Program Files (x86)'), ('ProgramW6432', 'C:\\Program Files'), ('PROMPT', '$P$G'), ('PSModulePath', 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'), ('PUBLIC', 'C:\\Users\\Public'), ('PYTHONPATH', 'C:\\ci\\ws\\install\\lib\\python3.8\\dist-packages;C:\\ros2-package-windows-AMD64\\ros2-windows\\Lib\\site-packages'), ('Qt5_DIR', 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64'), ('QT_QPA_PLATFORM_PLUGIN_PATH', 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\plugins\\platforms'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('ROS_DISTRO', 'rolling'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('SESSIONNAME', 'Console'), ('SystemDrive', 'C:'), ('SystemRoot', 'C:\\WINDOWS'), ('TEMP', 'C:\\Users\\felix\\AppData\\Local\\Temp'), ('TMP', 'C:\\Users\\felix\\AppData\\Local\\Temp'), ('UCRTVersion', '10.0.19041.0'), ('UniversalCRTSdkDir', 'C:\\Program Files (x86)\\Windows Kits\\10\\'), ('USERDOMAIN', 'DESKTOP-5G511IC'), ('USERDOMAIN_ROAMINGPROFILE', 'DESKTOP-5G511IC'), ('USERNAME', 'felix'), ('USERPROFILE', 'C:\\Users\\felix'), ('VCIDEInstallDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\'), ('VCINSTALLDIR', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\'), ('VCToolsInstallDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\'), ('VCToolsRedistDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Redist\\MSVC\\14.29.30133\\'), ('VCToolsVersion', '14.29.30133'), ('VisualStudioVersion', '16.0'), ('VS160COMNTOOLS', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\'), ('VSCMD_ARG_app_plat', 'Desktop'), ('VSCMD_ARG_HOST_ARCH', 'x86'), ('VSCMD_ARG_TGT_ARCH', 'x86'), ('VSCMD_VER', '16.11.37'), ('VSINSTALLDIR', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\'), ('windir', 'C:\\WINDOWS'), ('WindowsLibPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0'), ('WindowsSdkBinPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\'), ('WindowsSdkDir', 'C:\\Program Files (x86)\\Windows Kits\\10\\'), ('WindowsSDKLibVersion', '10.0.19041.0\\'), ('WindowsSdkVerBinPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\'), ('WindowsSDKVersion', '10.0.19041.0\\'), ('__devinit_path', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit\\devinit.exe'), ('__DOTNET_ADD_32BIT', '1'), ('__DOTNET_PREFERRED_BITNESS', '32'), ('__VSCMD_PREINIT_PATH', 'C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\AutoFirma\\AutoFirma;C:\\Program Files\\Git\\cmd;C:\\Users\\felix\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\felix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin'), ('__VSCMD_script_err_count', '0')]), 'shell': False}
+[0.984000] (-) TimerEvent: {}
+[1.109000] (-) TimerEvent: {}
+[1.125000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19045.\n'}
+[1.125000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19045.\n'}
+[1.125000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19045.\n'}
+[1.140000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19045.\n'}
+[1.218000] (-) TimerEvent: {}
+[1.359000] (-) TimerEvent: {}
+[1.468000] (-) TimerEvent: {}
+[1.578000] (-) TimerEvent: {}
+[1.687000] (-) TimerEvent: {}
+[1.797000] (-) TimerEvent: {}
+[1.906000] (-) TimerEvent: {}
+[2.015000] (-) TimerEvent: {}
+[2.140000] (-) TimerEvent: {}
+[2.265000] (-) TimerEvent: {}
+[2.390000] (-) TimerEvent: {}
+[2.515000] (-) TimerEvent: {}
+[2.640000] (-) TimerEvent: {}
+[2.750000] (-) TimerEvent: {}
+[2.859000] (-) TimerEvent: {}
+[2.968000] (-) TimerEvent: {}
+[3.078000] (-) TimerEvent: {}
+[3.234000] (-) TimerEvent: {}
+[3.422000] (-) TimerEvent: {}
+[3.593000] (-) TimerEvent: {}
+[3.797000] (-) TimerEvent: {}
+[3.953000] (-) TimerEvent: {}
+[4.125000] (-) TimerEvent: {}
+[4.281000] (-) TimerEvent: {}
+[4.406000] (-) TimerEvent: {}
+[4.547000] (-) TimerEvent: {}
+[4.672000] (-) TimerEvent: {}
+[4.812000] (-) TimerEvent: {}
+[4.968000] (-) TimerEvent: {}
+[5.093000] (-) TimerEvent: {}
+[5.234000] (-) TimerEvent: {}
+[5.406000] (-) TimerEvent: {}
+[5.531000] (-) TimerEvent: {}
+[5.672000] (-) TimerEvent: {}
+[5.781000] (-) TimerEvent: {}
+[5.890000] (-) TimerEvent: {}
+[6.000000] (-) TimerEvent: {}
+[6.109000] (-) TimerEvent: {}
+[6.218000] (-) TimerEvent: {}
+[6.343000] (-) TimerEvent: {}
+[6.453000] (-) TimerEvent: {}
+[6.609000] (-) TimerEvent: {}
+[6.765000] (-) TimerEvent: {}
+[6.937000] (-) TimerEvent: {}
+[7.109000] (-) TimerEvent: {}
+[7.250000] (-) TimerEvent: {}
+[7.359000] (-) TimerEvent: {}
+[7.468000] (-) TimerEvent: {}
+[7.625000] (-) TimerEvent: {}
+[7.797000] (-) TimerEvent: {}
+[7.922000] (-) TimerEvent: {}
+[8.047000] (-) TimerEvent: {}
+[8.203000] (-) TimerEvent: {}
+[8.359000] (-) TimerEvent: {}
+[8.531000] (-) TimerEvent: {}
+[8.718000] (-) TimerEvent: {}
+[8.922000] (-) TimerEvent: {}
+[9.078000] (-) TimerEvent: {}
+[9.265000] (-) TimerEvent: {}
+[9.375000] (-) TimerEvent: {}
+[9.437000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- The C compiler identification is MSVC 19.29.30154.0\n'}
+[9.453000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- The C compiler identification is MSVC 19.29.30154.0\n'}
+[9.453000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- The C compiler identification is MSVC 19.29.30154.0\n'}
+[9.484000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- The C compiler identification is MSVC 19.29.30154.0\n'}
+[9.484000] (-) TimerEvent: {}
+[9.593000] (-) TimerEvent: {}
+[9.718000] (-) TimerEvent: {}
+[9.828000] (-) TimerEvent: {}
+[9.937000] (-) TimerEvent: {}
+[10.062000] (-) TimerEvent: {}
+[10.187000] (-) TimerEvent: {}
+[10.328000] (-) TimerEvent: {}
+[10.500000] (-) TimerEvent: {}
+[10.656000] (-) TimerEvent: {}
+[10.828000] (-) TimerEvent: {}
+[10.968000] (-) TimerEvent: {}
+[11.156000] (-) TimerEvent: {}
+[11.297000] (-) TimerEvent: {}
+[11.422000] (-) TimerEvent: {}
+[11.578000] (-) TimerEvent: {}
+[11.718000] (-) TimerEvent: {}
+[11.859000] (-) TimerEvent: {}
+[12.000000] (-) TimerEvent: {}
+[12.125000] (-) TimerEvent: {}
+[12.281000] (-) TimerEvent: {}
+[12.422000] (-) TimerEvent: {}
+[12.609000] (-) TimerEvent: {}
+[12.734000] (-) TimerEvent: {}
+[12.875000] (-) TimerEvent: {}
+[12.984000] (-) TimerEvent: {}
+[13.140000] (-) TimerEvent: {}
+[13.265000] (-) TimerEvent: {}
+[13.453000] (-) TimerEvent: {}
+[13.593000] (-) TimerEvent: {}
+[13.718000] (-) TimerEvent: {}
+[13.843000] (-) TimerEvent: {}
+[14.000000] (-) TimerEvent: {}
+[14.125000] (-) TimerEvent: {}
+[14.281000] (-) TimerEvent: {}
+[163.984000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- The CXX compiler identification is MSVC 19.29.30154.0\n'}
+[163.984000] (-) TimerEvent: {}
+[163.984000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- The CXX compiler identification is MSVC 19.29.30154.0\n'}
+[163.984000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- The CXX compiler identification is MSVC 19.29.30154.0\n'}
+[163.984000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- The CXX compiler identification is MSVC 19.29.30154.0\n'}
+[163.984000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[164.000000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[164.000000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[164.000000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[164.000000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[164.000000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[164.000000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[164.000000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[164.000000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped\n'}
+[164.000000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped\n'}
+[164.000000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[164.000000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[164.000000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped\n'}
+[164.000000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[164.000000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[164.000000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[164.000000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[164.000000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped\n'}
+[164.000000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[164.000000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[164.000000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[164.000000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[164.000000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[164.000000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[164.000000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[164.000000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped\n'}
+[164.000000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[164.000000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[164.000000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.0 (C:/ros2-package-windows-AMD64/ros2-windows/share/ament_cmake/cmake)\n'}
+[164.000000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Found Python3: C:/Python38/python.exe (found version "3.8.3") found components: Interpreter\n'}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Found example_interfaces: 0.13.0 (C:/ros2-package-windows-AMD64/ros2-windows/share/example_interfaces/cmake)\n'}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.8.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rosidl_generator_c/cmake)\n'}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.8.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rosidl_generator_cpp/cmake)\n'}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Found rclcpp: 28.3.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rclcpp/cmake)\n'}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.4.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rmw_implementation_cmake/cmake)\n'}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.0.0 (C:/ros2-package-windows-AMD64/ros2-windows/share/rmw_fastrtps_cpp/cmake)\n'}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Found OpenSSL: optimized;C:/Program Files/OpenSSL-Win64/lib/VC/libcrypto64MD.lib;debug;C:/Program Files/OpenSSL-Win64/lib/VC/libcrypto64MDd.lib (found version "1.1.1u")\n'}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Found FastRTPS: C:/ros2-package-windows-AMD64/ros2-windows/include (Required is at least version "2.13")\n'}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.18.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/ament_lint_auto/cmake)\n'}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Configuring done (77.8s)\n'}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Generating done (2.7s)\n'}
+[164.015000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Build files have been written to: C:/Users/felix/dev/SLAM-robot/ros2_ws/build/examples_rclcpp_async_client\n'}
+[164.015000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[164.015000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped\n'}
+[164.015000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[164.015000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[164.015000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.0 (C:/ros2-package-windows-AMD64/ros2-windows/share/ament_cmake/cmake)\n'}
+[164.015000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found Python3: C:/Python38/python.exe (found version "3.8.3") found components: Interpreter\n'}
+[164.015000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[164.015000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found rclcpp: 28.3.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rclcpp/cmake)\n'}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.8.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rosidl_generator_c/cmake)\n'}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.8.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rosidl_generator_cpp/cmake)\n'}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.4.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rmw_implementation_cmake/cmake)\n'}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.0.0 (C:/ros2-package-windows-AMD64/ros2-windows/share/rmw_fastrtps_cpp/cmake)\n'}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found OpenSSL: optimized;C:/Program Files/OpenSSL-Win64/lib/VC/libcrypto64MD.lib;debug;C:/Program Files/OpenSSL-Win64/lib/VC/libcrypto64MDd.lib (found version "1.1.1u")\n'}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found FastRTPS: C:/ros2-package-windows-AMD64/ros2-windows/include (Required is at least version "2.13")\n'}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found std_msgs: 5.4.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/std_msgs/cmake)\n'}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.18.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/ament_lint_auto/cmake)\n'}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Configured cppcheck include dirs: C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include\n'}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Configuring done (77.8s)\n'}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Generating done (3.5s)\n'}
+[164.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Build files have been written to: C:/Users/felix/dev/SLAM-robot/ros2_ws/build/examples_rclcpp_cbg_executor\n'}
+[164.031000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[164.031000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped\n'}
+[164.031000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[164.031000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[164.031000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.0 (C:/ros2-package-windows-AMD64/ros2-windows/share/ament_cmake/cmake)\n'}
+[164.031000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found Python3: C:/Python38/python.exe (found version "3.8.3") found components: Interpreter\n'}
+[164.031000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[164.031000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found example_interfaces: 0.13.0 (C:/ros2-package-windows-AMD64/ros2-windows/share/example_interfaces/cmake)\n'}
+[164.031000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.8.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rosidl_generator_c/cmake)\n'}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.8.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rosidl_generator_cpp/cmake)\n'}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found rclcpp: 28.3.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rclcpp/cmake)\n'}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.4.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rmw_implementation_cmake/cmake)\n'}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.0.0 (C:/ros2-package-windows-AMD64/ros2-windows/share/rmw_fastrtps_cpp/cmake)\n'}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found OpenSSL: optimized;C:/Program Files/OpenSSL-Win64/lib/VC/libcrypto64MD.lib;debug;C:/Program Files/OpenSSL-Win64/lib/VC/libcrypto64MDd.lib (found version "1.1.1u")\n'}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found FastRTPS: C:/ros2-package-windows-AMD64/ros2-windows/include (Required is at least version "2.13")\n'}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found rclcpp_action: 28.3.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rclcpp_action/cmake)\n'}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.18.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/ament_lint_auto/cmake)\n'}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Configuring done (77.7s)\n'}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Generating done (3.2s)\n'}
+[164.047000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Build files have been written to: C:/Users/felix/dev/SLAM-robot/ros2_ws/build/examples_rclcpp_minimal_action_server\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.0 (C:/ros2-package-windows-AMD64/ros2-windows/share/ament_cmake/cmake)\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found Python3: C:/Python38/python.exe (found version "3.8.3") found components: Interpreter\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found example_interfaces: 0.13.0 (C:/ros2-package-windows-AMD64/ros2-windows/share/example_interfaces/cmake)\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.8.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rosidl_generator_c/cmake)\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.8.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rosidl_generator_cpp/cmake)\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found rclcpp: 28.3.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rclcpp/cmake)\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.4.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rmw_implementation_cmake/cmake)\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.0.0 (C:/ros2-package-windows-AMD64/ros2-windows/share/rmw_fastrtps_cpp/cmake)\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found OpenSSL: optimized;C:/Program Files/OpenSSL-Win64/lib/VC/libcrypto64MD.lib;debug;C:/Program Files/OpenSSL-Win64/lib/VC/libcrypto64MDd.lib (found version "1.1.1u")\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found FastRTPS: C:/ros2-package-windows-AMD64/ros2-windows/include (Required is at least version "2.13")\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found rclcpp_action: 28.3.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rclcpp_action/cmake)\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.18.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/ament_lint_auto/cmake)\n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[164.047000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[164.062000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[164.062000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[164.062000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[164.062000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[164.062000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[164.062000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[164.062000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Configuring done (77.7s)\n'}
+[164.062000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Generating done (4.0s)\n'}
+[164.062000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Build files have been written to: C:/Users/felix/dev/SLAM-robot/ros2_ws/build/examples_rclcpp_minimal_action_client\n'}
+[164.062000] (examples_rclcpp_async_client) CommandEnded: {'returncode': 0}
+[164.062000] (examples_rclcpp_async_client) JobProgress: {'identifier': 'examples_rclcpp_async_client', 'progress': 'build'}
+[164.062000] (examples_rclcpp_async_client) Command: {'cmd': ['C:\\Program Files\\CMake\\bin\\cmake.EXE', '--build', 'C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_async_client', '--config', 'Release'], 'cwd': 'C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_async_client', 'env': {'ALLUSERSPROFILE': 'C:\\ProgramData', 'AMENT_PREFIX_PATH': 'C:\\ros2-package-windows-AMD64\\ros2-windows', 'APPDATA': 'C:\\Users\\felix\\AppData\\Roaming', 'asl.log': 'Destination=file', 'ChocolateyInstall': 'C:\\ProgramData\\chocolatey', 'ChocolateyLastPathUpdate': '133640553997549682', 'CMAKE_PREFIX_PATH': 'C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/pybind11_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/orocos_kdl_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows', 'COLCON': '1', 'COLCON_PREFIX_PATH': 'C:\\ros2-package-windows-AMD64\\ros2-windows\\', 'CommandPromptType': 'Native', 'CommonProgramFiles': 'C:\\Program Files\\Common Files', 'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files', 'CommonProgramW6432': 'C:\\Program Files\\Common Files', 'COMPUTERNAME': 'DESKTOP-5G511IC', 'ComSpec': 'C:\\WINDOWS\\system32\\cmd.exe', 'DevEnvDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\', 'DriverData': 'C:\\Windows\\System32\\Drivers\\DriverData', 'ExtensionSdkDir': 'C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs', 'Framework40Version': 'v4.0', 'FrameworkDir': 'C:\\Windows\\Microsoft.NET\\Framework\\', 'FrameworkDir32': 'C:\\Windows\\Microsoft.NET\\Framework\\', 'FrameworkVersion': 'v4.0.30319', 'FrameworkVersion32': 'v4.0.30319', 'HOMEDRIVE': 'C:', 'HOMEPATH': '\\Users\\felix', 'INCLUDE': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\include;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\cppwinrt', 'LIB': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\ucrt\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\um\\x86', 'LIBPATH': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319', 'LOCALAPPDATA': 'C:\\Users\\felix\\AppData\\Local', 'LOGONSERVER': '\\\\DESKTOP-5G511IC', 'NUMBER_OF_PROCESSORS': '4', 'OneDrive': 'C:\\Users\\felix\\OneDrive - La Salle Centro Universitario', 'OneDriveCommercial': 'C:\\Users\\felix\\OneDrive - La Salle Centro Universitario', 'OneDriveConsumer': 'C:\\Users\\felix\\OneDrive', 'OpenCV_DIR': 'C:\\opencv', 'OPENSSL_CONF': 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg', 'OS': 'Windows_NT', 'Path': 'C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/zstd_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/zstd_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/uncrustify_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/sqlite3_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/sqlite3_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/spdlog_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/spdlog_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_ogre_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_ogre_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_assimp_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_assimp_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/orocos_kdl_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/mimick_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libyaml_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libyaml_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/liblz4_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/liblz4_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libcurl_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libcurl_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\Scripts;C:\\ros2-package-windows-AMD64\\ros2-windows\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\\\Extensions\\Microsoft\\IntelliCode\\CLI;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\AutoFirma\\AutoFirma;C:\\Program Files\\Git\\cmd;C:\\Users\\felix\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\felix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW', 'PKG_CONFIG_PATH': 'C:\\ros2-package-windows-AMD64\\ros2-windows\\lib\\pkgconfig', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel', 'PROCESSOR_LEVEL': '6', 'PROCESSOR_REVISION': '4e03', 'ProgramData': 'C:\\ProgramData', 'ProgramFiles': 'C:\\Program Files', 'ProgramFiles(x86)': 'C:\\Program Files (x86)', 'ProgramW6432': 'C:\\Program Files', 'PROMPT': '$P$G', 'PSModulePath': 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules', 'PUBLIC': 'C:\\Users\\Public', 'PYTHONPATH': 'C:\\ci\\ws\\install\\lib\\python3.8\\dist-packages;C:\\ros2-package-windows-AMD64\\ros2-windows\\Lib\\site-packages', 'Qt5_DIR': 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64', 'QT_QPA_PLATFORM_PLUGIN_PATH': 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\plugins\\platforms', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'ROS_DISTRO': 'rolling', 'ROS_PYTHON_VERSION': '3', 'ROS_VERSION': '2', 'SESSIONNAME': 'Console', 'SystemDrive': 'C:', 'SystemRoot': 'C:\\WINDOWS', 'TEMP': 'C:\\Users\\felix\\AppData\\Local\\Temp', 'TMP': 'C:\\Users\\felix\\AppData\\Local\\Temp', 'UCRTVersion': '10.0.19041.0', 'UniversalCRTSdkDir': 'C:\\Program Files (x86)\\Windows Kits\\10\\', 'USERDOMAIN': 'DESKTOP-5G511IC', 'USERDOMAIN_ROAMINGPROFILE': 'DESKTOP-5G511IC', 'USERNAME': 'felix', 'USERPROFILE': 'C:\\Users\\felix', 'VCIDEInstallDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\', 'VCINSTALLDIR': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\', 'VCToolsInstallDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\', 'VCToolsRedistDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Redist\\MSVC\\14.29.30133\\', 'VCToolsVersion': '14.29.30133', 'VisualStudioVersion': '16.0', 'VS160COMNTOOLS': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\', 'VSCMD_ARG_app_plat': 'Desktop', 'VSCMD_ARG_HOST_ARCH': 'x86', 'VSCMD_ARG_TGT_ARCH': 'x86', 'VSCMD_VER': '16.11.37', 'VSINSTALLDIR': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\', 'windir': 'C:\\WINDOWS', 'WindowsLibPath': 'C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0', 'WindowsSdkBinPath': 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\', 'WindowsSdkDir': 'C:\\Program Files (x86)\\Windows Kits\\10\\', 'WindowsSDKLibVersion': '10.0.19041.0\\', 'WindowsSdkVerBinPath': 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\', 'WindowsSDKVersion': '10.0.19041.0\\', '__devinit_path': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit\\devinit.exe', '__DOTNET_ADD_32BIT': '1', '__DOTNET_PREFERRED_BITNESS': '32', '__VSCMD_PREINIT_PATH': 'C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\AutoFirma\\AutoFirma;C:\\Program Files\\Git\\cmd;C:\\Users\\felix\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\felix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin', '__VSCMD_script_err_count': '0', 'CL': '/MP'}, 'shell': False}
+[164.062000] (examples_rclcpp_minimal_action_server) CommandEnded: {'returncode': 0}
+[164.062000] (examples_rclcpp_minimal_action_server) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_server', 'progress': 'build'}
+[164.062000] (examples_rclcpp_minimal_action_server) Command: {'cmd': ['C:\\Program Files\\CMake\\bin\\cmake.EXE', '--build', 'C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_minimal_action_server', '--config', 'Release'], 'cwd': 'C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_minimal_action_server', 'env': {'ALLUSERSPROFILE': 'C:\\ProgramData', 'AMENT_PREFIX_PATH': 'C:\\ros2-package-windows-AMD64\\ros2-windows', 'APPDATA': 'C:\\Users\\felix\\AppData\\Roaming', 'asl.log': 'Destination=file', 'ChocolateyInstall': 'C:\\ProgramData\\chocolatey', 'ChocolateyLastPathUpdate': '133640553997549682', 'CMAKE_PREFIX_PATH': 'C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/pybind11_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/orocos_kdl_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows', 'COLCON': '1', 'COLCON_PREFIX_PATH': 'C:\\ros2-package-windows-AMD64\\ros2-windows\\', 'CommandPromptType': 'Native', 'CommonProgramFiles': 'C:\\Program Files\\Common Files', 'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files', 'CommonProgramW6432': 'C:\\Program Files\\Common Files', 'COMPUTERNAME': 'DESKTOP-5G511IC', 'ComSpec': 'C:\\WINDOWS\\system32\\cmd.exe', 'DevEnvDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\', 'DriverData': 'C:\\Windows\\System32\\Drivers\\DriverData', 'ExtensionSdkDir': 'C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs', 'Framework40Version': 'v4.0', 'FrameworkDir': 'C:\\Windows\\Microsoft.NET\\Framework\\', 'FrameworkDir32': 'C:\\Windows\\Microsoft.NET\\Framework\\', 'FrameworkVersion': 'v4.0.30319', 'FrameworkVersion32': 'v4.0.30319', 'HOMEDRIVE': 'C:', 'HOMEPATH': '\\Users\\felix', 'INCLUDE': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\include;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\cppwinrt', 'LIB': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\ucrt\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\um\\x86', 'LIBPATH': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319', 'LOCALAPPDATA': 'C:\\Users\\felix\\AppData\\Local', 'LOGONSERVER': '\\\\DESKTOP-5G511IC', 'NUMBER_OF_PROCESSORS': '4', 'OneDrive': 'C:\\Users\\felix\\OneDrive - La Salle Centro Universitario', 'OneDriveCommercial': 'C:\\Users\\felix\\OneDrive - La Salle Centro Universitario', 'OneDriveConsumer': 'C:\\Users\\felix\\OneDrive', 'OpenCV_DIR': 'C:\\opencv', 'OPENSSL_CONF': 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg', 'OS': 'Windows_NT', 'Path': 'C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/zstd_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/zstd_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/uncrustify_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/sqlite3_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/sqlite3_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/spdlog_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/spdlog_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_ogre_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_ogre_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_assimp_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_assimp_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/orocos_kdl_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/mimick_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libyaml_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libyaml_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/liblz4_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/liblz4_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libcurl_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libcurl_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\Scripts;C:\\ros2-package-windows-AMD64\\ros2-windows\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\\\Extensions\\Microsoft\\IntelliCode\\CLI;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\AutoFirma\\AutoFirma;C:\\Program Files\\Git\\cmd;C:\\Users\\felix\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\felix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW', 'PKG_CONFIG_PATH': 'C:\\ros2-package-windows-AMD64\\ros2-windows\\lib\\pkgconfig', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel', 'PROCESSOR_LEVEL': '6', 'PROCESSOR_REVISION': '4e03', 'ProgramData': 'C:\\ProgramData', 'ProgramFiles': 'C:\\Program Files', 'ProgramFiles(x86)': 'C:\\Program Files (x86)', 'ProgramW6432': 'C:\\Program Files', 'PROMPT': '$P$G', 'PSModulePath': 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules', 'PUBLIC': 'C:\\Users\\Public', 'PYTHONPATH': 'C:\\ci\\ws\\install\\lib\\python3.8\\dist-packages;C:\\ros2-package-windows-AMD64\\ros2-windows\\Lib\\site-packages', 'Qt5_DIR': 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64', 'QT_QPA_PLATFORM_PLUGIN_PATH': 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\plugins\\platforms', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'ROS_DISTRO': 'rolling', 'ROS_PYTHON_VERSION': '3', 'ROS_VERSION': '2', 'SESSIONNAME': 'Console', 'SystemDrive': 'C:', 'SystemRoot': 'C:\\WINDOWS', 'TEMP': 'C:\\Users\\felix\\AppData\\Local\\Temp', 'TMP': 'C:\\Users\\felix\\AppData\\Local\\Temp', 'UCRTVersion': '10.0.19041.0', 'UniversalCRTSdkDir': 'C:\\Program Files (x86)\\Windows Kits\\10\\', 'USERDOMAIN': 'DESKTOP-5G511IC', 'USERDOMAIN_ROAMINGPROFILE': 'DESKTOP-5G511IC', 'USERNAME': 'felix', 'USERPROFILE': 'C:\\Users\\felix', 'VCIDEInstallDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\', 'VCINSTALLDIR': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\', 'VCToolsInstallDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\', 'VCToolsRedistDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Redist\\MSVC\\14.29.30133\\', 'VCToolsVersion': '14.29.30133', 'VisualStudioVersion': '16.0', 'VS160COMNTOOLS': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\', 'VSCMD_ARG_app_plat': 'Desktop', 'VSCMD_ARG_HOST_ARCH': 'x86', 'VSCMD_ARG_TGT_ARCH': 'x86', 'VSCMD_VER': '16.11.37', 'VSINSTALLDIR': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\', 'windir': 'C:\\WINDOWS', 'WindowsLibPath': 'C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0', 'WindowsSdkBinPath': 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\', 'WindowsSdkDir': 'C:\\Program Files (x86)\\Windows Kits\\10\\', 'WindowsSDKLibVersion': '10.0.19041.0\\', 'WindowsSdkVerBinPath': 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\', 'WindowsSDKVersion': '10.0.19041.0\\', '__devinit_path': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit\\devinit.exe', '__DOTNET_ADD_32BIT': '1', '__DOTNET_PREFERRED_BITNESS': '32', '__VSCMD_PREINIT_PATH': 'C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\AutoFirma\\AutoFirma;C:\\Program Files\\Git\\cmd;C:\\Users\\felix\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\felix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin', '__VSCMD_script_err_count': '0', 'CL': '/MP'}, 'shell': False}
+[164.062000] (examples_rclcpp_cbg_executor) CommandEnded: {'returncode': 0}
+[164.062000] (examples_rclcpp_cbg_executor) JobProgress: {'identifier': 'examples_rclcpp_cbg_executor', 'progress': 'build'}
+[164.062000] (examples_rclcpp_cbg_executor) Command: {'cmd': ['C:\\Program Files\\CMake\\bin\\cmake.EXE', '--build', 'C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_cbg_executor', '--config', 'Release'], 'cwd': 'C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_cbg_executor', 'env': {'ALLUSERSPROFILE': 'C:\\ProgramData', 'AMENT_PREFIX_PATH': 'C:\\ros2-package-windows-AMD64\\ros2-windows', 'APPDATA': 'C:\\Users\\felix\\AppData\\Roaming', 'asl.log': 'Destination=file', 'ChocolateyInstall': 'C:\\ProgramData\\chocolatey', 'ChocolateyLastPathUpdate': '133640553997549682', 'CMAKE_PREFIX_PATH': 'C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/pybind11_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/orocos_kdl_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows', 'COLCON': '1', 'COLCON_PREFIX_PATH': 'C:\\ros2-package-windows-AMD64\\ros2-windows\\', 'CommandPromptType': 'Native', 'CommonProgramFiles': 'C:\\Program Files\\Common Files', 'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files', 'CommonProgramW6432': 'C:\\Program Files\\Common Files', 'COMPUTERNAME': 'DESKTOP-5G511IC', 'ComSpec': 'C:\\WINDOWS\\system32\\cmd.exe', 'DevEnvDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\', 'DriverData': 'C:\\Windows\\System32\\Drivers\\DriverData', 'ExtensionSdkDir': 'C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs', 'Framework40Version': 'v4.0', 'FrameworkDir': 'C:\\Windows\\Microsoft.NET\\Framework\\', 'FrameworkDir32': 'C:\\Windows\\Microsoft.NET\\Framework\\', 'FrameworkVersion': 'v4.0.30319', 'FrameworkVersion32': 'v4.0.30319', 'HOMEDRIVE': 'C:', 'HOMEPATH': '\\Users\\felix', 'INCLUDE': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\include;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\cppwinrt', 'LIB': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\ucrt\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\um\\x86', 'LIBPATH': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319', 'LOCALAPPDATA': 'C:\\Users\\felix\\AppData\\Local', 'LOGONSERVER': '\\\\DESKTOP-5G511IC', 'NUMBER_OF_PROCESSORS': '4', 'OneDrive': 'C:\\Users\\felix\\OneDrive - La Salle Centro Universitario', 'OneDriveCommercial': 'C:\\Users\\felix\\OneDrive - La Salle Centro Universitario', 'OneDriveConsumer': 'C:\\Users\\felix\\OneDrive', 'OpenCV_DIR': 'C:\\opencv', 'OPENSSL_CONF': 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg', 'OS': 'Windows_NT', 'Path': 'C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/zstd_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/zstd_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/uncrustify_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/sqlite3_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/sqlite3_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/spdlog_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/spdlog_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_ogre_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_ogre_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_assimp_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_assimp_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/orocos_kdl_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/mimick_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libyaml_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libyaml_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/liblz4_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/liblz4_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libcurl_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libcurl_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\Scripts;C:\\ros2-package-windows-AMD64\\ros2-windows\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\\\Extensions\\Microsoft\\IntelliCode\\CLI;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\AutoFirma\\AutoFirma;C:\\Program Files\\Git\\cmd;C:\\Users\\felix\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\felix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW', 'PKG_CONFIG_PATH': 'C:\\ros2-package-windows-AMD64\\ros2-windows\\lib\\pkgconfig', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel', 'PROCESSOR_LEVEL': '6', 'PROCESSOR_REVISION': '4e03', 'ProgramData': 'C:\\ProgramData', 'ProgramFiles': 'C:\\Program Files', 'ProgramFiles(x86)': 'C:\\Program Files (x86)', 'ProgramW6432': 'C:\\Program Files', 'PROMPT': '$P$G', 'PSModulePath': 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules', 'PUBLIC': 'C:\\Users\\Public', 'PYTHONPATH': 'C:\\ci\\ws\\install\\lib\\python3.8\\dist-packages;C:\\ros2-package-windows-AMD64\\ros2-windows\\Lib\\site-packages', 'Qt5_DIR': 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64', 'QT_QPA_PLATFORM_PLUGIN_PATH': 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\plugins\\platforms', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'ROS_DISTRO': 'rolling', 'ROS_PYTHON_VERSION': '3', 'ROS_VERSION': '2', 'SESSIONNAME': 'Console', 'SystemDrive': 'C:', 'SystemRoot': 'C:\\WINDOWS', 'TEMP': 'C:\\Users\\felix\\AppData\\Local\\Temp', 'TMP': 'C:\\Users\\felix\\AppData\\Local\\Temp', 'UCRTVersion': '10.0.19041.0', 'UniversalCRTSdkDir': 'C:\\Program Files (x86)\\Windows Kits\\10\\', 'USERDOMAIN': 'DESKTOP-5G511IC', 'USERDOMAIN_ROAMINGPROFILE': 'DESKTOP-5G511IC', 'USERNAME': 'felix', 'USERPROFILE': 'C:\\Users\\felix', 'VCIDEInstallDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\', 'VCINSTALLDIR': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\', 'VCToolsInstallDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\', 'VCToolsRedistDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Redist\\MSVC\\14.29.30133\\', 'VCToolsVersion': '14.29.30133', 'VisualStudioVersion': '16.0', 'VS160COMNTOOLS': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\', 'VSCMD_ARG_app_plat': 'Desktop', 'VSCMD_ARG_HOST_ARCH': 'x86', 'VSCMD_ARG_TGT_ARCH': 'x86', 'VSCMD_VER': '16.11.37', 'VSINSTALLDIR': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\', 'windir': 'C:\\WINDOWS', 'WindowsLibPath': 'C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0', 'WindowsSdkBinPath': 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\', 'WindowsSdkDir': 'C:\\Program Files (x86)\\Windows Kits\\10\\', 'WindowsSDKLibVersion': '10.0.19041.0\\', 'WindowsSdkVerBinPath': 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\', 'WindowsSDKVersion': '10.0.19041.0\\', '__devinit_path': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit\\devinit.exe', '__DOTNET_ADD_32BIT': '1', '__DOTNET_PREFERRED_BITNESS': '32', '__VSCMD_PREINIT_PATH': 'C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\AutoFirma\\AutoFirma;C:\\Program Files\\Git\\cmd;C:\\Users\\felix\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\felix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin', '__VSCMD_script_err_count': '0', 'CL': '/MP'}, 'shell': False}
+[164.062000] (examples_rclcpp_minimal_action_client) CommandEnded: {'returncode': 0}
+[164.078000] (examples_rclcpp_minimal_action_client) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_client', 'progress': 'build'}
+[164.078000] (examples_rclcpp_minimal_action_client) Command: {'cmd': ['C:\\Program Files\\CMake\\bin\\cmake.EXE', '--build', 'C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_minimal_action_client', '--config', 'Release'], 'cwd': 'C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_minimal_action_client', 'env': {'ALLUSERSPROFILE': 'C:\\ProgramData', 'AMENT_PREFIX_PATH': 'C:\\ros2-package-windows-AMD64\\ros2-windows', 'APPDATA': 'C:\\Users\\felix\\AppData\\Roaming', 'asl.log': 'Destination=file', 'ChocolateyInstall': 'C:\\ProgramData\\chocolatey', 'ChocolateyLastPathUpdate': '133640553997549682', 'CMAKE_PREFIX_PATH': 'C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/pybind11_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/orocos_kdl_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows', 'COLCON': '1', 'COLCON_PREFIX_PATH': 'C:\\ros2-package-windows-AMD64\\ros2-windows\\', 'CommandPromptType': 'Native', 'CommonProgramFiles': 'C:\\Program Files\\Common Files', 'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files', 'CommonProgramW6432': 'C:\\Program Files\\Common Files', 'COMPUTERNAME': 'DESKTOP-5G511IC', 'ComSpec': 'C:\\WINDOWS\\system32\\cmd.exe', 'DevEnvDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\', 'DriverData': 'C:\\Windows\\System32\\Drivers\\DriverData', 'ExtensionSdkDir': 'C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs', 'Framework40Version': 'v4.0', 'FrameworkDir': 'C:\\Windows\\Microsoft.NET\\Framework\\', 'FrameworkDir32': 'C:\\Windows\\Microsoft.NET\\Framework\\', 'FrameworkVersion': 'v4.0.30319', 'FrameworkVersion32': 'v4.0.30319', 'HOMEDRIVE': 'C:', 'HOMEPATH': '\\Users\\felix', 'INCLUDE': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\include;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\cppwinrt', 'LIB': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\ucrt\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\um\\x86', 'LIBPATH': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319', 'LOCALAPPDATA': 'C:\\Users\\felix\\AppData\\Local', 'LOGONSERVER': '\\\\DESKTOP-5G511IC', 'NUMBER_OF_PROCESSORS': '4', 'OneDrive': 'C:\\Users\\felix\\OneDrive - La Salle Centro Universitario', 'OneDriveCommercial': 'C:\\Users\\felix\\OneDrive - La Salle Centro Universitario', 'OneDriveConsumer': 'C:\\Users\\felix\\OneDrive', 'OpenCV_DIR': 'C:\\opencv', 'OPENSSL_CONF': 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg', 'OS': 'Windows_NT', 'Path': 'C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/zstd_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/zstd_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/uncrustify_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/sqlite3_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/sqlite3_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/spdlog_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/spdlog_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_ogre_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_ogre_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_assimp_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_assimp_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/orocos_kdl_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/mimick_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libyaml_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libyaml_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/liblz4_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/liblz4_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libcurl_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libcurl_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\Scripts;C:\\ros2-package-windows-AMD64\\ros2-windows\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\\\Extensions\\Microsoft\\IntelliCode\\CLI;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\AutoFirma\\AutoFirma;C:\\Program Files\\Git\\cmd;C:\\Users\\felix\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\felix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW', 'PKG_CONFIG_PATH': 'C:\\ros2-package-windows-AMD64\\ros2-windows\\lib\\pkgconfig', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel', 'PROCESSOR_LEVEL': '6', 'PROCESSOR_REVISION': '4e03', 'ProgramData': 'C:\\ProgramData', 'ProgramFiles': 'C:\\Program Files', 'ProgramFiles(x86)': 'C:\\Program Files (x86)', 'ProgramW6432': 'C:\\Program Files', 'PROMPT': '$P$G', 'PSModulePath': 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules', 'PUBLIC': 'C:\\Users\\Public', 'PYTHONPATH': 'C:\\ci\\ws\\install\\lib\\python3.8\\dist-packages;C:\\ros2-package-windows-AMD64\\ros2-windows\\Lib\\site-packages', 'Qt5_DIR': 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64', 'QT_QPA_PLATFORM_PLUGIN_PATH': 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\plugins\\platforms', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'ROS_DISTRO': 'rolling', 'ROS_PYTHON_VERSION': '3', 'ROS_VERSION': '2', 'SESSIONNAME': 'Console', 'SystemDrive': 'C:', 'SystemRoot': 'C:\\WINDOWS', 'TEMP': 'C:\\Users\\felix\\AppData\\Local\\Temp', 'TMP': 'C:\\Users\\felix\\AppData\\Local\\Temp', 'UCRTVersion': '10.0.19041.0', 'UniversalCRTSdkDir': 'C:\\Program Files (x86)\\Windows Kits\\10\\', 'USERDOMAIN': 'DESKTOP-5G511IC', 'USERDOMAIN_ROAMINGPROFILE': 'DESKTOP-5G511IC', 'USERNAME': 'felix', 'USERPROFILE': 'C:\\Users\\felix', 'VCIDEInstallDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\', 'VCINSTALLDIR': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\', 'VCToolsInstallDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\', 'VCToolsRedistDir': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Redist\\MSVC\\14.29.30133\\', 'VCToolsVersion': '14.29.30133', 'VisualStudioVersion': '16.0', 'VS160COMNTOOLS': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\', 'VSCMD_ARG_app_plat': 'Desktop', 'VSCMD_ARG_HOST_ARCH': 'x86', 'VSCMD_ARG_TGT_ARCH': 'x86', 'VSCMD_VER': '16.11.37', 'VSINSTALLDIR': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\', 'windir': 'C:\\WINDOWS', 'WindowsLibPath': 'C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0', 'WindowsSdkBinPath': 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\', 'WindowsSdkDir': 'C:\\Program Files (x86)\\Windows Kits\\10\\', 'WindowsSDKLibVersion': '10.0.19041.0\\', 'WindowsSdkVerBinPath': 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\', 'WindowsSDKVersion': '10.0.19041.0\\', '__devinit_path': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit\\devinit.exe', '__DOTNET_ADD_32BIT': '1', '__DOTNET_PREFERRED_BITNESS': '32', '__VSCMD_PREINIT_PATH': 'C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\AutoFirma\\AutoFirma;C:\\Program Files\\Git\\cmd;C:\\Users\\felix\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\felix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin', '__VSCMD_script_err_count': '0', 'CL': '/MP'}, 'shell': False}
+[164.093000] (-) TimerEvent: {}
+[164.218000] (-) TimerEvent: {}
+[164.359000] (-) TimerEvent: {}
+[164.453000] (examples_rclcpp_async_client) StdoutLine: {'line': b'Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework\r\n'}
+[164.453000] (examples_rclcpp_async_client) StdoutLine: {'line': b'Copyright (C) Microsoft Corporation. All rights reserved.\r\n'}
+[164.453000] (examples_rclcpp_async_client) StdoutLine: {'line': b'\r\n'}
+[164.468000] (-) TimerEvent: {}
+[164.484000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework\r\n'}
+[164.484000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'Copyright (C) Microsoft Corporation. All rights reserved.\r\n'}
+[164.484000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'\r\n'}
+[164.484000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework\r\n'}
+[164.484000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'Copyright (C) Microsoft Corporation. All rights reserved.\r\n'}
+[164.484000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'\r\n'}
+[164.515000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework\r\n'}
+[164.515000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'Copyright (C) Microsoft Corporation. All rights reserved.\r\n'}
+[164.515000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'\r\n'}
+[164.578000] (-) TimerEvent: {}
+[164.718000] (-) TimerEvent: {}
+[164.859000] (-) TimerEvent: {}
+[165.000000] (-) TimerEvent: {}
+[165.125000] (-) TimerEvent: {}
+[165.265000] (-) TimerEvent: {}
+[165.406000] (-) TimerEvent: {}
+[165.531000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'  1>Checking Build System\r\n'}
+[165.531000] (-) TimerEvent: {}
+[165.531000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'  1>Checking Build System\r\n'}
+[165.562000] (examples_rclcpp_async_client) StdoutLine: {'line': b'  1>Checking Build System\r\n'}
+[165.609000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'  1>Checking Build System\r\n'}
+[165.640000] (-) TimerEvent: {}
+[165.797000] (-) TimerEvent: {}
+[165.953000] (-) TimerEvent: {}
+[166.078000] (-) TimerEvent: {}
+[166.203000] (-) TimerEvent: {}
+[166.218000] (examples_rclcpp_async_client) StdoutLine: {'line': b'  Building Custom Rule C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/services/async_client/CMakeLists.txt\r\n'}
+[166.234000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'  Building Custom Rule C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/executors/cbg_executor/CMakeLists.txt\r\n'}
+[166.312000] (-) TimerEvent: {}
+[166.328000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'  Building Custom Rule C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/actions/minimal_action_server/CMakeLists.txt\r\n'}
+[166.359000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'  Building Custom Rule C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/CMakeLists.txt\r\n'}
+[166.422000] (-) TimerEvent: {}
+[166.578000] (-) TimerEvent: {}
+[166.718000] (-) TimerEvent: {}
+[166.843000] (-) TimerEvent: {}
+[166.906000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'  member_functions.cpp\r\n'}
+[166.906000] (examples_rclcpp_async_client) StdoutLine: {'line': b'  main.cpp\r\n'}
+[166.953000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'  member_functions.cpp\r\n'}
+[166.953000] (-) TimerEvent: {}
+[166.984000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'  ping.cpp\r\n'}
+[166.984000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'  ping_node.cpp\r\n'}
+[167.078000] (-) TimerEvent: {}
+[167.203000] (-) TimerEvent: {}
+[167.359000] (-) TimerEvent: {}
+[167.500000] (-) TimerEvent: {}
+[167.609000] (-) TimerEvent: {}
+[167.781000] (-) TimerEvent: {}
+[167.906000] (-) TimerEvent: {}
+[168.062000] (-) TimerEvent: {}
+[168.187000] (-) TimerEvent: {}
+[168.328000] (-) TimerEvent: {}
+[168.453000] (-) TimerEvent: {}
+[168.625000] (-) TimerEvent: {}
+[168.781000] (-) TimerEvent: {}
+[168.937000] (-) TimerEvent: {}
+[169.078000] (-) TimerEvent: {}
+[169.250000] (-) TimerEvent: {}
+[169.375000] (-) TimerEvent: {}
+[169.547000] (-) TimerEvent: {}
+[169.703000] (-) TimerEvent: {}
+[169.890000] (-) TimerEvent: {}
+[170.047000] (-) TimerEvent: {}
+[170.203000] (-) TimerEvent: {}
+[170.390000] (-) TimerEvent: {}
+[170.562000] (-) TimerEvent: {}
+[170.718000] (-) TimerEvent: {}
+[170.890000] (-) TimerEvent: {}
+[171.062000] (-) TimerEvent: {}
+[171.250000] (-) TimerEvent: {}
+[171.422000] (-) TimerEvent: {}
+[171.562000] (-) TimerEvent: {}
+[171.734000] (-) TimerEvent: {}
+[171.922000] (-) TimerEvent: {}
+[172.062000] (-) TimerEvent: {}
+[172.234000] (-) TimerEvent: {}
+[172.406000] (-) TimerEvent: {}
+[172.578000] (-) TimerEvent: {}
+[172.750000] (-) TimerEvent: {}
+[172.937000] (-) TimerEvent: {}
+[173.078000] (-) TimerEvent: {}
+[173.250000] (-) TimerEvent: {}
+[173.406000] (-) TimerEvent: {}
+[173.578000] (-) TimerEvent: {}
+[173.750000] (-) TimerEvent: {}
+[173.922000] (-) TimerEvent: {}
+[174.109000] (-) TimerEvent: {}
+[174.281000] (-) TimerEvent: {}
+[174.453000] (-) TimerEvent: {}
+[174.625000] (-) TimerEvent: {}
+[174.797000] (-) TimerEvent: {}
+[174.968000] (-) TimerEvent: {}
+[175.140000] (-) TimerEvent: {}
+[175.297000] (-) TimerEvent: {}
+[175.468000] (-) TimerEvent: {}
+[175.640000] (-) TimerEvent: {}
+[175.812000] (-) TimerEvent: {}
+[175.968000] (-) TimerEvent: {}
+[176.125000] (-) TimerEvent: {}
+[176.281000] (-) TimerEvent: {}
+[176.453000] (-) TimerEvent: {}
+[176.609000] (-) TimerEvent: {}
+[176.828000] (-) TimerEvent: {}
+[177.015000] (-) TimerEvent: {}
+[177.187000] (-) TimerEvent: {}
+[177.359000] (-) TimerEvent: {}
+[177.515000] (-) TimerEvent: {}
+[177.687000] (-) TimerEvent: {}
+[177.859000] (-) TimerEvent: {}
+[178.031000] (-) TimerEvent: {}
+[178.203000] (-) TimerEvent: {}
+[178.343000] (-) TimerEvent: {}
+[178.515000] (-) TimerEvent: {}
+[178.687000] (-) TimerEvent: {}
+[178.859000] (-) TimerEvent: {}
+[179.031000] (-) TimerEvent: {}
+[179.203000] (-) TimerEvent: {}
+[179.375000] (-) TimerEvent: {}
+[179.547000] (-) TimerEvent: {}
+[179.734000] (-) TimerEvent: {}
+[179.890000] (-) TimerEvent: {}
+[180.078000] (-) TimerEvent: {}
+[180.250000] (-) TimerEvent: {}
+[180.422000] (-) TimerEvent: {}
+[180.593000] (-) TimerEvent: {}
+[180.765000] (-) TimerEvent: {}
+[180.922000] (-) TimerEvent: {}
+[181.093000] (-) TimerEvent: {}
+[181.265000] (-) TimerEvent: {}
+[181.437000] (-) TimerEvent: {}
+[181.593000] (-) TimerEvent: {}
+[181.765000] (-) TimerEvent: {}
+[181.937000] (-) TimerEvent: {}
+[182.109000] (-) TimerEvent: {}
+[182.281000] (-) TimerEvent: {}
+[182.453000] (-) TimerEvent: {}
+[182.625000] (-) TimerEvent: {}
+[182.797000] (-) TimerEvent: {}
+[182.984000] (-) TimerEvent: {}
+[183.140000] (-) TimerEvent: {}
+[183.312000] (-) TimerEvent: {}
+[183.484000] (-) TimerEvent: {}
+[183.656000] (-) TimerEvent: {}
+[183.843000] (-) TimerEvent: {}
+[184.031000] (-) TimerEvent: {}
+[184.203000] (-) TimerEvent: {}
+[184.406000] (-) TimerEvent: {}
+[184.625000] (-) TimerEvent: {}
+[184.797000] (-) TimerEvent: {}
+[184.968000] (-) TimerEvent: {}
+[185.172000] (-) TimerEvent: {}
+[185.359000] (-) TimerEvent: {}
+[185.531000] (-) TimerEvent: {}
+[185.718000] (-) TimerEvent: {}
+[185.890000] (-) TimerEvent: {}
+[186.078000] (-) TimerEvent: {}
+[186.234000] (-) TimerEvent: {}
+[186.453000] (-) TimerEvent: {}
+[186.640000] (-) TimerEvent: {}
+[186.797000] (-) TimerEvent: {}
+[186.984000] (-) TimerEvent: {}
+[187.203000] (-) TimerEvent: {}
+[187.422000] (-) TimerEvent: {}
+[187.625000] (-) TimerEvent: {}
+[187.781000] (-) TimerEvent: {}
+[187.953000] (-) TimerEvent: {}
+[188.156000] (-) TimerEvent: {}
+[188.328000] (-) TimerEvent: {}
+[188.515000] (-) TimerEvent: {}
+[188.718000] (-) TimerEvent: {}
+[188.906000] (-) TimerEvent: {}
+[189.109000] (-) TimerEvent: {}
+[189.265000] (-) TimerEvent: {}
+[189.422000] (-) TimerEvent: {}
+[189.656000] (-) TimerEvent: {}
+[189.843000] (-) TimerEvent: {}
+[190.031000] (-) TimerEvent: {}
+[190.203000] (-) TimerEvent: {}
+[190.375000] (-) TimerEvent: {}
+[190.547000] (-) TimerEvent: {}
+[190.734000] (-) TimerEvent: {}
+[190.906000] (-) TimerEvent: {}
+[191.109000] (-) TimerEvent: {}
+[191.312000] (-) TimerEvent: {}
+[191.500000] (-) TimerEvent: {}
+[191.703000] (-) TimerEvent: {}
+[191.859000] (-) TimerEvent: {}
+[192.031000] (-) TimerEvent: {}
+[192.187000] (-) TimerEvent: {}
+[192.422000] (-) TimerEvent: {}
+[192.672000] (-) TimerEvent: {}
+[192.890000] (-) TimerEvent: {}
+[193.109000] (-) TimerEvent: {}
+[193.281000] (-) TimerEvent: {}
+[193.484000] (-) TimerEvent: {}
+[193.672000] (-) TimerEvent: {}
+[193.859000] (-) TimerEvent: {}
+[194.203000] (-) TimerEvent: {}
+[194.656000] (-) TimerEvent: {}
+[195.187000] (-) TimerEvent: {}
+[195.734000] (-) TimerEvent: {}
+[196.250000] (-) TimerEvent: {}
+[196.734000] (-) TimerEvent: {}
+[197.187000] (-) TimerEvent: {}
+[197.672000] (-) TimerEvent: {}
+[198.062000] (-) TimerEvent: {}
+[198.515000] (-) TimerEvent: {}
+[199.078000] (-) TimerEvent: {}
+[199.562000] (-) TimerEvent: {}
+[199.953000] (-) TimerEvent: {}
+[200.297000] (-) TimerEvent: {}
+[200.562000] (-) TimerEvent: {}
+[200.797000] (-) TimerEvent: {}
+[200.984000] (-) TimerEvent: {}
+[201.140000] (-) TimerEvent: {}
+[201.297000] (-) TimerEvent: {}
+[201.437000] (-) TimerEvent: {}
+[201.609000] (-) TimerEvent: {}
+[201.734000] (-) TimerEvent: {}
+[201.890000] (-) TimerEvent: {}
+[202.015000] (-) TimerEvent: {}
+[202.140000] (-) TimerEvent: {}
+[202.265000] (-) TimerEvent: {}
+[202.437000] (-) TimerEvent: {}
+[202.500000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'  action_server_member_functions.vcxproj -> C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_minimal_action_server\\Release\\action_server_member_functions.exe\r\n'}
+[202.547000] (-) TimerEvent: {}
+[202.703000] (-) TimerEvent: {}
+[202.750000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'  action_client_member_functions.vcxproj -> C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_minimal_action_client\\Release\\action_client_member_functions.exe\r\n'}
+[202.828000] (-) TimerEvent: {}
+[202.984000] (-) TimerEvent: {}
+[203.156000] (-) TimerEvent: {}
+[203.187000] (examples_rclcpp_async_client) StdoutLine: {'line': b'  client_main.vcxproj -> C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_async_client\\Release\\client_main.exe\r\n'}
+[203.265000] (-) TimerEvent: {}
+[203.390000] (-) TimerEvent: {}
+[203.468000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'  Building Custom Rule C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/actions/minimal_action_server/CMakeLists.txt\r\n'}
+[203.500000] (-) TimerEvent: {}
+[203.531000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'  Building Custom Rule C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/CMakeLists.txt\r\n'}
+[203.625000] (-) TimerEvent: {}
+[203.640000] (examples_rclcpp_async_client) StdoutLine: {'line': b'  Building Custom Rule C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/services/async_client/CMakeLists.txt\r\n'}
+[203.781000] (-) TimerEvent: {}
+[203.984000] (-) TimerEvent: {}
+[204.140000] (-) TimerEvent: {}
+[204.281000] (-) TimerEvent: {}
+[204.422000] (-) TimerEvent: {}
+[204.625000] (-) TimerEvent: {}
+[204.859000] (-) TimerEvent: {}
+[205.078000] (-) TimerEvent: {}
+[205.187000] (examples_rclcpp_async_client) CommandEnded: {'returncode': 0}
+[205.187000] (-) TimerEvent: {}
+[205.234000] (examples_rclcpp_async_client) JobProgress: {'identifier': 'examples_rclcpp_async_client', 'progress': 'install'}
+[205.328000] (-) TimerEvent: {}
+[205.625000] (-) TimerEvent: {}
+[205.750000] (examples_rclcpp_async_client) Command: {'cmd': ['C:\\Program Files\\CMake\\bin\\cmake.EXE', '--install', 'C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_async_client', '--config', 'Release'], 'cwd': 'C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_async_client', 'env': OrderedDict([('ALLUSERSPROFILE', 'C:\\ProgramData'), ('AMENT_PREFIX_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows'), ('APPDATA', 'C:\\Users\\felix\\AppData\\Roaming'), ('asl.log', 'Destination=file'), ('ChocolateyInstall', 'C:\\ProgramData\\chocolatey'), ('ChocolateyLastPathUpdate', '133640553997549682'), ('CMAKE_PREFIX_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/pybind11_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/orocos_kdl_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor;C:\\ros2-package-windows-AMD64\\ros2-windows'), ('COLCON', '1'), ('COLCON_PREFIX_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\'), ('CommandPromptType', 'Native'), ('CommonProgramFiles', 'C:\\Program Files\\Common Files'), ('CommonProgramFiles(x86)', 'C:\\Program Files (x86)\\Common Files'), ('CommonProgramW6432', 'C:\\Program Files\\Common Files'), ('COMPUTERNAME', 'DESKTOP-5G511IC'), ('ComSpec', 'C:\\WINDOWS\\system32\\cmd.exe'), ('DevEnvDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\'), ('DriverData', 'C:\\Windows\\System32\\Drivers\\DriverData'), ('ExtensionSdkDir', 'C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs'), ('Framework40Version', 'v4.0'), ('FrameworkDir', 'C:\\Windows\\Microsoft.NET\\Framework\\'), ('FrameworkDir32', 'C:\\Windows\\Microsoft.NET\\Framework\\'), ('FrameworkVersion', 'v4.0.30319'), ('FrameworkVersion32', 'v4.0.30319'), ('HOMEDRIVE', 'C:'), ('HOMEPATH', '\\Users\\felix'), ('INCLUDE', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\include;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\cppwinrt'), ('LIB', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\ucrt\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\um\\x86'), ('LIBPATH', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319'), ('LOCALAPPDATA', 'C:\\Users\\felix\\AppData\\Local'), ('LOGONSERVER', '\\\\DESKTOP-5G511IC'), ('NUMBER_OF_PROCESSORS', '4'), ('OneDrive', 'C:\\Users\\felix\\OneDrive - La Salle Centro Universitario'), ('OneDriveCommercial', 'C:\\Users\\felix\\OneDrive - La Salle Centro Universitario'), ('OneDriveConsumer', 'C:\\Users\\felix\\OneDrive'), ('OpenCV_DIR', 'C:\\opencv'), ('OPENSSL_CONF', 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg'), ('OS', 'Windows_NT'), ('Path', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/zstd_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/zstd_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/yaml_cpp_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/uncrustify_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/sqlite3_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/sqlite3_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/spdlog_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/spdlog_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_ogre_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_ogre_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_assimp_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/rviz_assimp_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/orocos_kdl_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/mimick_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libyaml_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libyaml_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/liblz4_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/liblz4_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libcurl_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/libcurl_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_math_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_utils_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/gz_cmake_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor/lib;C:\\ros2-package-windows-AMD64\\ros2-windows\\opt/console_bridge_vendor/bin;C:\\ros2-package-windows-AMD64\\ros2-windows\\Scripts;C:\\ros2-package-windows-AMD64\\ros2-windows\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\\\Extensions\\Microsoft\\IntelliCode\\CLI;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x86;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\AutoFirma\\AutoFirma;C:\\Program Files\\Git\\cmd;C:\\Users\\felix\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\felix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin'), ('PATHEXT', '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'), ('PKG_CONFIG_PATH', 'C:\\ros2-package-windows-AMD64\\ros2-windows\\lib\\pkgconfig'), ('PROCESSOR_ARCHITECTURE', 'AMD64'), ('PROCESSOR_IDENTIFIER', 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'), ('PROCESSOR_LEVEL', '6'), ('PROCESSOR_REVISION', '4e03'), ('ProgramData', 'C:\\ProgramData'), ('ProgramFiles', 'C:\\Program Files'), ('ProgramFiles(x86)', 'C:\\Program Files (x86)'), ('ProgramW6432', 'C:\\Program Files'), ('PROMPT', '$P$G'), ('PSModulePath', 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'), ('PUBLIC', 'C:\\Users\\Public'), ('PYTHONPATH', 'C:\\ci\\ws\\install\\lib\\python3.8\\dist-packages;C:\\ros2-package-windows-AMD64\\ros2-windows\\Lib\\site-packages'), ('Qt5_DIR', 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64'), ('QT_QPA_PLATFORM_PLUGIN_PATH', 'C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\plugins\\platforms'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('ROS_DISTRO', 'rolling'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('SESSIONNAME', 'Console'), ('SystemDrive', 'C:'), ('SystemRoot', 'C:\\WINDOWS'), ('TEMP', 'C:\\Users\\felix\\AppData\\Local\\Temp'), ('TMP', 'C:\\Users\\felix\\AppData\\Local\\Temp'), ('UCRTVersion', '10.0.19041.0'), ('UniversalCRTSdkDir', 'C:\\Program Files (x86)\\Windows Kits\\10\\'), ('USERDOMAIN', 'DESKTOP-5G511IC'), ('USERDOMAIN_ROAMINGPROFILE', 'DESKTOP-5G511IC'), ('USERNAME', 'felix'), ('USERPROFILE', 'C:\\Users\\felix'), ('VCIDEInstallDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\'), ('VCINSTALLDIR', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\'), ('VCToolsInstallDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\'), ('VCToolsRedistDir', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Redist\\MSVC\\14.29.30133\\'), ('VCToolsVersion', '14.29.30133'), ('VisualStudioVersion', '16.0'), ('VS160COMNTOOLS', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\'), ('VSCMD_ARG_app_plat', 'Desktop'), ('VSCMD_ARG_HOST_ARCH', 'x86'), ('VSCMD_ARG_TGT_ARCH', 'x86'), ('VSCMD_VER', '16.11.37'), ('VSINSTALLDIR', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\'), ('windir', 'C:\\WINDOWS'), ('WindowsLibPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.19041.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.19041.0'), ('WindowsSdkBinPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\'), ('WindowsSdkDir', 'C:\\Program Files (x86)\\Windows Kits\\10\\'), ('WindowsSDKLibVersion', '10.0.19041.0\\'), ('WindowsSdkVerBinPath', 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\'), ('WindowsSDKVersion', '10.0.19041.0\\'), ('__devinit_path', 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit\\devinit.exe'), ('__DOTNET_ADD_32BIT', '1'), ('__DOTNET_PREFERRED_BITNESS', '32'), ('__VSCMD_PREINIT_PATH', 'C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\OpenSSL-Win64\\bin\\;C:\\opencv\\x64\\vc16\\bin;C:\\Program Files\\CMake\\bin;C:\\ProgramData\\chocolatey\\lib\\cunit\\lib;C:\\ProgramData\\chocolatey\\lib\\tinyxml2\\lib;C:\\ProgramData\\chocolatey\\lib\\bullet\\lib;C:\\xmllint\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\AutoFirma\\AutoFirma;C:\\Program Files\\Git\\cmd;C:\\Users\\felix\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Users\\felix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin'), ('__VSCMD_script_err_count', '0')]), 'shell': False}
+[205.750000] (-) TimerEvent: {}
+[205.765000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'  not_composable.cpp\r\n'}
+[205.875000] (-) TimerEvent: {}
+[205.953000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'  not_composable.cpp\r\n'}
+[206.000000] (-) TimerEvent: {}
+[206.250000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[206.250000] (-) TimerEvent: {}
+[206.375000] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Symlinking: C:/Users/felix/dev/SLAM-robot/ros2_ws/install/lib/examples_rclcpp_async_client/client_main.exe\n'}
+[206.375000] (-) TimerEvent: {}
+[206.515000] (-) TimerEvent: {}
+[206.750000] (-) TimerEvent: {}
+[206.828000] (examples_rclcpp_async_client) StderrLine: {'line': b"CMake Error: failed to create symbolic link 'C:/Users/felix/dev/SLAM-robot/ros2_ws/install/lib/examples_rclcpp_async_client/client_main.exe': A required privilege is not held by the client.\r\n"}
+[206.875000] (examples_rclcpp_async_client) StderrLine: {'line': b'\n'}
+[206.875000] (-) TimerEvent: {}
+[207.062000] (examples_rclcpp_async_client) StderrLine: {'line': b'CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:302 (message):\n'}
+[207.062000] (-) TimerEvent: {}
+[207.093000] (examples_rclcpp_async_client) StderrLine: {'line': b'  Could not create symlink\n'}
+[207.140000] (examples_rclcpp_async_client) StderrLine: {'line': b"  'C:/Users/felix/dev/SLAM-robot/ros2_ws/install/lib/examples_rclcpp_async_client/client_main.exe'\n"}
+[207.172000] (examples_rclcpp_async_client) StderrLine: {'line': b'  pointing to\n'}
+[207.172000] (-) TimerEvent: {}
+[207.187000] (examples_rclcpp_async_client) StderrLine: {'line': b"  'C:/Users/felix/dev/SLAM-robot/ros2_ws/build/examples_rclcpp_async_client/Release/client_main.exe'\n"}
+[207.203000] (examples_rclcpp_async_client) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[207.234000] (examples_rclcpp_async_client) StderrLine: {'line': b'  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:264 (_ament_cmake_symlink_install_create_symlink)\n'}
+[207.265000] (examples_rclcpp_async_client) StderrLine: {'line': b'  ament_cmake_symlink_install_targets_0_Release.cmake:1 (ament_cmake_symlink_install_targets)\n'}
+[207.281000] (-) TimerEvent: {}
+[207.281000] (examples_rclcpp_async_client) StderrLine: {'line': b'  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (include)\n'}
+[207.312000] (examples_rclcpp_async_client) StderrLine: {'line': b'  cmake_install.cmake:36 (include)\n'}
+[207.343000] (examples_rclcpp_async_client) StderrLine: {'line': b'\n'}
+[207.422000] (-) TimerEvent: {}
+[207.500000] (examples_rclcpp_async_client) StderrLine: {'line': b'\n'}
+[207.547000] (-) TimerEvent: {}
+[207.750000] (examples_rclcpp_async_client) CommandEnded: {'returncode': 1}
+[207.750000] (-) TimerEvent: {}
+[207.906000] (-) TimerEvent: {}
+[208.140000] (examples_rclcpp_async_client) JobEnded: {'identifier': 'examples_rclcpp_async_client', 'rc': 1}
+[208.312000] (-) TimerEvent: {}
+[208.484000] (-) TimerEvent: {}
+[208.703000] (-) TimerEvent: {}
+[208.906000] (-) TimerEvent: {}
+[209.109000] (-) TimerEvent: {}
+[209.312000] (-) TimerEvent: {}
+[209.515000] (-) TimerEvent: {}
+[209.718000] (-) TimerEvent: {}
+[209.922000] (-) TimerEvent: {}
+[210.140000] (-) TimerEvent: {}
+[210.359000] (-) TimerEvent: {}
+[210.578000] (-) TimerEvent: {}
+[210.797000] (-) TimerEvent: {}
+[211.000000] (-) TimerEvent: {}
+[211.187000] (-) TimerEvent: {}
+[211.390000] (-) TimerEvent: {}
+[211.609000] (-) TimerEvent: {}
+[211.797000] (-) TimerEvent: {}
+[212.000000] (-) TimerEvent: {}
+[212.218000] (-) TimerEvent: {}
+[212.422000] (-) TimerEvent: {}
+[212.625000] (-) TimerEvent: {}
+[212.828000] (-) TimerEvent: {}
+[213.031000] (-) TimerEvent: {}
+[213.234000] (-) TimerEvent: {}
+[213.437000] (-) TimerEvent: {}
+[213.640000] (-) TimerEvent: {}
+[213.843000] (-) TimerEvent: {}
+[214.062000] (-) TimerEvent: {}
+[214.265000] (-) TimerEvent: {}
+[214.468000] (-) TimerEvent: {}
+[214.687000] (-) TimerEvent: {}
+[214.890000] (-) TimerEvent: {}
+[215.125000] (-) TimerEvent: {}
+[215.312000] (-) TimerEvent: {}
+[215.500000] (-) TimerEvent: {}
+[215.656000] (-) TimerEvent: {}
+[215.797000] (-) TimerEvent: {}
+[215.906000] (-) TimerEvent: {}
+[216.015000] (-) TimerEvent: {}
+[216.125000] (-) TimerEvent: {}
+[216.234000] (-) TimerEvent: {}
+[216.343000] (-) TimerEvent: {}
+[216.468000] (-) TimerEvent: {}
+[216.593000] (-) TimerEvent: {}
+[216.718000] (-) TimerEvent: {}
+[216.828000] (-) TimerEvent: {}
+[216.937000] (-) TimerEvent: {}
+[217.047000] (-) TimerEvent: {}
+[217.156000] (-) TimerEvent: {}
+[217.265000] (-) TimerEvent: {}
+[217.375000] (-) TimerEvent: {}
+[217.484000] (-) TimerEvent: {}
+[217.609000] (-) TimerEvent: {}
+[217.734000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'  ping.vcxproj -> C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_cbg_executor\\Release\\ping.exe\r\n'}
+[217.734000] (-) TimerEvent: {}
+[217.859000] (-) TimerEvent: {}
+[217.984000] (-) TimerEvent: {}
+[218.093000] (-) TimerEvent: {}
+[218.218000] (-) TimerEvent: {}
+[218.265000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'  Building Custom Rule C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/executors/cbg_executor/CMakeLists.txt\r\n'}
+[218.328000] (-) TimerEvent: {}
+[218.453000] (-) TimerEvent: {}
+[218.578000] (-) TimerEvent: {}
+[218.687000] (-) TimerEvent: {}
+[218.797000] (-) TimerEvent: {}
+[218.906000] (-) TimerEvent: {}
+[219.015000] (-) TimerEvent: {}
+[219.062000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'  ping_pong.cpp\r\n'}
+[219.062000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'  ping_node.cpp\r\n'}
+[219.093000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'  pong_node.cpp\r\n'}
+[219.140000] (-) TimerEvent: {}
+[219.312000] (-) TimerEvent: {}
+[219.500000] (-) TimerEvent: {}
+[219.656000] (-) TimerEvent: {}
+[219.843000] (-) TimerEvent: {}
+[220.015000] (-) TimerEvent: {}
+[220.203000] (-) TimerEvent: {}
+[220.359000] (-) TimerEvent: {}
+[220.547000] (-) TimerEvent: {}
+[220.734000] (-) TimerEvent: {}
+[220.906000] (-) TimerEvent: {}
+[221.078000] (-) TimerEvent: {}
+[221.250000] (-) TimerEvent: {}
+[221.437000] (-) TimerEvent: {}
+[221.609000] (-) TimerEvent: {}
+[221.781000] (-) TimerEvent: {}
+[221.953000] (-) TimerEvent: {}
+[222.156000] (-) TimerEvent: {}
+[222.328000] (-) TimerEvent: {}
+[222.500000] (-) TimerEvent: {}
+[222.672000] (-) TimerEvent: {}
+[222.828000] (-) TimerEvent: {}
+[223.015000] (-) TimerEvent: {}
+[223.187000] (-) TimerEvent: {}
+[223.343000] (-) TimerEvent: {}
+[223.531000] (-) TimerEvent: {}
+[223.703000] (-) TimerEvent: {}
+[223.875000] (-) TimerEvent: {}
+[224.062000] (-) TimerEvent: {}
+[224.234000] (-) TimerEvent: {}
+[224.406000] (-) TimerEvent: {}
+[224.593000] (-) TimerEvent: {}
+[224.765000] (-) TimerEvent: {}
+[224.937000] (-) TimerEvent: {}
+[225.109000] (-) TimerEvent: {}
+[225.281000] (-) TimerEvent: {}
+[225.468000] (-) TimerEvent: {}
+[225.640000] (-) TimerEvent: {}
+[225.812000] (-) TimerEvent: {}
+[226.031000] (-) TimerEvent: {}
+[226.218000] (-) TimerEvent: {}
+[226.390000] (-) TimerEvent: {}
+[226.562000] (-) TimerEvent: {}
+[226.734000] (-) TimerEvent: {}
+[226.906000] (-) TimerEvent: {}
+[227.078000] (-) TimerEvent: {}
+[227.265000] (-) TimerEvent: {}
+[227.437000] (-) TimerEvent: {}
+[227.609000] (-) TimerEvent: {}
+[227.765000] (-) TimerEvent: {}
+[227.937000] (-) TimerEvent: {}
+[228.109000] (-) TimerEvent: {}
+[228.281000] (-) TimerEvent: {}
+[228.453000] (-) TimerEvent: {}
+[228.640000] (-) TimerEvent: {}
+[228.812000] (-) TimerEvent: {}
+[229.000000] (-) TimerEvent: {}
+[229.172000] (-) TimerEvent: {}
+[229.343000] (-) TimerEvent: {}
+[229.531000] (-) TimerEvent: {}
+[229.703000] (-) TimerEvent: {}
+[229.875000] (-) TimerEvent: {}
+[230.062000] (-) TimerEvent: {}
+[230.250000] (-) TimerEvent: {}
+[230.390000] (-) TimerEvent: {}
+[230.578000] (-) TimerEvent: {}
+[230.750000] (-) TimerEvent: {}
+[230.922000] (-) TimerEvent: {}
+[231.093000] (-) TimerEvent: {}
+[231.297000] (-) TimerEvent: {}
+[231.468000] (-) TimerEvent: {}
+[231.656000] (-) TimerEvent: {}
+[231.828000] (-) TimerEvent: {}
+[232.000000] (-) TimerEvent: {}
+[232.172000] (-) TimerEvent: {}
+[232.328000] (-) TimerEvent: {}
+[232.500000] (-) TimerEvent: {}
+[232.656000] (-) TimerEvent: {}
+[232.890000] (-) TimerEvent: {}
+[233.093000] (-) TimerEvent: {}
+[233.281000] (-) TimerEvent: {}
+[233.484000] (-) TimerEvent: {}
+[233.656000] (-) TimerEvent: {}
+[233.859000] (-) TimerEvent: {}
+[234.031000] (-) TimerEvent: {}
+[234.218000] (-) TimerEvent: {}
+[234.406000] (-) TimerEvent: {}
+[234.625000] (-) TimerEvent: {}
+[234.812000] (-) TimerEvent: {}
+[235.000000] (-) TimerEvent: {}
+[235.172000] (-) TimerEvent: {}
+[235.359000] (-) TimerEvent: {}
+[235.515000] (-) TimerEvent: {}
+[235.781000] (-) TimerEvent: {}
+[236.172000] (-) TimerEvent: {}
+[236.547000] (-) TimerEvent: {}
+[236.906000] (-) TimerEvent: {}
+[237.281000] (-) TimerEvent: {}
+[237.656000] (-) TimerEvent: {}
+[238.031000] (-) TimerEvent: {}
+[238.422000] (-) TimerEvent: {}
+[238.797000] (-) TimerEvent: {}
+[239.172000] (-) TimerEvent: {}
+[239.547000] (-) TimerEvent: {}
+[239.843000] (-) TimerEvent: {}
+[240.109000] (-) TimerEvent: {}
+[240.390000] (-) TimerEvent: {}
+[240.672000] (-) TimerEvent: {}
+[240.875000] (-) TimerEvent: {}
+[241.015000] (-) TimerEvent: {}
+[241.187000] (-) TimerEvent: {}
+[241.359000] (-) TimerEvent: {}
+[241.515000] (-) TimerEvent: {}
+[241.672000] (-) TimerEvent: {}
+[241.859000] (-) TimerEvent: {}
+[242.031000] (-) TimerEvent: {}
+[242.218000] (-) TimerEvent: {}
+[242.390000] (-) TimerEvent: {}
+[242.562000] (-) TimerEvent: {}
+[242.750000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'  action_server_not_composable.vcxproj -> C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_minimal_action_server\\Release\\action_server_not_composable.exe\r\n'}
+[242.750000] (-) TimerEvent: {}
+[242.968000] (-) TimerEvent: {}
+[243.140000] (-) TimerEvent: {}
+[243.312000] (-) TimerEvent: {}
+[243.468000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'  action_client_not_composable.vcxproj -> C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_minimal_action_client\\Release\\action_client_not_composable.exe\r\n'}
+[243.468000] (-) TimerEvent: {}
+[243.625000] (-) TimerEvent: {}
+[243.640000] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'  Building Custom Rule C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/actions/minimal_action_server/CMakeLists.txt\r\n'}
+[243.750000] (-) TimerEvent: {}
+[243.922000] (-) TimerEvent: {}
+[244.093000] (-) TimerEvent: {}
+[244.218000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'  Building Custom Rule C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/CMakeLists.txt\r\n'}
+[244.218000] (-) TimerEvent: {}
+[244.328000] (-) TimerEvent: {}
+[244.484000] (-) TimerEvent: {}
+[244.593000] (-) TimerEvent: {}
+[244.734000] (-) TimerEvent: {}
+[244.812000] (examples_rclcpp_minimal_action_server) JobEnded: {'identifier': 'examples_rclcpp_minimal_action_server', 'rc': 'SIGINT'}
+[244.859000] (-) TimerEvent: {}
+[245.000000] (-) TimerEvent: {}
+[245.156000] (-) TimerEvent: {}
+[245.312000] (-) TimerEvent: {}
+[245.343000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'  not_composable_with_cancel.cpp\r\n'}
+[245.437000] (-) TimerEvent: {}
+[245.578000] (-) TimerEvent: {}
+[245.718000] (-) TimerEvent: {}
+[245.859000] (-) TimerEvent: {}
+[246.000000] (-) TimerEvent: {}
+[246.125000] (-) TimerEvent: {}
+[246.265000] (-) TimerEvent: {}
+[246.406000] (-) TimerEvent: {}
+[246.547000] (-) TimerEvent: {}
+[246.687000] (-) TimerEvent: {}
+[246.843000] (-) TimerEvent: {}
+[246.968000] (-) TimerEvent: {}
+[247.109000] (-) TimerEvent: {}
+[247.265000] (-) TimerEvent: {}
+[247.406000] (-) TimerEvent: {}
+[247.531000] (-) TimerEvent: {}
+[247.687000] (-) TimerEvent: {}
+[247.843000] (-) TimerEvent: {}
+[247.984000] (-) TimerEvent: {}
+[248.140000] (-) TimerEvent: {}
+[248.281000] (-) TimerEvent: {}
+[248.437000] (-) TimerEvent: {}
+[248.578000] (-) TimerEvent: {}
+[248.750000] (-) TimerEvent: {}
+[248.890000] (-) TimerEvent: {}
+[249.078000] (-) TimerEvent: {}
+[249.203000] (-) TimerEvent: {}
+[249.343000] (-) TimerEvent: {}
+[249.468000] (-) TimerEvent: {}
+[249.640000] (-) TimerEvent: {}
+[249.797000] (-) TimerEvent: {}
+[249.937000] (-) TimerEvent: {}
+[250.093000] (-) TimerEvent: {}
+[250.265000] (-) TimerEvent: {}
+[250.484000] (-) TimerEvent: {}
+[250.718000] (-) TimerEvent: {}
+[250.859000] (-) TimerEvent: {}
+[251.000000] (-) TimerEvent: {}
+[251.140000] (-) TimerEvent: {}
+[251.281000] (-) TimerEvent: {}
+[251.453000] (-) TimerEvent: {}
+[251.609000] (-) TimerEvent: {}
+[251.750000] (-) TimerEvent: {}
+[251.875000] (-) TimerEvent: {}
+[252.000000] (-) TimerEvent: {}
+[252.109000] (-) TimerEvent: {}
+[252.234000] (-) TimerEvent: {}
+[252.343000] (-) TimerEvent: {}
+[252.453000] (-) TimerEvent: {}
+[252.562000] (-) TimerEvent: {}
+[252.672000] (-) TimerEvent: {}
+[252.781000] (-) TimerEvent: {}
+[252.890000] (-) TimerEvent: {}
+[253.000000] (-) TimerEvent: {}
+[253.109000] (-) TimerEvent: {}
+[253.234000] (-) TimerEvent: {}
+[253.359000] (-) TimerEvent: {}
+[253.484000] (-) TimerEvent: {}
+[253.703000] (-) TimerEvent: {}
+[253.984000] (-) TimerEvent: {}
+[254.297000] (-) TimerEvent: {}
+[254.609000] (-) TimerEvent: {}
+[254.922000] (-) TimerEvent: {}
+[255.203000] (-) TimerEvent: {}
+[255.531000] (-) TimerEvent: {}
+[255.828000] (-) TimerEvent: {}
+[256.156000] (-) TimerEvent: {}
+[256.453000] (-) TimerEvent: {}
+[256.750000] (-) TimerEvent: {}
+[257.062000] (-) TimerEvent: {}
+[257.390000] (-) TimerEvent: {}
+[257.672000] (-) TimerEvent: {}
+[257.984000] (-) TimerEvent: {}
+[258.312000] (-) TimerEvent: {}
+[258.609000] (-) TimerEvent: {}
+[258.922000] (-) TimerEvent: {}
+[259.218000] (-) TimerEvent: {}
+[259.547000] (-) TimerEvent: {}
+[259.843000] (-) TimerEvent: {}
+[260.140000] (-) TimerEvent: {}
+[260.453000] (-) TimerEvent: {}
+[260.765000] (-) TimerEvent: {}
+[261.062000] (-) TimerEvent: {}
+[261.390000] (-) TimerEvent: {}
+[261.703000] (-) TimerEvent: {}
+[262.000000] (-) TimerEvent: {}
+[262.297000] (-) TimerEvent: {}
+[262.609000] (-) TimerEvent: {}
+[262.937000] (-) TimerEvent: {}
+[263.250000] (-) TimerEvent: {}
+[263.547000] (-) TimerEvent: {}
+[263.875000] (-) TimerEvent: {}
+[264.187000] (-) TimerEvent: {}
+[264.500000] (-) TimerEvent: {}
+[264.797000] (-) TimerEvent: {}
+[265.140000] (-) TimerEvent: {}
+[265.437000] (-) TimerEvent: {}
+[265.750000] (-) TimerEvent: {}
+[266.062000] (-) TimerEvent: {}
+[266.390000] (-) TimerEvent: {}
+[266.687000] (-) TimerEvent: {}
+[266.984000] (-) TimerEvent: {}
+[267.297000] (-) TimerEvent: {}
+[267.625000] (-) TimerEvent: {}
+[267.937000] (-) TimerEvent: {}
+[268.250000] (-) TimerEvent: {}
+[268.562000] (-) TimerEvent: {}
+[268.875000] (-) TimerEvent: {}
+[269.187000] (-) TimerEvent: {}
+[269.468000] (-) TimerEvent: {}
+[269.734000] (-) TimerEvent: {}
+[269.953000] (-) TimerEvent: {}
+[270.140000] (-) TimerEvent: {}
+[270.281000] (-) TimerEvent: {}
+[270.390000] (-) TimerEvent: {}
+[270.500000] (-) TimerEvent: {}
+[270.625000] (-) TimerEvent: {}
+[270.734000] (-) TimerEvent: {}
+[270.843000] (-) TimerEvent: {}
+[270.984000] (-) TimerEvent: {}
+[271.093000] (-) TimerEvent: {}
+[271.218000] (-) TimerEvent: {}
+[271.328000] (-) TimerEvent: {}
+[271.453000] (-) TimerEvent: {}
+[271.562000] (-) TimerEvent: {}
+[271.672000] (-) TimerEvent: {}
+[271.781000] (-) TimerEvent: {}
+[271.890000] (-) TimerEvent: {}
+[272.015000] (-) TimerEvent: {}
+[272.093000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'  ping_pong.vcxproj -> C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_cbg_executor\\Release\\ping_pong.exe\r\n'}
+[272.125000] (-) TimerEvent: {}
+[272.234000] (-) TimerEvent: {}
+[272.343000] (-) TimerEvent: {}
+[272.422000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'  Building Custom Rule C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/executors/cbg_executor/CMakeLists.txt\r\n'}
+[272.453000] (-) TimerEvent: {}
+[272.562000] (-) TimerEvent: {}
+[272.687000] (-) TimerEvent: {}
+[272.797000] (-) TimerEvent: {}
+[272.906000] (-) TimerEvent: {}
+[273.015000] (-) TimerEvent: {}
+[273.031000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'  pong.cpp\r\n'}
+[273.047000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'  pong_node.cpp\r\n'}
+[273.140000] (-) TimerEvent: {}
+[273.250000] (-) TimerEvent: {}
+[273.359000] (-) TimerEvent: {}
+[273.468000] (-) TimerEvent: {}
+[273.578000] (-) TimerEvent: {}
+[273.687000] (-) TimerEvent: {}
+[273.797000] (-) TimerEvent: {}
+[273.906000] (-) TimerEvent: {}
+[274.015000] (-) TimerEvent: {}
+[274.125000] (-) TimerEvent: {}
+[274.250000] (-) TimerEvent: {}
+[274.359000] (-) TimerEvent: {}
+[274.468000] (-) TimerEvent: {}
+[274.578000] (-) TimerEvent: {}
+[274.687000] (-) TimerEvent: {}
+[274.797000] (-) TimerEvent: {}
+[274.906000] (-) TimerEvent: {}
+[275.015000] (-) TimerEvent: {}
+[275.125000] (-) TimerEvent: {}
+[275.234000] (-) TimerEvent: {}
+[275.359000] (-) TimerEvent: {}
+[275.484000] (-) TimerEvent: {}
+[275.593000] (-) TimerEvent: {}
+[275.718000] (-) TimerEvent: {}
+[275.828000] (-) TimerEvent: {}
+[275.937000] (-) TimerEvent: {}
+[276.047000] (-) TimerEvent: {}
+[276.156000] (-) TimerEvent: {}
+[276.281000] (-) TimerEvent: {}
+[276.390000] (-) TimerEvent: {}
+[276.500000] (-) TimerEvent: {}
+[276.640000] (-) TimerEvent: {}
+[276.843000] (-) TimerEvent: {}
+[277.031000] (-) TimerEvent: {}
+[277.234000] (-) TimerEvent: {}
+[277.437000] (-) TimerEvent: {}
+[277.640000] (-) TimerEvent: {}
+[277.843000] (-) TimerEvent: {}
+[278.062000] (-) TimerEvent: {}
+[278.297000] (-) TimerEvent: {}
+[278.500000] (-) TimerEvent: {}
+[278.687000] (-) TimerEvent: {}
+[278.890000] (-) TimerEvent: {}
+[279.093000] (-) TimerEvent: {}
+[279.297000] (-) TimerEvent: {}
+[279.500000] (-) TimerEvent: {}
+[279.703000] (-) TimerEvent: {}
+[279.906000] (-) TimerEvent: {}
+[280.078000] (-) TimerEvent: {}
+[280.187000] (-) TimerEvent: {}
+[280.297000] (-) TimerEvent: {}
+[280.406000] (-) TimerEvent: {}
+[280.515000] (-) TimerEvent: {}
+[280.625000] (-) TimerEvent: {}
+[280.750000] (-) TimerEvent: {}
+[280.859000] (-) TimerEvent: {}
+[280.984000] (-) TimerEvent: {}
+[281.093000] (-) TimerEvent: {}
+[281.203000] (-) TimerEvent: {}
+[281.312000] (-) TimerEvent: {}
+[281.437000] (-) TimerEvent: {}
+[281.547000] (-) TimerEvent: {}
+[281.593000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'  action_client_not_composable_with_cancel.vcxproj -> C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_minimal_action_client\\Release\\action_client_not_composable_with_cancel.exe\r\n'}
+[281.672000] (-) TimerEvent: {}
+[281.812000] (-) TimerEvent: {}
+[281.922000] (-) TimerEvent: {}
+[282.047000] (-) TimerEvent: {}
+[282.078000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'  Building Custom Rule C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/CMakeLists.txt\r\n'}
+[282.156000] (-) TimerEvent: {}
+[282.265000] (-) TimerEvent: {}
+[282.375000] (-) TimerEvent: {}
+[282.484000] (-) TimerEvent: {}
+[282.593000] (-) TimerEvent: {}
+[282.687000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'  not_composable_with_feedback.cpp\r\n'}
+[282.703000] (-) TimerEvent: {}
+[282.828000] (-) TimerEvent: {}
+[282.937000] (-) TimerEvent: {}
+[283.047000] (-) TimerEvent: {}
+[283.156000] (-) TimerEvent: {}
+[283.265000] (-) TimerEvent: {}
+[283.375000] (-) TimerEvent: {}
+[283.484000] (-) TimerEvent: {}
+[283.609000] (-) TimerEvent: {}
+[283.734000] (-) TimerEvent: {}
+[283.843000] (-) TimerEvent: {}
+[283.953000] (-) TimerEvent: {}
+[284.062000] (-) TimerEvent: {}
+[284.172000] (-) TimerEvent: {}
+[284.281000] (-) TimerEvent: {}
+[284.390000] (-) TimerEvent: {}
+[284.500000] (-) TimerEvent: {}
+[284.625000] (-) TimerEvent: {}
+[284.734000] (-) TimerEvent: {}
+[284.843000] (-) TimerEvent: {}
+[284.953000] (-) TimerEvent: {}
+[285.062000] (-) TimerEvent: {}
+[285.172000] (-) TimerEvent: {}
+[285.281000] (-) TimerEvent: {}
+[285.390000] (-) TimerEvent: {}
+[285.515000] (-) TimerEvent: {}
+[285.625000] (-) TimerEvent: {}
+[285.734000] (-) TimerEvent: {}
+[285.843000] (-) TimerEvent: {}
+[285.953000] (-) TimerEvent: {}
+[286.062000] (-) TimerEvent: {}
+[286.172000] (-) TimerEvent: {}
+[286.297000] (-) TimerEvent: {}
+[286.406000] (-) TimerEvent: {}
+[286.531000] (-) TimerEvent: {}
+[286.640000] (-) TimerEvent: {}
+[286.750000] (-) TimerEvent: {}
+[286.859000] (-) TimerEvent: {}
+[286.968000] (-) TimerEvent: {}
+[287.078000] (-) TimerEvent: {}
+[287.187000] (-) TimerEvent: {}
+[287.312000] (-) TimerEvent: {}
+[287.422000] (-) TimerEvent: {}
+[287.531000] (-) TimerEvent: {}
+[287.640000] (-) TimerEvent: {}
+[287.750000] (-) TimerEvent: {}
+[287.859000] (-) TimerEvent: {}
+[287.968000] (-) TimerEvent: {}
+[288.078000] (-) TimerEvent: {}
+[288.187000] (-) TimerEvent: {}
+[288.328000] (-) TimerEvent: {}
+[288.437000] (-) TimerEvent: {}
+[288.547000] (-) TimerEvent: {}
+[288.656000] (-) TimerEvent: {}
+[288.765000] (-) TimerEvent: {}
+[288.875000] (-) TimerEvent: {}
+[288.984000] (-) TimerEvent: {}
+[289.093000] (-) TimerEvent: {}
+[289.218000] (-) TimerEvent: {}
+[289.328000] (-) TimerEvent: {}
+[289.437000] (-) TimerEvent: {}
+[289.547000] (-) TimerEvent: {}
+[289.656000] (-) TimerEvent: {}
+[289.765000] (-) TimerEvent: {}
+[289.875000] (-) TimerEvent: {}
+[289.984000] (-) TimerEvent: {}
+[290.093000] (-) TimerEvent: {}
+[290.203000] (-) TimerEvent: {}
+[290.328000] (-) TimerEvent: {}
+[290.437000] (-) TimerEvent: {}
+[290.547000] (-) TimerEvent: {}
+[290.656000] (-) TimerEvent: {}
+[290.765000] (-) TimerEvent: {}
+[290.875000] (-) TimerEvent: {}
+[290.984000] (-) TimerEvent: {}
+[291.093000] (-) TimerEvent: {}
+[291.203000] (-) TimerEvent: {}
+[291.312000] (-) TimerEvent: {}
+[291.437000] (-) TimerEvent: {}
+[291.562000] (-) TimerEvent: {}
+[291.672000] (-) TimerEvent: {}
+[291.781000] (-) TimerEvent: {}
+[291.890000] (-) TimerEvent: {}
+[292.000000] (-) TimerEvent: {}
+[292.109000] (-) TimerEvent: {}
+[292.218000] (-) TimerEvent: {}
+[292.328000] (-) TimerEvent: {}
+[292.437000] (-) TimerEvent: {}
+[292.562000] (-) TimerEvent: {}
+[292.672000] (-) TimerEvent: {}
+[292.781000] (-) TimerEvent: {}
+[292.890000] (-) TimerEvent: {}
+[293.000000] (-) TimerEvent: {}
+[293.109000] (-) TimerEvent: {}
+[293.218000] (-) TimerEvent: {}
+[293.328000] (-) TimerEvent: {}
+[293.453000] (-) TimerEvent: {}
+[293.578000] (-) TimerEvent: {}
+[293.687000] (-) TimerEvent: {}
+[293.812000] (-) TimerEvent: {}
+[294.047000] (-) TimerEvent: {}
+[294.203000] (-) TimerEvent: {}
+[294.312000] (-) TimerEvent: {}
+[294.437000] (-) TimerEvent: {}
+[294.578000] (-) TimerEvent: {}
+[294.687000] (-) TimerEvent: {}
+[294.812000] (-) TimerEvent: {}
+[294.937000] (-) TimerEvent: {}
+[295.047000] (-) TimerEvent: {}
+[295.156000] (-) TimerEvent: {}
+[295.265000] (-) TimerEvent: {}
+[295.390000] (-) TimerEvent: {}
+[295.500000] (-) TimerEvent: {}
+[295.609000] (-) TimerEvent: {}
+[295.718000] (-) TimerEvent: {}
+[295.828000] (-) TimerEvent: {}
+[295.937000] (-) TimerEvent: {}
+[296.047000] (-) TimerEvent: {}
+[296.156000] (-) TimerEvent: {}
+[296.281000] (-) TimerEvent: {}
+[296.437000] (-) TimerEvent: {}
+[296.609000] (-) TimerEvent: {}
+[296.781000] (-) TimerEvent: {}
+[296.937000] (-) TimerEvent: {}
+[297.093000] (-) TimerEvent: {}
+[297.265000] (-) TimerEvent: {}
+[297.453000] (-) TimerEvent: {}
+[297.625000] (-) TimerEvent: {}
+[297.781000] (-) TimerEvent: {}
+[297.968000] (-) TimerEvent: {}
+[298.125000] (-) TimerEvent: {}
+[298.297000] (-) TimerEvent: {}
+[298.484000] (-) TimerEvent: {}
+[298.656000] (-) TimerEvent: {}
+[298.828000] (-) TimerEvent: {}
+[298.984000] (-) TimerEvent: {}
+[299.156000] (-) TimerEvent: {}
+[299.328000] (-) TimerEvent: {}
+[299.500000] (-) TimerEvent: {}
+[299.687000] (-) TimerEvent: {}
+[299.843000] (-) TimerEvent: {}
+[300.031000] (-) TimerEvent: {}
+[300.218000] (-) TimerEvent: {}
+[300.375000] (-) TimerEvent: {}
+[300.562000] (-) TimerEvent: {}
+[300.718000] (-) TimerEvent: {}
+[300.890000] (-) TimerEvent: {}
+[301.062000] (-) TimerEvent: {}
+[301.218000] (-) TimerEvent: {}
+[301.390000] (-) TimerEvent: {}
+[301.578000] (-) TimerEvent: {}
+[301.765000] (-) TimerEvent: {}
+[301.937000] (-) TimerEvent: {}
+[302.109000] (-) TimerEvent: {}
+[302.281000] (-) TimerEvent: {}
+[302.453000] (-) TimerEvent: {}
+[302.656000] (-) TimerEvent: {}
+[302.828000] (-) TimerEvent: {}
+[303.015000] (-) TimerEvent: {}
+[303.187000] (-) TimerEvent: {}
+[303.343000] (-) TimerEvent: {}
+[303.625000] (-) TimerEvent: {}
+[303.890000] (-) TimerEvent: {}
+[304.140000] (-) TimerEvent: {}
+[304.422000] (-) TimerEvent: {}
+[304.687000] (-) TimerEvent: {}
+[304.953000] (-) TimerEvent: {}
+[305.203000] (-) TimerEvent: {}
+[305.453000] (-) TimerEvent: {}
+[305.734000] (-) TimerEvent: {}
+[306.000000] (-) TimerEvent: {}
+[306.218000] (-) TimerEvent: {}
+[306.406000] (-) TimerEvent: {}
+[306.578000] (-) TimerEvent: {}
+[306.750000] (-) TimerEvent: {}
+[306.922000] (-) TimerEvent: {}
+[307.031000] (-) TimerEvent: {}
+[307.140000] (-) TimerEvent: {}
+[307.250000] (-) TimerEvent: {}
+[307.359000] (-) TimerEvent: {}
+[307.468000] (-) TimerEvent: {}
+[307.593000] (-) TimerEvent: {}
+[307.703000] (-) TimerEvent: {}
+[307.812000] (-) TimerEvent: {}
+[307.922000] (-) TimerEvent: {}
+[308.047000] (-) TimerEvent: {}
+[308.125000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'  pong.vcxproj -> C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_cbg_executor\\Release\\pong.exe\r\n'}
+[308.156000] (-) TimerEvent: {}
+[308.281000] (-) TimerEvent: {}
+[308.406000] (-) TimerEvent: {}
+[308.406000] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'  Building Custom Rule C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/executors/cbg_executor/CMakeLists.txt\r\n'}
+[308.437000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'  action_client_not_composable_with_feedback.vcxproj -> C:\\Users\\felix\\dev\\SLAM-robot\\ros2_ws\\build\\examples_rclcpp_minimal_action_client\\Release\\action_client_not_composable_with_feedback.exe\r\n'}
+[308.515000] (-) TimerEvent: {}
+[308.640000] (-) TimerEvent: {}
+[308.703000] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'  Building Custom Rule C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/CMakeLists.txt\r\n'}
+[308.750000] (-) TimerEvent: {}
+[308.828000] (examples_rclcpp_cbg_executor) JobEnded: {'identifier': 'examples_rclcpp_cbg_executor', 'rc': 'SIGINT'}
+[308.875000] (-) TimerEvent: {}
+[308.984000] (-) TimerEvent: {}
+[309.047000] (examples_rclcpp_minimal_action_client) JobEnded: {'identifier': 'examples_rclcpp_minimal_action_client', 'rc': 'SIGINT'}
+[309.078000] (examples_rclcpp_minimal_client) JobSkipped: {'identifier': 'examples_rclcpp_minimal_client'}
+[309.078000] (examples_rclcpp_minimal_composition) JobSkipped: {'identifier': 'examples_rclcpp_minimal_composition'}
+[309.078000] (examples_rclcpp_minimal_publisher) JobSkipped: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[309.078000] (examples_rclcpp_minimal_service) JobSkipped: {'identifier': 'examples_rclcpp_minimal_service'}
+[309.078000] (examples_rclcpp_minimal_subscriber) JobSkipped: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[309.078000] (examples_rclcpp_minimal_timer) JobSkipped: {'identifier': 'examples_rclcpp_minimal_timer'}
+[309.078000] (examples_rclcpp_multithreaded_executor) JobSkipped: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[309.078000] (examples_rclcpp_wait_set) JobSkipped: {'identifier': 'examples_rclcpp_wait_set'}
+[309.078000] (examples_rclpy_executors) JobSkipped: {'identifier': 'examples_rclpy_executors'}
+[309.078000] (examples_rclpy_guard_conditions) JobSkipped: {'identifier': 'examples_rclpy_guard_conditions'}
+[309.078000] (examples_rclpy_minimal_action_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_client'}
+[309.078000] (examples_rclpy_minimal_action_server) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_server'}
+[309.078000] (examples_rclpy_minimal_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_client'}
+[309.078000] (examples_rclpy_minimal_publisher) JobSkipped: {'identifier': 'examples_rclpy_minimal_publisher'}
+[309.078000] (examples_rclpy_minimal_service) JobSkipped: {'identifier': 'examples_rclpy_minimal_service'}
+[309.078000] (examples_rclpy_minimal_subscriber) JobSkipped: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[309.078000] (examples_rclpy_pointcloud_publisher) JobSkipped: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[309.078000] (launch_testing_examples) JobSkipped: {'identifier': 'launch_testing_examples'}
+[309.078000] (-) EventReactorShutdown: {}

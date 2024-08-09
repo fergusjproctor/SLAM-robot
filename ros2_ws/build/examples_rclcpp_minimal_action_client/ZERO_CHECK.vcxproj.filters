@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\felix\dev\SLAM-robot\ros2_ws\build\examples_rclcpp_minimal_action_client\CMakeFiles\b5dfa498fec9db78a0cc9425b6ad8546\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6C432FBC-08FC-38AA-A627-3A7FE6FBB0BA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

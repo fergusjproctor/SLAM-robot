@@ -1,0 +1,62 @@
+[0.547s] Invoking command in 'C:\Users\felix\dev\SLAM-robot\ros2_ws\build\examples_rclcpp_minimal_action_client': C:\Program Files\CMake\bin\cmake.EXE C:\Users\felix\dev\SLAM-robot\ros2_ws\src\examples\rclcpp\actions\minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=C:\Users\felix\dev\SLAM-robot\ros2_ws\install -G Visual Studio 16 2019
+[0.750s] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19045.
+[9.062s] -- The C compiler identification is MSVC 19.29.30154.0
+[163.609s] -- The CXX compiler identification is MSVC 19.29.30154.0
+[163.625s] -- Detecting C compiler ABI info
+[163.625s] -- Detecting C compiler ABI info - done
+[163.625s] -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+[163.625s] -- Detecting C compile features
+[163.625s] -- Detecting C compile features - done
+[163.625s] -- Detecting CXX compiler ABI info
+[163.672s] -- Detecting CXX compiler ABI info - done
+[163.672s] -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+[163.672s] -- Detecting CXX compile features
+[163.672s] -- Detecting CXX compile features - done
+[163.672s] -- Found ament_cmake: 2.7.0 (C:/ros2-package-windows-AMD64/ros2-windows/share/ament_cmake/cmake)
+[163.672s] -- Found Python3: C:/Python38/python.exe (found version "3.8.3") found components: Interpreter
+[163.672s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[163.672s] -- Found example_interfaces: 0.13.0 (C:/ros2-package-windows-AMD64/ros2-windows/share/example_interfaces/cmake)
+[163.672s] -- Found rosidl_generator_c: 4.8.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rosidl_generator_c/cmake)
+[163.672s] -- Found rosidl_generator_cpp: 4.8.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rosidl_generator_cpp/cmake)
+[163.672s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[163.672s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[163.672s] -- Found rclcpp: 28.3.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rclcpp/cmake)
+[163.672s] -- Found rmw_implementation_cmake: 7.4.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rmw_implementation_cmake/cmake)
+[163.672s] -- Found rmw_fastrtps_cpp: 9.0.0 (C:/ros2-package-windows-AMD64/ros2-windows/share/rmw_fastrtps_cpp/cmake)
+[163.672s] -- Found OpenSSL: optimized;C:/Program Files/OpenSSL-Win64/lib/VC/libcrypto64MD.lib;debug;C:/Program Files/OpenSSL-Win64/lib/VC/libcrypto64MDd.lib (found version "1.1.1u")
+[163.672s] -- Found FastRTPS: C:/ros2-package-windows-AMD64/ros2-windows/include (Required is at least version "2.13")
+[163.672s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[163.672s] -- Found rclcpp_action: 28.3.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/rclcpp_action/cmake)
+[163.672s] -- Found ament_lint_auto: 0.18.1 (C:/ros2-package-windows-AMD64/ros2-windows/share/ament_lint_auto/cmake)
+[163.672s] -- Added test 'copyright' to check source files copyright and LICENSE
+[163.672s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[163.672s] -- Configured cppcheck include dirs: 
+[163.672s] -- Configured cppcheck exclude dirs and/or files: 
+[163.687s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[163.687s] -- Configured cpplint exclude dirs and/or files: 
+[163.687s] -- Added test 'lint_cmake' to check CMake code style
+[163.687s] -- Added test 'uncrustify' to check C / C++ code style
+[163.687s] -- Configured uncrustify additional arguments: 
+[163.687s] -- Added test 'xmllint' to check XML markup files
+[163.687s] -- Configuring done (77.7s)
+[163.687s] -- Generating done (4.0s)
+[163.687s] -- Build files have been written to: C:/Users/felix/dev/SLAM-robot/ros2_ws/build/examples_rclcpp_minimal_action_client
+[163.703s] Invoked command in 'C:\Users\felix\dev\SLAM-robot\ros2_ws\build\examples_rclcpp_minimal_action_client' returned '0': C:\Program Files\CMake\bin\cmake.EXE C:\Users\felix\dev\SLAM-robot\ros2_ws\src\examples\rclcpp\actions\minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=C:\Users\felix\dev\SLAM-robot\ros2_ws\install -G Visual Studio 16 2019
+[163.703s] Invoking command in 'C:\Users\felix\dev\SLAM-robot\ros2_ws\build\examples_rclcpp_minimal_action_client': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\felix\dev\SLAM-robot\ros2_ws\build\examples_rclcpp_minimal_action_client --config Release
+[164.140s] Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+[164.140s] Copyright (C) Microsoft Corporation. All rights reserved.
+[164.140s] 
+[165.234s]   1>Checking Build System
+[165.984s]   Building Custom Rule C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/CMakeLists.txt
+[166.578s]   member_functions.cpp
+[202.375s]   action_client_member_functions.vcxproj -> C:\Users\felix\dev\SLAM-robot\ros2_ws\build\examples_rclcpp_minimal_action_client\Release\action_client_member_functions.exe
+[203.156s]   Building Custom Rule C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/CMakeLists.txt
+[205.578s]   not_composable.cpp
+[243.093s]   action_client_not_composable.vcxproj -> C:\Users\felix\dev\SLAM-robot\ros2_ws\build\examples_rclcpp_minimal_action_client\Release\action_client_not_composable.exe
+[243.843s]   Building Custom Rule C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/CMakeLists.txt
+[244.968s]   not_composable_with_cancel.cpp
+[281.218s]   action_client_not_composable_with_cancel.vcxproj -> C:\Users\felix\dev\SLAM-robot\ros2_ws\build\examples_rclcpp_minimal_action_client\Release\action_client_not_composable_with_cancel.exe
+[281.703s]   Building Custom Rule C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/CMakeLists.txt
+[282.312s]   not_composable_with_feedback.cpp
+[308.062s]   action_client_not_composable_with_feedback.vcxproj -> C:\Users\felix\dev\SLAM-robot\ros2_ws\build\examples_rclcpp_minimal_action_client\Release\action_client_not_composable_with_feedback.exe
+[308.328s]   Building Custom Rule C:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/CMakeLists.txt

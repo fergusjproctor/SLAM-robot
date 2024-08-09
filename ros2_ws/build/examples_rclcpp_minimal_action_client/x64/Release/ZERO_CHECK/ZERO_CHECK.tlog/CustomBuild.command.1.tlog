@@ -1,0 +1,10 @@
+^C:\USERS\FELIX\DEV\SLAM-ROBOT\ROS2_WS\BUILD\EXAMPLES_RCLCPP_MINIMAL_ACTION_CLIENT\CMAKEFILES\B5DFA498FEC9DB78A0CC9425B6AD8546\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/felix/dev/SLAM-robot/ros2_ws/src/examples/rclcpp/actions/minimal_action_client -BC:/Users/felix/dev/SLAM-robot/ros2_ws/build/examples_rclcpp_minimal_action_client --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/felix/dev/SLAM-robot/ros2_ws/build/examples_rclcpp_minimal_action_client/examples_rclcpp_minimal_action_client.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

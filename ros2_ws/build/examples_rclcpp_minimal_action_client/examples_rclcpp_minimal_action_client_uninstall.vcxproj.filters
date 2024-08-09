@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\felix\dev\SLAM-robot\ros2_ws\build\examples_rclcpp_minimal_action_client\CMakeFiles\b5dfa498fec9db78a0cc9425b6ad8546\examples_rclcpp_minimal_action_client_uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\felix\dev\SLAM-robot\ros2_ws\src\examples\rclcpp\actions\minimal_action_client\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\felix\dev\SLAM-robot\ros2_ws\build\examples_rclcpp_minimal_action_client\CMakeFiles\examples_rclcpp_minimal_action_client_uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6C432FBC-08FC-38AA-A627-3A7FE6FBB0BA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
