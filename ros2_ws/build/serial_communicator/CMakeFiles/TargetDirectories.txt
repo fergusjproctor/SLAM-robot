@@ -1,0 +1,10 @@
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator/CMakeFiles/uninstall.dir
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator/CMakeFiles/serial_communicator_uninstall.dir
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator/CMakeFiles/serial_node.dir
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator/CMakeFiles/test.dir
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator/CMakeFiles/edit_cache.dir
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator/CMakeFiles/rebuild_cache.dir
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator/CMakeFiles/list_install_components.dir
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator/CMakeFiles/install.dir
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator/CMakeFiles/install/local.dir
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator/CMakeFiles/install/strip.dir

@@ -1,0 +1,5 @@
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:77:20: warning: multi-character character constant [-Wmultichar]
+        std::cout<<'Hello';
+                   ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:77:20: warning: character constant too long for its type
+2 warnings generated.
