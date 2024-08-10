@@ -1,8 +1,0 @@
-C:/Users/felix/dev/SLAM-robot/ros2_ws/build/examples_rclcpp_minimal_action_server/CMakeFiles/uninstall.dir
-C:/Users/felix/dev/SLAM-robot/ros2_ws/build/examples_rclcpp_minimal_action_server/CMakeFiles/examples_rclcpp_minimal_action_server_uninstall.dir
-C:/Users/felix/dev/SLAM-robot/ros2_ws/build/examples_rclcpp_minimal_action_server/CMakeFiles/action_server_member_functions.dir
-C:/Users/felix/dev/SLAM-robot/ros2_ws/build/examples_rclcpp_minimal_action_server/CMakeFiles/action_server_not_composable.dir
-C:/Users/felix/dev/SLAM-robot/ros2_ws/build/examples_rclcpp_minimal_action_server/CMakeFiles/RUN_TESTS.dir
-C:/Users/felix/dev/SLAM-robot/ros2_ws/build/examples_rclcpp_minimal_action_server/CMakeFiles/INSTALL.dir
-C:/Users/felix/dev/SLAM-robot/ros2_ws/build/examples_rclcpp_minimal_action_server/CMakeFiles/ALL_BUILD.dir
-C:/Users/felix/dev/SLAM-robot/ros2_ws/build/examples_rclcpp_minimal_action_server/CMakeFiles/ZERO_CHECK.dir
