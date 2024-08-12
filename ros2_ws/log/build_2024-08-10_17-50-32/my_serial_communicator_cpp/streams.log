@@ -1,0 +1,66 @@
+[0.020s] Invoking command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/my_serial_communicator_cpp': CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/my_serial_communicator_cpp -DCMAKE_INSTALL_PREFIX=/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp
+[0.405s] -- The C compiler identification is Clang 16.0.6
+[0.503s] -- The CXX compiler identification is Clang 16.0.6
+[0.542s] -- Detecting C compiler ABI info
+[0.739s] -- Detecting C compiler ABI info - done
+[0.743s] -- Check for working C compiler: /Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-clang - skipped
+[0.743s] -- Detecting C compile features
+[0.744s] -- Detecting C compile features - done
+[0.774s] -- Detecting CXX compiler ABI info
+[0.956s] -- Detecting CXX compiler ABI info - done
+[0.960s] -- Check for working CXX compiler: /Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-clang++ - skipped
+[0.960s] -- Detecting CXX compile features
+[0.961s] -- Detecting CXX compile features - done
+[0.981s] -- Found ament_cmake: 1.3.7 (/Users/fergusproctor/miniforge3/envs/ros_env/share/ament_cmake/cmake)
+[1.524s] -- Found Python3: /opt/homebrew/Frameworks/Python.framework/Versions/3.12/bin/python3.12 (found version "3.12.4") found components: Interpreter 
+[1.708s] -- Found rclcpp: 16.0.8 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rclcpp/cmake)
+[1.807s] -- Found rosidl_generator_c: 3.1.5 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rosidl_generator_c/cmake)
+[1.822s] -- Found rosidl_adapter: 3.1.5 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rosidl_adapter/cmake)
+[1.841s] -- Found rosidl_generator_cpp: 3.1.5 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rosidl_generator_cpp/cmake)
+[1.866s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.901s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.058s] -- Checking for module 'yaml-0.1'
+[2.203s] --   Found yaml-0.1, version 0.2.5
+[2.613s] -- Found rmw_implementation_cmake: 6.1.1 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rmw_implementation_cmake/cmake)
+[2.622s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rmw_cyclonedds_cpp/cmake)
+[2.679s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.701s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.886s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.887s] -- Found Threads: TRUE  
+[3.003s] -- Found Boost: /Users/fergusproctor/miniforge3/envs/ros_env/lib/cmake/Boost-1.82.0/BoostConfig.cmake (found version "1.82.0") found components: system 
+[3.016s] -- Found ament_lint_auto: 0.12.10 (/Users/fergusproctor/miniforge3/envs/ros_env/share/ament_lint_auto/cmake)
+[3.139s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.139s] -- Configured cppcheck include dirs: 
+[3.139s] -- Configured cppcheck exclude dirs and/or files: 
+[3.140s] -- Added test 'lint_cmake' to check CMake code style
+[3.141s] -- Added test 'uncrustify' to check C / C++ code style
+[3.141s] -- Configured uncrustify additional arguments: 
+[3.142s] -- Added test 'xmllint' to check XML markup files
+[3.143s] -- Configuring done (3.1s)
+[3.169s] -- Generating done (0.0s)
+[3.172s] -- Build files have been written to: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/my_serial_communicator_cpp
+[3.176s] Invoked command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/my_serial_communicator_cpp' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/my_serial_communicator_cpp -DCMAKE_INSTALL_PREFIX=/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp
+[3.178s] Invoking command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/my_serial_communicator_cpp': CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake --build /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/my_serial_communicator_cpp -- -j8 -l8
+[3.259s] [ 50%] Building CXX object CMakeFiles/serial_sender_node.dir/src/serial_sender_node.cpp.o
+[6.153s] [100%] Linking CXX executable serial_sender_node
+[6.231s] [100%] Built target serial_sender_node
+[6.245s] Invoked command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/my_serial_communicator_cpp' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake --build /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/my_serial_communicator_cpp -- -j8 -l8
+[6.321s] Invoking command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/my_serial_communicator_cpp': CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake --install /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/my_serial_communicator_cpp
+[6.333s] -- Install configuration: ""
+[6.334s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/lib/my_serial_communicator_cpp/serial_sender_node
+[6.334s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/ament_index/resource_index/package_run_dependencies/my_serial_communicator_cpp
+[6.334s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/ament_index/resource_index/parent_prefix_path/my_serial_communicator_cpp
+[6.335s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/environment/ament_prefix_path.sh
+[6.335s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/environment/ament_prefix_path.dsv
+[6.335s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/environment/path.sh
+[6.335s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/environment/path.dsv
+[6.335s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/local_setup.bash
+[6.336s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/local_setup.sh
+[6.336s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/local_setup.zsh
+[6.336s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/local_setup.dsv
+[6.336s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/package.dsv
+[6.336s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/ament_index/resource_index/packages/my_serial_communicator_cpp
+[6.336s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/cmake/my_serial_communicator_cppConfig.cmake
+[6.337s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/cmake/my_serial_communicator_cppConfig-version.cmake
+[6.337s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/package.xml
+[6.338s] Invoked command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/my_serial_communicator_cpp' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake --install /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/my_serial_communicator_cpp

@@ -1,0 +1,17 @@
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/lib/serial_communicator/serial_node
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/lib/serial_communicator/simple_serial
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/ament_index/resource_index/package_run_dependencies/serial_communicator
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/ament_index/resource_index/parent_prefix_path/serial_communicator
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/environment/ament_prefix_path.sh
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/environment/ament_prefix_path.dsv
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/environment/path.sh
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/environment/path.dsv
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/local_setup.bash
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/local_setup.sh
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/local_setup.zsh
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/local_setup.dsv
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/package.dsv
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/ament_index/resource_index/packages/serial_communicator
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/cmake/serial_communicatorConfig.cmake
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/cmake/serial_communicatorConfig-version.cmake
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/package.xml

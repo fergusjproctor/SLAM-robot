@@ -1,0 +1,27 @@
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:34:13: error: unknown type name 'io_service_'; did you mean 'io_service'?
+            io_service_->run();  // This will block and keep the io_service running
+            ^~~~~~~~~~~
+            io_service
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:9:20: note: 'io_service' declared here
+using boost::asio::io_service;
+                   ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:34:24: error: cannot use arrow operator on a type
+            io_service_->run();  // This will block and keep the io_service running
+                       ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:33:35: warning: lambda capture 'this' is not used [-Wunused-lambda-capture]
+        io_thread_ = std::thread([this]() {
+                                  ^~~~
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:55:9: error: unknown type name 'io_service_'; did you mean 'io_service'?
+        io_service_->stop();
+        ^~~~~~~~~~~
+        io_service
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:9:20: note: 'io_service' declared here
+using boost::asio::io_service;
+                   ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:55:20: error: cannot use arrow operator on a type
+        io_service_->stop();
+                   ^
+1 warning and 4 errors generated.
+make[2]: *** [CMakeFiles/serial_node.dir/build.make:76: CMakeFiles/serial_node.dir/src/serial_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/serial_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

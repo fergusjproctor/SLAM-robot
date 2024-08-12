@@ -1,0 +1,29 @@
+[0.000000] (-) TimerEvent: {}
+[0.000163] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000200] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000245] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000279] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000320] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000353] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000369] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000425] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000443] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000453] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000462] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000471] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000479] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000488] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000496] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000504] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000512] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000520] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000529] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000537] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000545] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000553] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000561] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000569] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000577] (-) JobUnselected: {'identifier': 'my_serial_communicator_cpp'}
+[0.000585] (-) JobUnselected: {'identifier': 'serial_communicator'}
+[0.000593] (-) JobUnselected: {'identifier': 'serial_communicator_py'}
+[0.000602] (-) EventReactorShutdown: {}

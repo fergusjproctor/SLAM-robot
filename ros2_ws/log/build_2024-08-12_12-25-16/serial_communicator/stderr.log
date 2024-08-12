@@ -1,0 +1,13 @@
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:54:33: error: use of undeclared identifier 'length'
+        std::cout << "Sent " << length << " bytes to the Arduino." << std::endl;
+                                ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:58:72: warning: unused parameter 'length' [-Wunused-parameter]
+            [this](const boost::system::error_code& error, std::size_t length) {
+                                                                       ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:58:14: warning: lambda capture 'this' is not used [-Wunused-lambda-capture]
+            [this](const boost::system::error_code& error, std::size_t length) {
+             ^~~~
+2 warnings and 1 error generated.
+make[2]: *** [CMakeFiles/serial_node.dir/build.make:76: CMakeFiles/serial_node.dir/src/serial_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/serial_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2
