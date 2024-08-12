@@ -1,0 +1,7 @@
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/simple_serial.cpp:44:14: warning: lambda capture 'this' is not used [-Wunused-lambda-capture]
+            [this, data, p = std::move(promise)](const boost::system::error_code& error, std::size_t length) mutable {
+             ^~~~~
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/simple_serial.cpp:76:16: warning: variable 'pending_operations' set but not used [-Wunused-but-set-variable]
+        size_t pending_operations = 0;
+               ^
+2 warnings generated.

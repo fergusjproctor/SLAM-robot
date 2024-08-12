@@ -1,0 +1,7 @@
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/simple_serial.cpp:38:78: warning: unused parameter 'length' [-Wunused-parameter]
+            [this, data](const boost::system::error_code& error, std::size_t length) {
+                                                                             ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/simple_serial.cpp:38:14: warning: lambda capture 'this' is not used [-Wunused-lambda-capture]
+            [this, data](const boost::system::error_code& error, std::size_t length) {
+             ^~~~~
+2 warnings generated.

@@ -52,6 +52,20 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/serial_communicator" TYPE EXECUTABLE FILES "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator/simple_serial")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/serial_communicator/simple_serial" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/serial_communicator/simple_serial")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/serial_communicator/simple_serial")
+    endif()
+  endif()
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator/CMakeFiles/simple_serial.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/serial_communicator")
 endif()
 

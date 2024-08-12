@@ -18,13 +18,17 @@ public:
     SerialNode() : Node("serial_node") {
         // Initialize serial port
         io_ = std::make_shared<io_service>();
+
+
         serial_port_ = std::make_shared<serial_port>(*io_, "/dev/tty.usbmodem11101"); // Adjust port name as needed
 
+        // serial_port_ is shared pointer, "->" dereferences it to all its method set option
         serial_port_->set_option(serial_port::baud_rate(38400));
         serial_port_->set_option(serial_port::character_size(8));
         serial_port_->set_option(serial_port::parity(serial_port::parity::none));
         serial_port_->set_option(serial_port::stop_bits(serial_port::stop_bits::one));
         serial_port_->set_option(serial_port::flow_control(serial_port::flow_control::none));
+        
 
         // Create publisher
         publisher_ = this->create_publisher<std_msgs::msg::String>("serial_output", 10);
@@ -46,10 +50,13 @@ public:
 private:
     void handle_message(const std_msgs::msg::String::SharedPtr msg) {
         std::string data = msg->data;
+        RCLCPP_INFO(rclcpp::get_logger("SerialNode"), "Message received on serial_input topic");
+        
         boost::asio::async_write(
             *serial_port_,
             boost::asio::buffer(data),
-            [](const boost::system::error_code& error, std::size_t /*length*/) {
+            [this](const boost::system::error_code& error, std::size_t length) {
+                
                 if (error) {
                     RCLCPP_ERROR(rclcpp::get_logger("SerialNode"), "Error writing to serial port: %s", error.message().c_str());
                 }
@@ -58,23 +65,25 @@ private:
     }
 
 void send_data(const std::string& data) {
-    
+        RCLCPP_INFO(rclcpp::get_logger("SerialNode"), "Send data called");
         boost::asio::async_write(
             *serial_port_,
             boost::asio::buffer(data),
             [](const boost::system::error_code& error, std::size_t length) {
                 if (!error) {
                     RCLCPP_INFO(rclcpp::get_logger("SerialNode"), "Sent %zu bytes", length);
+                    
                 } else {
                     RCLCPP_ERROR(rclcpp::get_logger("SerialNode"), "Error sending data: %s", error.message().c_str());
                 }
             }
         );
+        
     }
 
 
     void start_read() {
-        std::cout<<'Hello';
+        
         auto buffer = std::make_shared<std::array<char, 256>>();
         serial_port_->async_read_some(
             boost::asio::buffer(*buffer),

@@ -1,0 +1,20 @@
+[ 50%] Building CXX object CMakeFiles/serial_sender_node.dir/src/serial_sender_node.cpp.o
+[100%] Linking CXX executable serial_sender_node
+[100%] Built target serial_sender_node
+-- Install configuration: ""
+-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/lib/my_serial_communicator_cpp/serial_sender_node
+-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/ament_index/resource_index/package_run_dependencies/my_serial_communicator_cpp
+-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/ament_index/resource_index/parent_prefix_path/my_serial_communicator_cpp
+-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/environment/path.sh
+-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/environment/path.dsv
+-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/local_setup.bash
+-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/local_setup.sh
+-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/local_setup.zsh
+-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/local_setup.dsv
+-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/package.dsv
+-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/ament_index/resource_index/packages/my_serial_communicator_cpp
+-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/cmake/my_serial_communicator_cppConfig.cmake
+-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/cmake/my_serial_communicator_cppConfig-version.cmake
+-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/my_serial_communicator_cpp/share/my_serial_communicator_cpp/package.xml

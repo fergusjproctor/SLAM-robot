@@ -10,7 +10,7 @@ public:
         serial.open("/dev/tty.usbmodem11101");  // Update with your specific serial port
 
         // Set serial port parameters
-        serial.set_option(boost::asio::serial_port_base::baud_rate(9600));
+        serial.set_option(boost::asio::serial_port_base::baud_rate(38400));
 
         // Create a timer to send data periodically
         timer_ = this->create_wall_timer(

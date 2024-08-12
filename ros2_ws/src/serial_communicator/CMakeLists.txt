@@ -20,6 +20,7 @@ include_directories(
 )
 
 add_executable(serial_node src/serial_node.cpp)
+add_executable(simple_serial src/simple_serial.cpp)
 
 ament_target_dependencies(serial_node
   rclcpp
@@ -27,9 +28,15 @@ ament_target_dependencies(serial_node
 )
 
 target_link_libraries(serial_node ${Boost_LIBRARIES})
+target_link_libraries(simple_serial ${Boost_LIBRARIES})
 
 install(TARGETS
   serial_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(TARGETS
+  simple_serial
   DESTINATION lib/${PROJECT_NAME}
 )
 

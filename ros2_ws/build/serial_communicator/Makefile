@@ -210,6 +210,19 @@ serial_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial_node.dir/build.make CMakeFiles/serial_node.dir/build
 .PHONY : serial_node/fast
 
+#=============================================================================
+# Target rules for targets named simple_serial
+
+# Build rule for target.
+simple_serial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_serial
+.PHONY : simple_serial
+
+# fast build rule for target.
+simple_serial/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial.dir/build.make CMakeFiles/simple_serial.dir/build
+.PHONY : simple_serial/fast
+
 src/serial_node.o: src/serial_node.cpp.o
 .PHONY : src/serial_node.o
 
@@ -234,6 +247,30 @@ src/serial_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial_node.dir/build.make CMakeFiles/serial_node.dir/src/serial_node.cpp.s
 .PHONY : src/serial_node.cpp.s
 
+src/simple_serial.o: src/simple_serial.cpp.o
+.PHONY : src/simple_serial.o
+
+# target to build an object file
+src/simple_serial.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial.dir/build.make CMakeFiles/simple_serial.dir/src/simple_serial.cpp.o
+.PHONY : src/simple_serial.cpp.o
+
+src/simple_serial.i: src/simple_serial.cpp.i
+.PHONY : src/simple_serial.i
+
+# target to preprocess a source file
+src/simple_serial.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial.dir/build.make CMakeFiles/simple_serial.dir/src/simple_serial.cpp.i
+.PHONY : src/simple_serial.cpp.i
+
+src/simple_serial.s: src/simple_serial.cpp.s
+.PHONY : src/simple_serial.s
+
+# target to generate assembly for a file
+src/simple_serial.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial.dir/build.make CMakeFiles/simple_serial.dir/src/simple_serial.cpp.s
+.PHONY : src/simple_serial.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... serial_communicator_uninstall"
 	@echo "... uninstall"
 	@echo "... serial_node"
+	@echo "... simple_serial"
 	@echo "... src/serial_node.o"
 	@echo "... src/serial_node.i"
 	@echo "... src/serial_node.s"
+	@echo "... src/simple_serial.o"
+	@echo "... src/simple_serial.i"
+	@echo "... src/simple_serial.s"
 .PHONY : help
 
 

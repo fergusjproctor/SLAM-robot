@@ -1,4 +1,5 @@
 /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/lib/serial_communicator/serial_node
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/lib/serial_communicator/simple_serial
 /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/ament_index/resource_index/package_run_dependencies/serial_communicator
 /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/ament_index/resource_index/parent_prefix_path/serial_communicator
 /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/environment/ament_prefix_path.sh

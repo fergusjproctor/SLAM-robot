@@ -1,0 +1,4 @@
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/simple_serial.cpp:38:14: warning: lambda capture 'this' is not used [-Wunused-lambda-capture]
+            [this](const boost::system::error_code& error, std::size_t length) {
+             ^~~~
+1 warning generated.
