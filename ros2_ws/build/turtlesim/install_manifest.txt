@@ -160,14 +160,7 @@
 /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key
 /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/draw_square
 /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/mimic
-/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/images/dashing.png
-/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/images/galactic.png
-/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/images/rolling.png
-/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/images/foxy.png
-/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/images/bouncy.png
-/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/images/crystal.png
-/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/images/ardent.png
-/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/images/eloquent.png
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/images/skrey.png
 /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/images/humble.png
 /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py
 /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim

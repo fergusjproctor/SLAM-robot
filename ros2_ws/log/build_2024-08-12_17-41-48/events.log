@@ -1,0 +1,616 @@
+[0.000000] (-) TimerEvent: {}
+[0.000163] (-) JobUnselected: {'identifier': 'my_serial_communicator_cpp'}
+[0.000200] (-) JobUnselected: {'identifier': 'serial_communicator'}
+[0.000214] (-) JobUnselected: {'identifier': 'serial_communicator_py'}
+[0.000277] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000318] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.016111] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.017401] (turtlesim) Command: {'cmd': ['/Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake', '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/turtlesim', '-DCMAKE_INSTALL_PREFIX=/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim'], 'cwd': '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim', 'env': OrderedDict([('AS', 'arm64-apple-darwin20.0.0-as'), ('LDFLAGS', '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/fergusproctor/miniforge3/envs/ros_env/lib -L/Users/fergusproctor/miniforge3/envs/ros_env/lib'), ('AR', 'arm64-apple-darwin20.0.0-ar'), ('ac_cv_func_malloc_0_nonnull', 'yes'), ('TERM_PROGRAM', 'Apple_Terminal'), ('PROJ_DATA', '/Users/fergusproctor/miniforge3/envs/ros_env/share/proj'), ('ac_cv_func_realloc_0_nonnull', 'yes'), ('OBJC', 'arm64-apple-darwin20.0.0-clang'), ('HOST', 'arm64-apple-darwin20.0.0'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('NM', 'arm64-apple-darwin20.0.0-nm'), ('CPPFLAGS', '-D_FORTIFY_SOURCE=2 -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('HOMEBREW_REPOSITORY', '/opt/homebrew'), ('TMPDIR', '/var/folders/dv/3vlkd_t53j9gr9ggfhz4wg2w0000gn/T/'), ('PAGESTUFF', 'arm64-apple-darwin20.0.0-pagestuff'), ('CONDA_SHLVL', '2'), ('LIPO', 'arm64-apple-darwin20.0.0-lipo'), ('CONDA_PROMPT_MODIFIER', '(ros_env)'), ('TERM_PROGRAM_VERSION', '453'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('SIZE', 'arm64-apple-darwin20.0.0-size'), ('NMEDIT', 'arm64-apple-darwin20.0.0-nmedit'), ('ROS_PYTHON_VERSION', '3'), ('SDKROOT', '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk'), ('ROS_VERSION', '2'), ('TERM_SESSION_ID', '9EC75F11-EC96-4872-808C-C5301134A4BB'), ('AMENT_PREFIX_PATH', '/Users/fergusproctor/miniforge3/envs/ros_env'), ('CXX_FOR_BUILD', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-clang++'), ('INSTALL_NAME_TOOL', 'arm64-apple-darwin20.0.0-install_name_tool'), ('SEGEDIT', 'arm64-apple-darwin20.0.0-segedit'), ('GFORTRAN', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-gfortran'), ('SEG_HACK', 'arm64-apple-darwin20.0.0-seg_hack'), ('USER', 'fergusproctor'), ('CLANGXX', 'arm64-apple-darwin20.0.0-clang++'), ('LIBTOOL', 'arm64-apple-darwin20.0.0-libtool'), ('CONDA_BACKUP_HOST', 'Ferguss-MacBook-Air.local'), ('CONDA_TOOLCHAIN_BUILD', 'arm64-apple-darwin20.0.0'), ('FC_FOR_BUILD', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-gfortran'), ('CONDA_EXE', '/Users/fergusproctor/miniforge3/bin/conda'), ('OTOOL', 'arm64-apple-darwin20.0.0-otool'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.FlgDCnJkEx/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x0:0x0'), ('DEBUG_FORTRANFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include -march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments'), ('ROS_OS_OVERRIDE', 'conda:osx'), ('CXXFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('STRINGS', 'arm64-apple-darwin20.0.0-strings'), ('CONDA_TOOLCHAIN_HOST', 'arm64-apple-darwin20.0.0'), ('_CE_CONDA', ''), ('CHECKSYMS', 'arm64-apple-darwin20.0.0-checksyms'), ('CONDA_PREFIX_1', '/Users/fergusproctor/miniforge3'), ('PATH', '/Users/fergusproctor/miniforge3/envs/ros_env/bin:/Users/fergusproctor/miniforge3/condabin:/opt/homebrew/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin'), ('PROJ_NETWORK', 'ON'), ('GSETTINGS_SCHEMA_DIR', '/Users/fergusproctor/miniforge3/envs/ros_env/share/glib-2.0/schemas'), ('MESON_ARGS', '--buildtype release'), ('XML_CATALOG_FILES', 'file:///Users/fergusproctor/miniforge3/envs/ros_env/etc/xml/catalog file:///etc/xml/catalog'), ('DEBUG_CXXFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -Og -g -Wall -Wextra -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('BUILD', 'arm64-apple-darwin20.0.0'), ('LD', 'arm64-apple-darwin20.0.0-ld'), ('CONDA_PREFIX', '/Users/fergusproctor/miniforge3/envs/ros_env'), ('__CFBundleIdentifier', 'com.apple.Terminal'), ('F90', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-gfortran'), ('PWD', '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim'), ('COLCON', '1'), ('STRIP', 'arm64-apple-darwin20.0.0-strip'), ('CMAKE_ARGS', '-DCMAKE_AR=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ar -DCMAKE_CXX_COMPILER_AR=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ar -DCMAKE_C_COMPILER_AR=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ar -DCMAKE_RANLIB=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ranlib -DCMAKE_CXX_COMPILER_RANLIB=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ranlib -DCMAKE_C_COMPILER_RANLIB=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ranlib -DCMAKE_LINKER=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ld -DCMAKE_STRIP=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-strip -DCMAKE_INSTALL_NAME_TOOL=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-install_name_tool -DCMAKE_LIBTOOL=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-libtool -DCMAKE_BUILD_TYPE=Release -DCMAKE_OSX_SYSROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk'), ('F95', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-gfortran'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('DEBUG_FFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include -march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments'), ('XPC_FLAGS', '0x0'), ('F77', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-gfortran'), ('REDO_PREBINDING', 'arm64-apple-darwin20.0.0-redo_prebinding'), ('CXX', 'arm64-apple-darwin20.0.0-clang++'), ('CC_FOR_BUILD', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-clang'), ('CLANG', 'arm64-apple-darwin20.0.0-clang'), ('_CE_M', ''), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/opt/homebrew/opt/openssl@3'), ('SHLVL', '2'), ('HOME', '/Users/fergusproctor'), ('ROS_DISTRO', 'humble'), ('FORTRANFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('CFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('HOMEBREW_PREFIX', '/opt/homebrew'), ('_CONDA_PYTHON_SYSCONFIGDATA_NAME', '_sysconfigdata_arm64_apple_darwin20_0_0'), ('FC', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-gfortran'), ('DYLD_LIBRARY_PATH', '/Users/fergusproctor/miniforge3/envs/ros_env/opt/rviz_ogre_vendor/lib:/opt/homebrew/lib:'), ('PYTHONPATH', '/Users/fergusproctor/miniforge3/envs/ros_env/lib/python3.11/site-packages'), ('CONDA_PYTHON_EXE', '/Users/fergusproctor/miniforge3/bin/python'), ('LOGNAME', 'fergusproctor'), ('LC_CTYPE', 'UTF-8'), ('build_alias', 'arm64-apple-darwin20.0.0'), ('CONDA_DEFAULT_ENV', 'ros_env'), ('DEBUG_CFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -Og -g -Wall -Wextra -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('RANLIB', 'arm64-apple-darwin20.0.0-ranlib'), ('INFOPATH', '/opt/homebrew/share/info:'), ('HOMEBREW_CELLAR', '/opt/homebrew/Cellar'), ('CMAKE_PREFIX_PATH', '/Users/fergusproctor/miniforge3/envs/ros_env/lib/python3.11/site-packages:/Users/fergusproctor/miniforge3/envs/ros_env'), ('CC', 'arm64-apple-darwin20.0.0-clang'), ('SEG_ADDR_TABLE', 'arm64-apple-darwin20.0.0-seg_addr_table'), ('ROS_LOCALHOST_ONLY', '0'), ('host_alias', 'arm64-apple-darwin20.0.0'), ('LDFLAGS_LD', '-headerpad_max_install_names -dead_strip_dylibs -rpath /Users/fergusproctor/miniforge3/envs/ros_env/lib -L/Users/fergusproctor/miniforge3/envs/ros_env/lib'), ('ROS_ETC_DIR', '/Users/fergusproctor/miniforge3/envs/ros_env/etc/ros'), ('OBJC_FOR_BUILD', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-clang'), ('FFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('_', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/env')]), 'shell': False}
+[0.104953] (-) TimerEvent: {}
+[0.210134] (-) TimerEvent: {}
+[0.315277] (-) TimerEvent: {}
+[0.391903] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is Clang 16.0.6\n'}
+[0.420228] (-) TimerEvent: {}
+[0.486140] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is Clang 16.0.6\n'}
+[0.523468] (-) TimerEvent: {}
+[0.524039] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.628496] (-) TimerEvent: {}
+[0.733635] (-) TimerEvent: {}
+[0.769483] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.773142] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-clang - skipped\n'}
+[0.773513] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.773917] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.803222] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.838673] (-) TimerEvent: {}
+[0.943811] (-) TimerEvent: {}
+[0.983884] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.987566] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-clang++ - skipped\n'}
+[0.987767] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.988126] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.008247] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/Users/fergusproctor/miniforge3/envs/ros_env/share/ament_cmake/cmake)\n'}
+[1.046929] (-) TimerEvent: {}
+[1.152042] (-) TimerEvent: {}
+[1.257157] (-) TimerEvent: {}
+[1.362295] (-) TimerEvent: {}
+[1.467423] (-) TimerEvent: {}
+[1.534412] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /opt/homebrew/Frameworks/Python.framework/Versions/3.12/bin/python3.12 (found version "3.12.4") found components: Interpreter \n'}
+[1.572460] (-) TimerEvent: {}
+[1.677671] (-) TimerEvent: {}
+[1.751220] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/Users/fergusproctor/miniforge3/envs/ros_env/share/ament_index_cpp/cmake)\n'}
+[1.761379] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/Users/fergusproctor/miniforge3/envs/ros_env/share/geometry_msgs/cmake)\n'}
+[1.781718] (-) TimerEvent: {}
+[1.872987] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rosidl_generator_c/cmake)\n'}
+[1.883890] (-) TimerEvent: {}
+[1.893218] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rosidl_adapter/cmake)\n'}
+[1.917685] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rosidl_generator_cpp/cmake)\n'}
+[1.947965] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.988902] (-) TimerEvent: {}
+[1.990178] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.093935] (-) TimerEvent: {}
+[2.178262] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rclcpp/cmake)\n'}
+[2.197862] (-) TimerEvent: {}
+[2.302961] (-) TimerEvent: {}
+[2.328426] (turtlesim) StdoutLine: {'line': b"-- Checking for module 'yaml-0.1'\n"}
+[2.407993] (-) TimerEvent: {}
+[2.472068] (turtlesim) StdoutLine: {'line': b'--   Found yaml-0.1, version 0.2.5\n'}
+[2.513080] (-) TimerEvent: {}
+[2.618242] (-) TimerEvent: {}
+[2.723377] (-) TimerEvent: {}
+[2.828528] (-) TimerEvent: {}
+[2.886434] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rmw_implementation_cmake/cmake)\n'}
+[2.897848] (turtlesim) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rmw_cyclonedds_cpp/cmake)\n'}
+[2.933578] (-) TimerEvent: {}
+[2.968779] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.998568] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.038611] (-) TimerEvent: {}
+[3.143744] (-) TimerEvent: {}
+[3.171306] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.172026] (turtlesim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.248767] (-) TimerEvent: {}
+[3.286237] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.8 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rclcpp_action/cmake)\n'}
+[3.353807] (-) TimerEvent: {}
+[3.390233] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/Users/fergusproctor/miniforge3/envs/ros_env/share/std_srvs/cmake)\n'}
+[3.458845] (-) TimerEvent: {}
+[3.563974] (-) TimerEvent: {}
+[3.667097] (-) TimerEvent: {}
+[3.772246] (-) TimerEvent: {}
+[3.877378] (-) TimerEvent: {}
+[3.900007] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/Users/fergusproctor/miniforge3/envs/ros_env/share/ament_cmake_ros/cmake)\n'}
+[3.982413] (-) TimerEvent: {}
+[4.087556] (-) TimerEvent: {}
+[4.192715] (-) TimerEvent: {}
+[4.295525] (-) TimerEvent: {}
+[4.400703] (-) TimerEvent: {}
+[4.505860] (-) TimerEvent: {}
+[4.611010] (-) TimerEvent: {}
+[4.716153] (-) TimerEvent: {}
+[4.804233] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.819123] (-) TimerEvent: {}
+[4.924235] (-) TimerEvent: {}
+[5.029360] (-) TimerEvent: {}
+[5.131856] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.131972] (-) TimerEvent: {}
+[5.146817] (turtlesim) StdoutLine: {'line': b'-- Configuring done (5.1s)\n'}
+[5.237019] (-) TimerEvent: {}
+[5.253485] (turtlesim) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.259450] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim\n'}
+[5.264396] (turtlesim) CommandEnded: {'returncode': 0}
+[5.264903] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[5.265393] (turtlesim) Command: {'cmd': ['/Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake', '--build', '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim', 'env': OrderedDict([('AS', 'arm64-apple-darwin20.0.0-as'), ('LDFLAGS', '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/fergusproctor/miniforge3/envs/ros_env/lib -L/Users/fergusproctor/miniforge3/envs/ros_env/lib'), ('AR', 'arm64-apple-darwin20.0.0-ar'), ('ac_cv_func_malloc_0_nonnull', 'yes'), ('TERM_PROGRAM', 'Apple_Terminal'), ('PROJ_DATA', '/Users/fergusproctor/miniforge3/envs/ros_env/share/proj'), ('ac_cv_func_realloc_0_nonnull', 'yes'), ('OBJC', 'arm64-apple-darwin20.0.0-clang'), ('HOST', 'arm64-apple-darwin20.0.0'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('NM', 'arm64-apple-darwin20.0.0-nm'), ('CPPFLAGS', '-D_FORTIFY_SOURCE=2 -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('HOMEBREW_REPOSITORY', '/opt/homebrew'), ('TMPDIR', '/var/folders/dv/3vlkd_t53j9gr9ggfhz4wg2w0000gn/T/'), ('PAGESTUFF', 'arm64-apple-darwin20.0.0-pagestuff'), ('CONDA_SHLVL', '2'), ('LIPO', 'arm64-apple-darwin20.0.0-lipo'), ('CONDA_PROMPT_MODIFIER', '(ros_env)'), ('TERM_PROGRAM_VERSION', '453'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('SIZE', 'arm64-apple-darwin20.0.0-size'), ('NMEDIT', 'arm64-apple-darwin20.0.0-nmedit'), ('ROS_PYTHON_VERSION', '3'), ('SDKROOT', '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk'), ('ROS_VERSION', '2'), ('TERM_SESSION_ID', '9EC75F11-EC96-4872-808C-C5301134A4BB'), ('AMENT_PREFIX_PATH', '/Users/fergusproctor/miniforge3/envs/ros_env'), ('CXX_FOR_BUILD', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-clang++'), ('INSTALL_NAME_TOOL', 'arm64-apple-darwin20.0.0-install_name_tool'), ('SEGEDIT', 'arm64-apple-darwin20.0.0-segedit'), ('GFORTRAN', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-gfortran'), ('SEG_HACK', 'arm64-apple-darwin20.0.0-seg_hack'), ('USER', 'fergusproctor'), ('CLANGXX', 'arm64-apple-darwin20.0.0-clang++'), ('LIBTOOL', 'arm64-apple-darwin20.0.0-libtool'), ('CONDA_BACKUP_HOST', 'Ferguss-MacBook-Air.local'), ('CONDA_TOOLCHAIN_BUILD', 'arm64-apple-darwin20.0.0'), ('FC_FOR_BUILD', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-gfortran'), ('CONDA_EXE', '/Users/fergusproctor/miniforge3/bin/conda'), ('OTOOL', 'arm64-apple-darwin20.0.0-otool'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.FlgDCnJkEx/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x0:0x0'), ('DEBUG_FORTRANFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include -march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments'), ('ROS_OS_OVERRIDE', 'conda:osx'), ('CXXFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('STRINGS', 'arm64-apple-darwin20.0.0-strings'), ('CONDA_TOOLCHAIN_HOST', 'arm64-apple-darwin20.0.0'), ('_CE_CONDA', ''), ('CHECKSYMS', 'arm64-apple-darwin20.0.0-checksyms'), ('CONDA_PREFIX_1', '/Users/fergusproctor/miniforge3'), ('PATH', '/Users/fergusproctor/miniforge3/envs/ros_env/bin:/Users/fergusproctor/miniforge3/condabin:/opt/homebrew/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin'), ('PROJ_NETWORK', 'ON'), ('GSETTINGS_SCHEMA_DIR', '/Users/fergusproctor/miniforge3/envs/ros_env/share/glib-2.0/schemas'), ('MESON_ARGS', '--buildtype release'), ('XML_CATALOG_FILES', 'file:///Users/fergusproctor/miniforge3/envs/ros_env/etc/xml/catalog file:///etc/xml/catalog'), ('DEBUG_CXXFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -Og -g -Wall -Wextra -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('BUILD', 'arm64-apple-darwin20.0.0'), ('LD', 'arm64-apple-darwin20.0.0-ld'), ('CONDA_PREFIX', '/Users/fergusproctor/miniforge3/envs/ros_env'), ('__CFBundleIdentifier', 'com.apple.Terminal'), ('F90', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-gfortran'), ('PWD', '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim'), ('COLCON', '1'), ('STRIP', 'arm64-apple-darwin20.0.0-strip'), ('CMAKE_ARGS', '-DCMAKE_AR=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ar -DCMAKE_CXX_COMPILER_AR=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ar -DCMAKE_C_COMPILER_AR=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ar -DCMAKE_RANLIB=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ranlib -DCMAKE_CXX_COMPILER_RANLIB=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ranlib -DCMAKE_C_COMPILER_RANLIB=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ranlib -DCMAKE_LINKER=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ld -DCMAKE_STRIP=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-strip -DCMAKE_INSTALL_NAME_TOOL=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-install_name_tool -DCMAKE_LIBTOOL=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-libtool -DCMAKE_BUILD_TYPE=Release -DCMAKE_OSX_SYSROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk'), ('F95', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-gfortran'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('DEBUG_FFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include -march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments'), ('XPC_FLAGS', '0x0'), ('F77', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-gfortran'), ('REDO_PREBINDING', 'arm64-apple-darwin20.0.0-redo_prebinding'), ('CXX', 'arm64-apple-darwin20.0.0-clang++'), ('CC_FOR_BUILD', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-clang'), ('CLANG', 'arm64-apple-darwin20.0.0-clang'), ('_CE_M', ''), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/opt/homebrew/opt/openssl@3'), ('SHLVL', '2'), ('HOME', '/Users/fergusproctor'), ('ROS_DISTRO', 'humble'), ('FORTRANFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('CFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('HOMEBREW_PREFIX', '/opt/homebrew'), ('_CONDA_PYTHON_SYSCONFIGDATA_NAME', '_sysconfigdata_arm64_apple_darwin20_0_0'), ('FC', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-gfortran'), ('DYLD_LIBRARY_PATH', '/Users/fergusproctor/miniforge3/envs/ros_env/opt/rviz_ogre_vendor/lib:/opt/homebrew/lib:'), ('PYTHONPATH', '/Users/fergusproctor/miniforge3/envs/ros_env/lib/python3.11/site-packages'), ('CONDA_PYTHON_EXE', '/Users/fergusproctor/miniforge3/bin/python'), ('LOGNAME', 'fergusproctor'), ('LC_CTYPE', 'UTF-8'), ('build_alias', 'arm64-apple-darwin20.0.0'), ('CONDA_DEFAULT_ENV', 'ros_env'), ('DEBUG_CFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -Og -g -Wall -Wextra -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('RANLIB', 'arm64-apple-darwin20.0.0-ranlib'), ('INFOPATH', '/opt/homebrew/share/info:'), ('HOMEBREW_CELLAR', '/opt/homebrew/Cellar'), ('CMAKE_PREFIX_PATH', '/Users/fergusproctor/miniforge3/envs/ros_env/lib/python3.11/site-packages:/Users/fergusproctor/miniforge3/envs/ros_env'), ('CC', 'arm64-apple-darwin20.0.0-clang'), ('SEG_ADDR_TABLE', 'arm64-apple-darwin20.0.0-seg_addr_table'), ('ROS_LOCALHOST_ONLY', '0'), ('host_alias', 'arm64-apple-darwin20.0.0'), ('LDFLAGS_LD', '-headerpad_max_install_names -dead_strip_dylibs -rpath /Users/fergusproctor/miniforge3/envs/ros_env/lib -L/Users/fergusproctor/miniforge3/envs/ros_env/lib'), ('ROS_ETC_DIR', '/Users/fergusproctor/miniforge3/envs/ros_env/etc/ros'), ('OBJC_FOR_BUILD', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-clang'), ('FFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('_', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/env')]), 'shell': False}
+[5.335806] (turtlesim) StdoutLine: {'line': b'[  1%] Generating C code for ROS interfaces\n'}
+[5.337299] (-) TimerEvent: {}
+[5.354244] (turtlesim) StdoutLine: {'line': b'[  2%] Generating C++ code for ROS interfaces\n'}
+[5.438877] (-) TimerEvent: {}
+[5.544061] (-) TimerEvent: {}
+[5.649213] (-) TimerEvent: {}
+[5.754340] (-) TimerEvent: {}
+[5.857787] (-) TimerEvent: {}
+[5.929172] (turtlesim) StdoutLine: {'line': b'[  2%] Built target turtlesim__cpp\n'}
+[5.954286] (turtlesim) StdoutLine: {'line': b'[  3%] Generating C++ type support dispatch for ROS interfaces\n'}
+[5.958700] (-) TimerEvent: {}
+[5.961569] (turtlesim) StdoutLine: {'line': b'[  4%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[5.971450] (turtlesim) StdoutLine: {'line': b'[  6%] Generating C++ introspection for ROS interfaces\n'}
+[6.046537] (turtlesim) StdoutLine: {'line': b'[  7%] Building C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o\n'}
+[6.046680] (turtlesim) StdoutLine: {'line': b'[  8%] Building C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o\n'}
+[6.050348] (turtlesim) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o\n'}
+[6.050449] (turtlesim) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o\n'}
+[6.060228] (turtlesim) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o\n'}
+[6.060390] (-) TimerEvent: {}
+[6.168083] (-) TimerEvent: {}
+[6.243036] (turtlesim) StdoutLine: {'line': b'[ 13%] Building C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o\n'}
+[6.244896] (turtlesim) StdoutLine: {'line': b'[ 14%] Building C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o\n'}
+[6.246976] (turtlesim) StdoutLine: {'line': b'[ 15%] Building C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o\n'}
+[6.272140] (-) TimerEvent: {}
+[6.373051] (-) TimerEvent: {}
+[6.379853] (turtlesim) StdoutLine: {'line': b'[ 16%] Linking C shared library libturtlesim__rosidl_generator_c.dylib\n'}
+[6.459948] (turtlesim) StdoutLine: {'line': b'[ 18%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o\n'}
+[6.464181] (turtlesim) StdoutLine: {'line': b'[ 20%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o\n'}
+[6.465113] (turtlesim) StdoutLine: {'line': b'[ 20%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o\n'}
+[6.475791] (turtlesim) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o\n'}
+[6.476054] (-) TimerEvent: {}
+[6.487740] (turtlesim) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o\n'}
+[6.511887] (turtlesim) StdoutLine: {'line': b'[ 22%] Built target turtlesim__rosidl_generator_c\n'}
+[6.549425] (turtlesim) StdoutLine: {'line': b'[ 24%] Generating C type support for eProsima Fast-RTPS\n'}
+[6.577863] (-) TimerEvent: {}
+[6.683049] (-) TimerEvent: {}
+[6.788922] (-) TimerEvent: {}
+[6.901402] (turtlesim) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o\n'}
+[6.901819] (-) TimerEvent: {}
+[7.007038] (-) TimerEvent: {}
+[7.032638] (turtlesim) StdoutLine: {'line': b'[ 26%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o\n'}
+[7.112124] (-) TimerEvent: {}
+[7.215101] (-) TimerEvent: {}
+[7.249838] (turtlesim) StdoutLine: {'line': b'[ 27%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o\n'}
+[7.250028] (turtlesim) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o\n'}
+[7.263193] (turtlesim) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o\n'}
+[7.268907] (turtlesim) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o\n'}
+[7.319405] (-) TimerEvent: {}
+[7.426218] (-) TimerEvent: {}
+[7.531415] (-) TimerEvent: {}
+[7.542966] (turtlesim) StdoutLine: {'line': b'[ 32%] Generating C introspection for ROS interfaces\n'}
+[7.636675] (-) TimerEvent: {}
+[7.714257] (turtlesim) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o\n'}
+[7.742082] (-) TimerEvent: {}
+[7.851692] (-) TimerEvent: {}
+[7.952724] (-) TimerEvent: {}
+[7.959070] (turtlesim) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o\n'}
+[7.969550] (turtlesim) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o\n'}
+[7.972600] (turtlesim) StdoutLine: {'line': b'[ 37%] Generating C type support dispatch for ROS interfaces\n'}
+[8.008471] (turtlesim) StdoutLine: {'line': b'[ 38%] Linking CXX shared library libturtlesim__rosidl_typesupport_cpp.dylib\n'}
+[8.060084] (-) TimerEvent: {}
+[8.119707] (turtlesim) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o\n'}
+[8.129123] (turtlesim) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o\n'}
+[8.138229] (turtlesim) StdoutLine: {'line': b'[ 40%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[8.164269] (turtlesim) StdoutLine: {'line': b'[ 42%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o\n'}
+[8.164511] (-) TimerEvent: {}
+[8.276280] (-) TimerEvent: {}
+[8.389643] (-) TimerEvent: {}
+[8.496765] (-) TimerEvent: {}
+[8.599202] (-) TimerEvent: {}
+[8.609061] (turtlesim) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o\n'}
+[8.668480] (turtlesim) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o\n'}
+[8.703860] (turtlesim) StdoutLine: {'line': b'[ 45%] Building C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o\n'}
+[8.704105] (-) TimerEvent: {}
+[8.714938] (turtlesim) StdoutLine: {'line': b'[ 46%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o\n'}
+[8.807391] (-) TimerEvent: {}
+[8.823681] (turtlesim) StdoutLine: {'line': b'[ 49%] Building C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o\n'}
+[8.823960] (turtlesim) StdoutLine: {'line': b'[ 49%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o\n'}
+[8.824846] (turtlesim) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o\n'}
+[8.908142] (turtlesim) StdoutLine: {'line': b'[ 51%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o\n'}
+[8.908415] (-) TimerEvent: {}
+[8.922154] (turtlesim) StdoutLine: {'line': b'[ 53%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o\n'}
+[8.930121] (turtlesim) StdoutLine: {'line': b'[ 54%] Building C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o\n'}
+[8.950613] (turtlesim) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o\n'}
+[8.954826] (turtlesim) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o\n'}
+[9.007462] (turtlesim) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o\n'}
+[9.008501] (-) TimerEvent: {}
+[9.019057] (turtlesim) StdoutLine: {'line': b'[ 59%] Building C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o\n'}
+[9.025923] (turtlesim) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o\n'}
+[9.029338] (turtlesim) StdoutLine: {'line': b'[ 61%] Building C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o\n'}
+[9.070893] (turtlesim) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o\n'}
+[9.089324] (turtlesim) StdoutLine: {'line': b'[ 63%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o\n'}
+[9.112914] (turtlesim) StdoutLine: {'line': b'[ 65%] Linking CXX shared library libturtlesim__rosidl_typesupport_c.dylib\n'}
+[9.114222] (-) TimerEvent: {}
+[9.122900] (turtlesim) StdoutLine: {'line': b'[ 66%] Building C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o\n'}
+[9.131380] (turtlesim) StdoutLine: {'line': b'[ 67%] Building C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o\n'}
+[9.221173] (-) TimerEvent: {}
+[9.235367] (turtlesim) StdoutLine: {'line': b'[ 68%] Building C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o\n'}
+[9.245902] (turtlesim) StdoutLine: {'line': b'[ 69%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o\n'}
+[9.265812] (turtlesim) StdoutLine: {'line': b'[ 69%] Built target turtlesim__rosidl_typesupport_c\n'}
+[9.290898] (turtlesim) StdoutLine: {'line': b'[ 71%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o\n'}
+[9.325393] (-) TimerEvent: {}
+[9.341334] (turtlesim) StdoutLine: {'line': b'[ 72%] Linking C shared library libturtlesim__rosidl_typesupport_introspection_c.dylib\n'}
+[9.360770] (turtlesim) StdoutLine: {'line': b'[ 73%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o\n'}
+[9.429951] (-) TimerEvent: {}
+[9.434030] (turtlesim) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o\n'}
+[9.503781] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[9.530383] (-) TimerEvent: {}
+[9.536885] (turtlesim) StdoutLine: {'line': b'[ 75%] Generating include/turtlesim/moc_turtle_frame.cpp\n'}
+[9.611199] (turtlesim) StdoutLine: {'line': b'[ 77%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o\n'}
+[9.635532] (-) TimerEvent: {}
+[9.737003] (-) TimerEvent: {}
+[9.820428] (turtlesim) StdoutLine: {'line': b'[ 78%] Building CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o\n'}
+[9.843327] (-) TimerEvent: {}
+[9.901722] (turtlesim) StdoutLine: {'line': b'[ 79%] Building CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\n'}
+[9.949483] (-) TimerEvent: {}
+[10.002996] (turtlesim) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o\n'}
+[10.055171] (-) TimerEvent: {}
+[10.070793] (turtlesim) StdoutLine: {'line': b'[ 81%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o\n'}
+[10.156462] (-) TimerEvent: {}
+[10.158566] (turtlesim) StdoutLine: {'line': b'[ 83%] Building CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o\n'}
+[10.205319] (turtlesim) StdoutLine: {'line': b'[ 84%] Building CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o\n'}
+[10.265310] (-) TimerEvent: {}
+[10.277518] (turtlesim) StdoutLine: {'line': b'[ 85%] Linking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.dylib\n'}
+[10.371528] (-) TimerEvent: {}
+[10.417999] (turtlesim) StdoutLine: {'line': b'[ 86%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o\n'}
+[10.453332] (turtlesim) StdoutLine: {'line': b'[ 86%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[10.478364] (-) TimerEvent: {}
+[10.502952] (turtlesim) StdoutLine: {'line': b'[ 87%] Building CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\n'}
+[10.584277] (-) TimerEvent: {}
+[10.692704] (-) TimerEvent: {}
+[10.784454] (turtlesim) StdoutLine: {'line': b'[ 89%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o\n'}
+[10.796529] (-) TimerEvent: {}
+[10.903852] (-) TimerEvent: {}
+[11.009112] (-) TimerEvent: {}
+[11.118188] (-) TimerEvent: {}
+[11.223131] (-) TimerEvent: {}
+[11.333080] (-) TimerEvent: {}
+[11.339763] (turtlesim) StdoutLine: {'line': b'[ 90%] Linking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.dylib\n'}
+[11.436618] (-) TimerEvent: {}
+[11.505867] (turtlesim) StdoutLine: {'line': b'[ 90%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[11.539731] (-) TimerEvent: {}
+[11.543039] (turtlesim) StdoutLine: {'line': b'[ 91%] Building CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o\n'}
+[11.582744] (turtlesim) StdoutLine: {'line': b'[ 92%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o\n'}
+[11.647586] (-) TimerEvent: {}
+[11.757947] (-) TimerEvent: {}
+[11.863225] (-) TimerEvent: {}
+[11.974205] (-) TimerEvent: {}
+[12.079238] (-) TimerEvent: {}
+[12.184008] (-) TimerEvent: {}
+[12.288870] (-) TimerEvent: {}
+[12.393841] (-) TimerEvent: {}
+[12.424001] (turtlesim) StdoutLine: {'line': b'[ 93%] Building CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o\n'}
+[12.499876] (-) TimerEvent: {}
+[12.605592] (-) TimerEvent: {}
+[12.714878] (-) TimerEvent: {}
+[12.820063] (-) TimerEvent: {}
+[12.925387] (-) TimerEvent: {}
+[13.026117] (-) TimerEvent: {}
+[13.136020] (-) TimerEvent: {}
+[13.242806] (-) TimerEvent: {}
+[13.346599] (-) TimerEvent: {}
+[13.393566] (turtlesim) StdoutLine: {'line': b'[ 95%] Linking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.dylib\n'}
+[13.451411] (-) TimerEvent: {}
+[13.557117] (-) TimerEvent: {}
+[13.654857] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[13.657691] (-) TimerEvent: {}
+[13.765738] (-) TimerEvent: {}
+[13.770963] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim\n'}
+[13.869155] (-) TimerEvent: {}
+[13.974443] (-) TimerEvent: {}
+[14.076382] (-) TimerEvent: {}
+[14.178034] (-) TimerEvent: {}
+[14.285817] (-) TimerEvent: {}
+[14.391113] (-) TimerEvent: {}
+[14.496511] (-) TimerEvent: {}
+[14.602010] (-) TimerEvent: {}
+[14.707844] (-) TimerEvent: {}
+[14.813744] (-) TimerEvent: {}
+[14.919133] (-) TimerEvent: {}
+[15.022260] (-) TimerEvent: {}
+[15.125059] (-) TimerEvent: {}
+[15.230387] (-) TimerEvent: {}
+[15.334067] (-) TimerEvent: {}
+[15.439538] (-) TimerEvent: {}
+[15.548450] (-) TimerEvent: {}
+[15.654147] (-) TimerEvent: {}
+[15.759831] (-) TimerEvent: {}
+[15.863268] (-) TimerEvent: {}
+[15.967914] (-) TimerEvent: {}
+[16.073220] (-) TimerEvent: {}
+[16.173828] (-) TimerEvent: {}
+[16.274365] (-) TimerEvent: {}
+[16.380272] (-) TimerEvent: {}
+[16.430633] (turtlesim) StdoutLine: {'line': b'[ 96%] Linking CXX executable turtle_teleop_key\n'}
+[16.481052] (-) TimerEvent: {}
+[16.563495] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtle_teleop_key\n'}
+[16.585434] (-) TimerEvent: {}
+[16.690239] (-) TimerEvent: {}
+[16.791492] (-) TimerEvent: {}
+[16.896803] (-) TimerEvent: {}
+[16.997211] (-) TimerEvent: {}
+[17.102048] (-) TimerEvent: {}
+[17.207421] (-) TimerEvent: {}
+[17.309793] (-) TimerEvent: {}
+[17.414591] (-) TimerEvent: {}
+[17.520360] (-) TimerEvent: {}
+[17.625695] (-) TimerEvent: {}
+[17.727185] (-) TimerEvent: {}
+[17.827609] (-) TimerEvent: {}
+[17.932907] (-) TimerEvent: {}
+[18.004470] (turtlesim) StdoutLine: {'line': b'[ 97%] Linking CXX executable mimic\n'}
+[18.037970] (-) TimerEvent: {}
+[18.119147] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target mimic\n'}
+[18.142664] (-) TimerEvent: {}
+[18.245273] (-) TimerEvent: {}
+[18.278544] (turtlesim) StdoutLine: {'line': b'[ 98%] Linking CXX executable draw_square\n'}
+[18.350352] (-) TimerEvent: {}
+[18.372657] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target draw_square\n'}
+[18.455398] (-) TimerEvent: {}
+[18.560551] (-) TimerEvent: {}
+[18.665721] (-) TimerEvent: {}
+[18.770881] (-) TimerEvent: {}
+[18.871624] (-) TimerEvent: {}
+[18.976770] (-) TimerEvent: {}
+[19.081929] (-) TimerEvent: {}
+[19.187098] (-) TimerEvent: {}
+[19.292250] (-) TimerEvent: {}
+[19.397397] (-) TimerEvent: {}
+[19.502565] (-) TimerEvent: {}
+[19.607716] (-) TimerEvent: {}
+[19.703631] (turtlesim) StdoutLine: {'line': b'[100%] Linking CXX executable turtlesim_node\n'}
+[19.708742] (-) TimerEvent: {}
+[19.802622] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[19.810292] (-) TimerEvent: {}
+[19.820026] (turtlesim) CommandEnded: {'returncode': 0}
+[19.915384] (-) TimerEvent: {}
+[20.020579] (-) TimerEvent: {}
+[20.125694] (-) TimerEvent: {}
+[20.230339] (-) TimerEvent: {}
+[20.335454] (-) TimerEvent: {}
+[20.426846] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[20.437643] (-) TimerEvent: {}
+[20.440763] (turtlesim) Command: {'cmd': ['/Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake', '--install', '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim'], 'cwd': '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim', 'env': OrderedDict([('AS', 'arm64-apple-darwin20.0.0-as'), ('LDFLAGS', '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/fergusproctor/miniforge3/envs/ros_env/lib -L/Users/fergusproctor/miniforge3/envs/ros_env/lib'), ('AR', 'arm64-apple-darwin20.0.0-ar'), ('ac_cv_func_malloc_0_nonnull', 'yes'), ('TERM_PROGRAM', 'Apple_Terminal'), ('PROJ_DATA', '/Users/fergusproctor/miniforge3/envs/ros_env/share/proj'), ('ac_cv_func_realloc_0_nonnull', 'yes'), ('OBJC', 'arm64-apple-darwin20.0.0-clang'), ('HOST', 'arm64-apple-darwin20.0.0'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('NM', 'arm64-apple-darwin20.0.0-nm'), ('CPPFLAGS', '-D_FORTIFY_SOURCE=2 -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('HOMEBREW_REPOSITORY', '/opt/homebrew'), ('TMPDIR', '/var/folders/dv/3vlkd_t53j9gr9ggfhz4wg2w0000gn/T/'), ('PAGESTUFF', 'arm64-apple-darwin20.0.0-pagestuff'), ('CONDA_SHLVL', '2'), ('LIPO', 'arm64-apple-darwin20.0.0-lipo'), ('CONDA_PROMPT_MODIFIER', '(ros_env)'), ('TERM_PROGRAM_VERSION', '453'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('SIZE', 'arm64-apple-darwin20.0.0-size'), ('NMEDIT', 'arm64-apple-darwin20.0.0-nmedit'), ('ROS_PYTHON_VERSION', '3'), ('SDKROOT', '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk'), ('ROS_VERSION', '2'), ('TERM_SESSION_ID', '9EC75F11-EC96-4872-808C-C5301134A4BB'), ('AMENT_PREFIX_PATH', '/Users/fergusproctor/miniforge3/envs/ros_env'), ('CXX_FOR_BUILD', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-clang++'), ('INSTALL_NAME_TOOL', 'arm64-apple-darwin20.0.0-install_name_tool'), ('SEGEDIT', 'arm64-apple-darwin20.0.0-segedit'), ('GFORTRAN', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-gfortran'), ('SEG_HACK', 'arm64-apple-darwin20.0.0-seg_hack'), ('USER', 'fergusproctor'), ('CLANGXX', 'arm64-apple-darwin20.0.0-clang++'), ('LIBTOOL', 'arm64-apple-darwin20.0.0-libtool'), ('CONDA_BACKUP_HOST', 'Ferguss-MacBook-Air.local'), ('CONDA_TOOLCHAIN_BUILD', 'arm64-apple-darwin20.0.0'), ('FC_FOR_BUILD', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-gfortran'), ('CONDA_EXE', '/Users/fergusproctor/miniforge3/bin/conda'), ('OTOOL', 'arm64-apple-darwin20.0.0-otool'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.FlgDCnJkEx/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x0:0x0'), ('DEBUG_FORTRANFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include -march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments'), ('ROS_OS_OVERRIDE', 'conda:osx'), ('CXXFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('STRINGS', 'arm64-apple-darwin20.0.0-strings'), ('CONDA_TOOLCHAIN_HOST', 'arm64-apple-darwin20.0.0'), ('_CE_CONDA', ''), ('CHECKSYMS', 'arm64-apple-darwin20.0.0-checksyms'), ('CONDA_PREFIX_1', '/Users/fergusproctor/miniforge3'), ('PATH', '/Users/fergusproctor/miniforge3/envs/ros_env/bin:/Users/fergusproctor/miniforge3/condabin:/opt/homebrew/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin'), ('PROJ_NETWORK', 'ON'), ('GSETTINGS_SCHEMA_DIR', '/Users/fergusproctor/miniforge3/envs/ros_env/share/glib-2.0/schemas'), ('MESON_ARGS', '--buildtype release'), ('XML_CATALOG_FILES', 'file:///Users/fergusproctor/miniforge3/envs/ros_env/etc/xml/catalog file:///etc/xml/catalog'), ('DEBUG_CXXFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -Og -g -Wall -Wextra -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('BUILD', 'arm64-apple-darwin20.0.0'), ('LD', 'arm64-apple-darwin20.0.0-ld'), ('CONDA_PREFIX', '/Users/fergusproctor/miniforge3/envs/ros_env'), ('__CFBundleIdentifier', 'com.apple.Terminal'), ('F90', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-gfortran'), ('PWD', '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim'), ('COLCON', '1'), ('STRIP', 'arm64-apple-darwin20.0.0-strip'), ('CMAKE_ARGS', '-DCMAKE_AR=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ar -DCMAKE_CXX_COMPILER_AR=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ar -DCMAKE_C_COMPILER_AR=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ar -DCMAKE_RANLIB=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ranlib -DCMAKE_CXX_COMPILER_RANLIB=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ranlib -DCMAKE_C_COMPILER_RANLIB=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ranlib -DCMAKE_LINKER=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-ld -DCMAKE_STRIP=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-strip -DCMAKE_INSTALL_NAME_TOOL=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-install_name_tool -DCMAKE_LIBTOOL=/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-libtool -DCMAKE_BUILD_TYPE=Release -DCMAKE_OSX_SYSROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk'), ('F95', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-gfortran'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('DEBUG_FFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include -march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments'), ('XPC_FLAGS', '0x0'), ('F77', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-gfortran'), ('REDO_PREBINDING', 'arm64-apple-darwin20.0.0-redo_prebinding'), ('CXX', 'arm64-apple-darwin20.0.0-clang++'), ('CC_FOR_BUILD', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-clang'), ('CLANG', 'arm64-apple-darwin20.0.0-clang'), ('_CE_M', ''), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/opt/homebrew/opt/openssl@3'), ('SHLVL', '2'), ('HOME', '/Users/fergusproctor'), ('ROS_DISTRO', 'humble'), ('FORTRANFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('CFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('HOMEBREW_PREFIX', '/opt/homebrew'), ('_CONDA_PYTHON_SYSCONFIGDATA_NAME', '_sysconfigdata_arm64_apple_darwin20_0_0'), ('FC', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-gfortran'), ('DYLD_LIBRARY_PATH', '/Users/fergusproctor/miniforge3/envs/ros_env/opt/rviz_ogre_vendor/lib:/opt/homebrew/lib:'), ('PYTHONPATH', '/Users/fergusproctor/miniforge3/envs/ros_env/lib/python3.11/site-packages'), ('CONDA_PYTHON_EXE', '/Users/fergusproctor/miniforge3/bin/python'), ('LOGNAME', 'fergusproctor'), ('LC_CTYPE', 'UTF-8'), ('build_alias', 'arm64-apple-darwin20.0.0'), ('CONDA_DEFAULT_ENV', 'ros_env'), ('DEBUG_CFLAGS', '-ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -Og -g -Wall -Wextra -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('RANLIB', 'arm64-apple-darwin20.0.0-ranlib'), ('INFOPATH', '/opt/homebrew/share/info:'), ('HOMEBREW_CELLAR', '/opt/homebrew/Cellar'), ('CMAKE_PREFIX_PATH', '/Users/fergusproctor/miniforge3/envs/ros_env/lib/python3.11/site-packages:/Users/fergusproctor/miniforge3/envs/ros_env'), ('CC', 'arm64-apple-darwin20.0.0-clang'), ('SEG_ADDR_TABLE', 'arm64-apple-darwin20.0.0-seg_addr_table'), ('ROS_LOCALHOST_ONLY', '0'), ('host_alias', 'arm64-apple-darwin20.0.0'), ('LDFLAGS_LD', '-headerpad_max_install_names -dead_strip_dylibs -rpath /Users/fergusproctor/miniforge3/envs/ros_env/lib -L/Users/fergusproctor/miniforge3/envs/ros_env/lib'), ('ROS_ETC_DIR', '/Users/fergusproctor/miniforge3/envs/ros_env/etc/ros'), ('OBJC_FOR_BUILD', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-clang'), ('FFLAGS', '-march=armv8.3-a -ftree-vectorize -fPIC -fno-stack-protector -O2 -pipe -isystem /Users/fergusproctor/miniforge3/envs/ros_env/include'), ('_', '/Users/fergusproctor/miniforge3/envs/ros_env/bin/env')]), 'shell': False}
+[20.456509] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.456848] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[20.457006] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[20.457138] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[20.457229] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.457376] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[20.457500] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[20.457625] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[20.457716] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[20.457817] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[20.457976] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[20.458148] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[20.458316] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[20.458530] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[20.458660] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[20.458784] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[20.458908] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[20.458994] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[20.459165] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[20.459286] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[20.459448] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[20.459619] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[20.459799] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[20.459945] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[20.460063] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[20.460217] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[20.460336] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[20.460428] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[20.460509] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[20.460674] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[20.460779] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[20.460943] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[20.461087] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[20.461241] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[20.461414] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[20.461588] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[20.461786] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[20.462095] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[20.462270] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[20.462359] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[20.462456] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[20.462564] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[20.462685] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[20.462814] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[20.462964] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[20.463094] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[20.463215] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[20.463353] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[20.463542] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[20.463695] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[20.463955] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.dylib\n'}
+[20.464161] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[20.464259] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[20.464350] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[20.464459] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[20.464550] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[20.464747] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.464907] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[20.465006] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[20.465097] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[20.465211] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[20.465310] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[20.465410] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[20.465517] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[20.465719] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[20.465942] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[20.466175] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[20.466388] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.dylib\n'}
+[20.469846] (turtlesim) StderrLine: {'line': b'/Users/fergusproctor/miniforge3/envs/ros_env/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.dylib\n'}
+[20.470985] (turtlesim) StderrLine: {'line': b"[cctools-port]: generating fake signature for '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.dylib'\n"}
+[20.482970] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[20.483080] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[20.483136] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[20.483213] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[20.483259] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[20.483408] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[20.483538] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[20.483686] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[20.483837] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[20.483960] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[20.484129] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[20.484232] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[20.484320] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[20.484405] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[20.484484] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[20.484662] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[20.484848] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[20.484980] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[20.485066] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[20.485152] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[20.485237] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[20.485326] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[20.485457] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[20.485593] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[20.485726] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[20.485886] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[20.486058] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[20.486188] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[20.486312] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[20.486436] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[20.486564] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[20.486687] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[20.486806] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[20.486927] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[20.487055] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[20.487226] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[20.487415] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[20.487614] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[20.487802] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[20.487989] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[20.488056] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[20.488124] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.488288] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[20.488362] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.488547] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.488719] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[20.488825] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[20.488903] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[20.488968] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.489133] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[20.489246] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[20.489313] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[20.489374] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.489537] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.489713] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.489867] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[20.489959] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.490108] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.490269] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.dylib\n'}
+[20.490448] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[20.490497] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[20.490545] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[20.490600] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[20.490745] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[20.490932] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[20.491112] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[20.491305] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.491436] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[20.491505] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[20.491557] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[20.491671] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[20.491812] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[20.491868] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[20.491909] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[20.492026] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[20.492179] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[20.492367] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[20.492548] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[20.492738] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[20.492941] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[20.493104] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[20.493265] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[20.493418] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[20.493649] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.dylib\n'}
+[20.495990] (turtlesim) StderrLine: {'line': b'/Users/fergusproctor/miniforge3/envs/ros_env/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.dylib\n'}
+[20.496796] (turtlesim) StderrLine: {'line': b"[cctools-port]: generating fake signature for '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.dylib'\n"}
+[20.507249] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.dylib\n'}
+[20.509546] (turtlesim) StderrLine: {'line': b'/Users/fergusproctor/miniforge3/envs/ros_env/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.dylib\n'}
+[20.510360] (turtlesim) StderrLine: {'line': b"[cctools-port]: generating fake signature for '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.dylib'\n"}
+[20.520196] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[20.520334] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[20.520447] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[20.520540] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.520627] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[20.520717] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[20.520812] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.520930] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[20.520983] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[20.521227] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[20.521377] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.521533] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[20.521706] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[20.521868] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.521935] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.522104] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[20.522367] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.522525] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.522564] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[20.522642] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[20.522777] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.523086] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[20.523163] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[20.523343] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.dylib\n'}
+[20.523569] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.dylib\n'}
+[20.524620] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[20.524860] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[20.525236] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[20.525392] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[20.525615] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[20.525786] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[20.525864] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[20.525916] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[20.525952] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[20.526195] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[20.526318] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[20.526356] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[20.526445] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[20.526479] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[20.526633] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[20.526842] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[20.527114] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[20.527416] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[20.527604] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[20.531259] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[20.531334] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[20.531378] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[20.531427] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[20.531507] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[20.531536] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[20.531564] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[20.531594] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[20.534478] (turtlesim) StderrLine: {'line': b'/Users/fergusproctor/miniforge3/envs/ros_env/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[20.536805] (turtlesim) StderrLine: {'line': b"[cctools-port]: generating fake signature for '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node'\n"}
+[20.537842] (-) TimerEvent: {}
+[20.549905] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[20.552025] (turtlesim) StderrLine: {'line': b'/Users/fergusproctor/miniforge3/envs/ros_env/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[20.553164] (turtlesim) StderrLine: {'line': b"[cctools-port]: generating fake signature for '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key'\n"}
+[20.563003] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[20.565070] (turtlesim) StderrLine: {'line': b'/Users/fergusproctor/miniforge3/envs/ros_env/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[20.566217] (turtlesim) StderrLine: {'line': b"[cctools-port]: generating fake signature for '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/draw_square'\n"}
+[20.577408] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[20.579487] (turtlesim) StderrLine: {'line': b'/Users/fergusproctor/miniforge3/envs/ros_env/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[20.580795] (turtlesim) StderrLine: {'line': b"[cctools-port]: generating fake signature for '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/mimic'\n"}
+[20.590887] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/images\n'}
+[20.591005] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[20.591247] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/launch\n'}
+[20.591327] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[20.591517] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[20.591690] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[20.591965] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[20.592182] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[20.592360] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[20.592560] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[20.592734] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[20.592944] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[20.593238] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[20.593432] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[20.593884] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[20.594221] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[20.594460] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[20.594704] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[20.594819] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[20.596215] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[20.596262] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[20.596296] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[20.596334] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[20.596366] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.596396] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[20.596506] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[20.596668] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[20.596865] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.597118] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[20.598029] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[20.598066] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[20.598098] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[20.598357] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.598587] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.598908] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.599146] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.599222] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[20.599341] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[20.599497] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[20.599713] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[20.599919] (turtlesim) StdoutLine: {'line': b'-- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[20.601272] (turtlesim) CommandEnded: {'returncode': 0}
+[20.638837] (-) TimerEvent: {}
+[20.744089] (-) TimerEvent: {}
+[20.849215] (-) TimerEvent: {}
+[20.954329] (-) TimerEvent: {}
+[21.059455] (-) TimerEvent: {}
+[21.164579] (-) TimerEvent: {}
+[21.233477] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[21.234248] (-) EventReactorShutdown: {}
