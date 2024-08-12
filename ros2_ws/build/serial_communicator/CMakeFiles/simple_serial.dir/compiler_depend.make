@@ -743,6 +743,7 @@ CMakeFiles/simple_serial.dir/src/simple_serial.cpp.o: /Users/fergusproctor/dev/S
   /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__stop_token/atomic_unique_lock.h \
   /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__stop_token/intrusive_list_view.h \
   /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__stop_token/intrusive_shared_ptr.h \
+  /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__stop_token/stop_callback.h \
   /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__stop_token/stop_source.h \
   /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__stop_token/stop_state.h \
   /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__stop_token/stop_token.h \
@@ -949,6 +950,7 @@ CMakeFiles/simple_serial.dir/src/simple_serial.cpp.o: /Users/fergusproctor/dev/S
   /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/cmath \
   /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/compare \
   /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/concepts \
+  /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/condition_variable \
   /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/csignal \
   /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/cstdarg \
   /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/cstddef \
@@ -2393,6 +2395,8 @@ CMakeFiles/simple_serial.dir/src/simple_serial.cpp.o: /Users/fergusproctor/dev/S
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/mpl/aux_/preprocessor/default_params.hpp:
 
+/Users/fergusproctor/miniforge3/envs/ros_env/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
+
 /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/mpl/aux_/preprocessed/gcc/times.hpp:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
@@ -2666,8 +2670,6 @@ CMakeFiles/simple_serial.dir/src/simple_serial.cpp.o: /Users/fergusproctor/dev/S
 /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/asio/post.hpp:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/asio/posix/stream_descriptor.hpp:
-
-/Users/fergusproctor/miniforge3/envs/ros_env/include/boost/asio/posix/descriptor_base.hpp:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__algorithm/find_end.h:
 
@@ -3153,10 +3155,6 @@ CMakeFiles/simple_serial.dir/src/simple_serial.cpp.o: /Users/fergusproctor/dev/S
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/asio/detail/buffered_stream_storage.hpp:
 
-/Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/ios:
-
-/Users/fergusproctor/miniforge3/envs/ros_env/include/boost/asio/detail/buffer_resize_guard.hpp:
-
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__charconv/traits.h:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/asio/detail/bind_handler.hpp:
@@ -3343,6 +3341,8 @@ CMakeFiles/simple_serial.dir/src/simple_serial.cpp.o: /Users/fergusproctor/dev/S
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/stack:
 
+/Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__stop_token/stop_callback.h:
+
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/ratio:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/queue:
@@ -3374,6 +3374,10 @@ CMakeFiles/simple_serial.dir/src/simple_serial.cpp.o: /Users/fergusproctor/dev/S
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/istream:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/iosfwd:
+
+/Users/fergusproctor/miniforge3/envs/ros_env/include/boost/asio/detail/buffer_resize_guard.hpp:
+
+/Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/ios:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/initializer_list:
 
@@ -3410,6 +3414,8 @@ CMakeFiles/simple_serial.dir/src/simple_serial.cpp.o: /Users/fergusproctor/dev/S
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__algorithm/max.h:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/csignal:
+
+/Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/condition_variable:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_param.h:
 
@@ -3764,6 +3770,10 @@ CMakeFiles/simple_serial.dir/src/simple_serial.cpp.o: /Users/fergusproctor/dev/S
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/type_traits:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__type_traits/is_aggregate.h:
+
+/Users/fergusproctor/miniforge3/envs/ros_env/include/boost/asio/basic_raw_socket.hpp:
+
+/Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__type_traits/is_abstract.h:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__algorithm/ranges_sort_heap.h:
 
@@ -4150,10 +4160,6 @@ CMakeFiles/simple_serial.dir/src/simple_serial.cpp.o: /Users/fergusproctor/dev/S
 /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/asio/detail/impl/service_registry.hpp:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__iterator/erase_if_container.h:
-
-/Users/fergusproctor/miniforge3/envs/ros_env/include/boost/asio/basic_raw_socket.hpp:
-
-/Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__type_traits/is_abstract.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdlib.h:
 
@@ -5419,8 +5425,6 @@ CMakeFiles/simple_serial.dir/src/simple_serial.cpp.o: /Users/fergusproctor/dev/S
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__iterator/cpp17_iterator_concepts.h:
 
-/Users/fergusproctor/miniforge3/envs/ros_env/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval64.h:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/asio/detail/strand_service.hpp:
@@ -5516,6 +5520,8 @@ CMakeFiles/simple_serial.dir/src/simple_serial.cpp.o: /Users/fergusproctor/dev/S
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__algorithm/ranges_all_of.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_o_sync.h:
+
+/Users/fergusproctor/miniforge3/envs/ros_env/include/boost/asio/posix/descriptor_base.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/ttycom.h:
 

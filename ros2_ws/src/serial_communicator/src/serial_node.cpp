@@ -20,7 +20,7 @@ public:
         io_ = std::make_shared<io_service>();
 
 
-        serial_port_ = std::make_shared<serial_port>(*io_, "/dev/tty.usbmodem11101"); // Adjust port name as needed
+        serial_port_ = std::make_shared<serial_port>(*io_, "/dev/tty.HC05Ferg1"); // Adjust port name as needed
 
         // serial_port_ is shared pointer, "->" dereferences it to all its method set option
         serial_port_->set_option(serial_port::baud_rate(38400));
@@ -43,7 +43,7 @@ public:
 
         // Create timer to periodically send data
         timer_ = this->create_wall_timer(
-            2000ms, [this]() { send_data("Hello Arduino!"); }
+            2000ms, [this]() { send_data("F"); }
         );
     }
 

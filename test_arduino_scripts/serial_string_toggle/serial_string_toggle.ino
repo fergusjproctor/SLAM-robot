@@ -44,7 +44,7 @@ void loop() {
     Serial.print(receivedData);
     
     // If the received data is "TOGGLE", toggle the LED
-    if (receivedData == "TOGGLE") {
+    if (receivedData == "F") {
       // Toggle the LED state
       digitalWrite(ledPin, !digitalRead(ledPin));
       // Send confirmation back to the ROS 2 node
