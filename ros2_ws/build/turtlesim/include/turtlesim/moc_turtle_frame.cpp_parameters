@@ -1,0 +1,11 @@
+-I/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/turtlesim/include
+-I/Users/fergusproctor/miniforge3/envs/ros_env/include/qt
+-I/Users/fergusproctor/miniforge3/envs/ros_env/include/qt/QtWidgets
+-I/Users/fergusproctor/miniforge3/envs/ros_env/include/qt/QtGui
+-I/Users/fergusproctor/miniforge3/envs/ros_env/include/qt/QtCore
+-I/Users/fergusproctor/miniforge3/envs/ros_env/./mkspecs/macx-clang
+-I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers
+-DROS_PACKAGE_NAME="turtlesim"
+-o
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/include/turtlesim/moc_turtle_frame.cpp
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/turtlesim/include/turtlesim/turtle_frame.h

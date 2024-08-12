@@ -1,0 +1,8 @@
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

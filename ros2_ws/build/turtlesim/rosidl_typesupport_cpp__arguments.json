@@ -1,0 +1,47 @@
+{
+  "package_name": "turtlesim",
+  "output_dir": "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_typesupport_cpp/turtlesim",
+  "template_dir": "/Users/fergusproctor/miniforge3/envs/ros_env/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl"
+  ],
+  "ros_interface_dependencies": [
+    "action_msgs:/Users/fergusproctor/miniforge3/envs/ros_env/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/Users/fergusproctor/miniforge3/envs/ros_env/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/Users/fergusproctor/miniforge3/envs/ros_env/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/Users/fergusproctor/miniforge3/envs/ros_env/share/action_msgs/srv/CancelGoal.idl",
+    "builtin_interfaces:/Users/fergusproctor/miniforge3/envs/ros_env/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/Users/fergusproctor/miniforge3/envs/ros_env/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:/Users/fergusproctor/miniforge3/envs/ros_env/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "/Users/fergusproctor/miniforge3/envs/ros_env/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/Users/fergusproctor/miniforge3/envs/ros_env/lib/python3.11/site-packages/rosidl_typesupport_cpp/__init__.py",
+    "/Users/fergusproctor/miniforge3/envs/ros_env/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/Users/fergusproctor/miniforge3/envs/ros_env/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/Users/fergusproctor/miniforge3/envs/ros_env/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/Users/fergusproctor/miniforge3/envs/ros_env/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim/action/RotateAbsolute.idl",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim/msg/Color.idl",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim/msg/Pose.idl",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/Kill.idl",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/SetPen.idl",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/Spawn.idl",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/TeleportAbsolute.idl",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/TeleportRelative.idl",
+    "/Users/fergusproctor/miniforge3/envs/ros_env/share/action_msgs/msg/GoalInfo.idl",
+    "/Users/fergusproctor/miniforge3/envs/ros_env/share/action_msgs/msg/GoalStatus.idl",
+    "/Users/fergusproctor/miniforge3/envs/ros_env/share/action_msgs/msg/GoalStatusArray.idl",
+    "/Users/fergusproctor/miniforge3/envs/ros_env/share/action_msgs/srv/CancelGoal.idl",
+    "/Users/fergusproctor/miniforge3/envs/ros_env/share/builtin_interfaces/msg/Duration.idl",
+    "/Users/fergusproctor/miniforge3/envs/ros_env/share/builtin_interfaces/msg/Time.idl",
+    "/Users/fergusproctor/miniforge3/envs/ros_env/share/unique_identifier_msgs/msg/UUID.idl"
+  ]
+}
