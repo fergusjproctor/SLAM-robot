@@ -1,0 +1,11 @@
+[0.021s] Invoking command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/fergusproctor/miniforge3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake --build /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator -- -j8 -l8
+[0.481s] [ 50%] Built target simple_serial
+[0.488s] [ 75%] Building CXX object CMakeFiles/serial_node.dir/src/serial_node.cpp.o
+[2.533s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:6:10: fatal error: 'geometry_msgs/msg/twist.hpp' file not found
+[2.533s] #include <geometry_msgs/msg/twist.hpp>
+[2.533s]          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.537s] 1 error generated.
+[2.544s] make[2]: *** [CMakeFiles/serial_node.dir/build.make:76: CMakeFiles/serial_node.dir/src/serial_node.cpp.o] Error 1
+[2.544s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/serial_node.dir/all] Error 2
+[2.544s] make: *** [Makefile:146: all] Error 2
+[2.546s] Invoked command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/fergusproctor/miniforge3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake --build /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator -- -j8 -l8

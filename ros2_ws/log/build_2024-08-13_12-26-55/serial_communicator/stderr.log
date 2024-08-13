@@ -1,0 +1,7 @@
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:77:15: warning: unused variable 'lin_vel_x_' [-Wunused-variable]
+        float lin_vel_x_ = vel->linear.x;
+              ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:78:15: warning: unused variable 'ang_vel_' [-Wunused-variable]
+        float ang_vel_ = vel->angular.z;
+              ^
+2 warnings generated.

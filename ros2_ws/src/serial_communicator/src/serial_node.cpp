@@ -3,6 +3,11 @@
 #include <boost/asio.hpp>
 #include <boost/asio/serial_port.hpp>
 #include <memory>
+#include <geometry_msgs/msg/twist.hpp>
+#include <string>
+
+
+
 
 using namespace std::chrono_literals;
 using boost::asio::serial_port;
@@ -31,11 +36,15 @@ public:
         
 
         // Create publisher
-        publisher_ = this->create_publisher<std_msgs::msg::String>("serial_output", 10);
+        publisher_ = this->create_publisher<std_msgs::msg::String>("serial_output", 2);
 
         // Create subscriber
-        subscription_ = this->create_subscription<std_msgs::msg::String>(
-            "serial_input", 10, std::bind(&SerialNode::handle_message, this, _1)
+        //subscription_ = this->create_subscription<std_msgs::msg::String>(
+        //    "serial_input", 2, std::bind(&SerialNode::handle_message, this, _1)
+        //);
+
+        subscription_ = this->create_subscription<geometry_msgs::msg::Twist>(
+            "/turtle1/cmd_vel", 2, std::bind(&SerialNode::handle_message, this, _1)
         );
 
         // Start serial read
@@ -43,26 +52,66 @@ public:
 
         // Create timer to periodically send data
         timer_ = this->create_wall_timer(
-            2000ms, [this]() { send_data("F"); }
+            2000ms, [this]() { send_data(""); }
         );
     }
 
 private:
-    void handle_message(const std_msgs::msg::String::SharedPtr msg) {
-        std::string data = msg->data;
+    // handler for string message
+    // void handle_message(const std_msgs::msg::String::SharedPtr msg) {
+    //     std::string data = msg->data;
+    //     RCLCPP_INFO(rclcpp::get_logger("SerialNode"), "Message received on serial_input topic");
+        
+    //     boost::asio::async_write(
+    //         *serial_port_,
+    //         boost::asio::buffer(data),
+    //         [this](const boost::system::error_code& error, std::size_t length) {
+    //             if (error) {
+    //                 RCLCPP_ERROR(rclcpp::get_logger("SerialNode"), "Error writing to serial port: %s", error.message().c_str());
+    //             }
+    //         }
+    //     );
+    // }
+
+    void handle_message(const geometry_msgs::msg::Twist::ConstSharedPtr vel) {
+        float lin_vel_x_ = vel->linear.x;
+        float ang_vel_ = vel->angular.z;
+        std::string data = "";
         RCLCPP_INFO(rclcpp::get_logger("SerialNode"), "Message received on serial_input topic");
         
+        if (lin_vel_x_ == 2.0){
+
+        data = "F";
+        }else {
+            data = "C";
+             
+        }
         boost::asio::async_write(
             *serial_port_,
             boost::asio::buffer(data),
             [this](const boost::system::error_code& error, std::size_t length) {
-                
                 if (error) {
                     RCLCPP_ERROR(rclcpp::get_logger("SerialNode"), "Error writing to serial port: %s", error.message().c_str());
                 }
             }
         );
     }
+
+
+
+    char twistToChar(const geometry_msgs::msg::Twist& twist) {
+    // Check if the Twist message matches the specific condition
+    if (twist.linear.x == 2.0 &&
+        twist.linear.y == 0.0 &&
+        twist.linear.z == 0.0 &&
+        twist.angular.x == 0.0 &&
+        twist.angular.y == 0.0 &&
+        twist.angular.z == 0.0) {
+        return 'F';  // Return 'F' if the condition is met
+    } else {
+        return 'U';  // Return 'U' for "Unknown" if the condition is not met
+    }
+}
 
 void send_data(const std::string& data) {
         RCLCPP_INFO(rclcpp::get_logger("SerialNode"), "Send data called");
@@ -78,7 +127,6 @@ void send_data(const std::string& data) {
                 }
             }
         );
-        
     }
 
 
@@ -102,7 +150,9 @@ void send_data(const std::string& data) {
     }
 
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
-    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+    //rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+    rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr subscription_;
+
     rclcpp::TimerBase::SharedPtr timer_;
 
     std::shared_ptr<io_service> io_;

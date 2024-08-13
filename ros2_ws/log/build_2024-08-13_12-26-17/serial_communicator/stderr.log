@@ -1,0 +1,17 @@
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:148:26: error: use of undeclared identifier 'sgeometry_msgs'; did you mean 'geometry_msgs'?
+    rclcpp::Subscription<sgeometry_msgs::msg::Twist>::SharedPtr subscription_;
+                         ^~~~~~~~~~~~~~
+                         geometry_msgs
+/Users/fergusproctor/miniforge3/envs/ros_env/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:22:11: note: 'geometry_msgs' declared here
+namespace geometry_msgs
+          ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:77:15: warning: unused variable 'lin_vel_x_' [-Wunused-variable]
+        float lin_vel_x_ = vel->linear.x;
+              ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:78:15: warning: unused variable 'ang_vel_' [-Wunused-variable]
+        float ang_vel_ = vel->angular.z;
+              ^
+2 warnings and 1 error generated.
+make[2]: *** [CMakeFiles/serial_node.dir/build.make:76: CMakeFiles/serial_node.dir/src/serial_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/serial_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

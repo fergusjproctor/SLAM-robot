@@ -13,6 +13,10 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(Boost REQUIRED COMPONENTS system)
+find_package(geometry_msgs REQUIRED)
+
+
+set(dependencies "geometry_msgs" "rclcpp" "std_msgs")
 
 include_directories(
   include
@@ -22,9 +26,9 @@ include_directories(
 add_executable(serial_node src/serial_node.cpp)
 add_executable(simple_serial src/simple_serial.cpp)
 
-ament_target_dependencies(serial_node
-  rclcpp
-  std_msgs
+ament_target_dependencies(serial_node ${dependencies}
+  #rclcpp
+  #std_msgs
 )
 
 target_link_libraries(serial_node ${Boost_LIBRARIES})

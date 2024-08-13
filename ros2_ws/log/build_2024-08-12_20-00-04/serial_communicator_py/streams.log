@@ -1,0 +1,38 @@
+[0.710s] Invoking command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator_py': CONDA_PROMPT_MODIFIER=(ros_env) PYTHONPATH=/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator_py/prefix_override:/Users/fergusproctor/miniforge3/envs/ros_env/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator_py/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_communicator_py build --build-base /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator_py/build install --record /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator_py/install.log --single-version-externally-managed install_data
+[0.828s] /Users/fergusproctor/miniforge3/envs/ros_env/lib/python3.11/site-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[0.829s]   warnings.warn(msg)
+[0.890s] running egg_info
+[0.891s] creating ../../build/serial_communicator_py/serial_communicator_py.egg-info
+[0.898s] writing ../../build/serial_communicator_py/serial_communicator_py.egg-info/PKG-INFO
+[0.898s] writing dependency_links to ../../build/serial_communicator_py/serial_communicator_py.egg-info/dependency_links.txt
+[0.899s] writing entry points to ../../build/serial_communicator_py/serial_communicator_py.egg-info/entry_points.txt
+[0.899s] writing requirements to ../../build/serial_communicator_py/serial_communicator_py.egg-info/requires.txt
+[0.899s] writing top-level names to ../../build/serial_communicator_py/serial_communicator_py.egg-info/top_level.txt
+[0.899s] writing manifest file '../../build/serial_communicator_py/serial_communicator_py.egg-info/SOURCES.txt'
+[1.264s] writing manifest file '../../build/serial_communicator_py/serial_communicator_py.egg-info/SOURCES.txt'
+[1.265s] running build
+[1.265s] running build_py
+[1.265s] creating /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator_py/build
+[1.266s] creating /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator_py/build/lib
+[1.266s] creating /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator_py/build/lib/serial_communicator_py
+[1.266s] copying serial_communicator_py/__init__.py -> /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator_py/build/lib/serial_communicator_py
+[1.267s] copying serial_communicator_py/serial_node.py -> /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator_py/build/lib/serial_communicator_py
+[1.267s] running install
+[1.269s] running install_lib
+[1.278s] creating /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator_py/lib/python3.11/site-packages/serial_communicator_py
+[1.279s] copying /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator_py/build/lib/serial_communicator_py/__init__.py -> /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator_py/lib/python3.11/site-packages/serial_communicator_py
+[1.279s] copying /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator_py/build/lib/serial_communicator_py/serial_node.py -> /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator_py/lib/python3.11/site-packages/serial_communicator_py
+[1.279s] byte-compiling /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator_py/lib/python3.11/site-packages/serial_communicator_py/__init__.py to __init__.cpython-311.pyc
+[1.279s] byte-compiling /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator_py/lib/python3.11/site-packages/serial_communicator_py/serial_node.py to serial_node.cpython-311.pyc
+[1.280s] running install_data
+[1.280s] creating /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator_py/share/ament_index
+[1.280s] creating /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator_py/share/ament_index/resource_index
+[1.281s] creating /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator_py/share/ament_index/resource_index/packages
+[1.281s] copying resource/serial_communicator_py -> /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator_py/share/ament_index/resource_index/packages
+[1.281s] copying package.xml -> /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator_py/share/serial_communicator_py
+[1.281s] running install_egg_info
+[1.289s] Copying ../../build/serial_communicator_py/serial_communicator_py.egg-info to /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator_py/lib/python3.11/site-packages/serial_communicator_py-0.0.0-py3.11.egg-info
+[1.290s] running install_scripts
+[1.353s] Installing serial_node script to /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator_py/lib/serial_communicator_py
+[1.353s] writing list of installed files to '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator_py/install.log'
+[1.375s] Invoked command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator_py' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) PYTHONPATH=/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator_py/prefix_override:/Users/fergusproctor/miniforge3/envs/ros_env/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator_py/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_communicator_py build --build-base /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator_py/build install --record /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator_py/install.log --single-version-externally-managed install_data

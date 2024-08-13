@@ -1,0 +1,10 @@
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:88:72: warning: unused parameter 'length' [-Wunused-parameter]
+            [this](const boost::system::error_code& error, std::size_t length) {
+                                                                       ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:88:14: warning: lambda capture 'this' is not used [-Wunused-lambda-capture]
+            [this](const boost::system::error_code& error, std::size_t length) {
+             ^~~~
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:78:15: warning: unused variable 'ang_vel_' [-Wunused-variable]
+        float ang_vel_ = vel->angular.z;
+              ^
+3 warnings generated.

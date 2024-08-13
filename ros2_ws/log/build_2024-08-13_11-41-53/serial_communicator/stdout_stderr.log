@@ -1,0 +1,9 @@
+[ 50%] Built target simple_serial
+[ 75%] Building CXX object CMakeFiles/serial_node.dir/src/serial_node.cpp.o
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:6:10: fatal error: 'geometry_msgs/msg/twist.hpp' file not found
+#include <geometry_msgs/msg/twist.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/serial_node.dir/build.make:76: CMakeFiles/serial_node.dir/src/serial_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/serial_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2
