@@ -27,8 +27,6 @@ add_executable(serial_node src/serial_node.cpp)
 add_executable(simple_serial src/simple_serial.cpp)
 
 ament_target_dependencies(serial_node ${dependencies}
-  #rclcpp
-  #std_msgs
 )
 
 target_link_libraries(serial_node ${Boost_LIBRARIES})

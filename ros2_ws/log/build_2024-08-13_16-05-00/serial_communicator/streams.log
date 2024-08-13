@@ -1,0 +1,33 @@
+[0.022s] Invoking command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/fergusproctor/miniforge3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake --build /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator -- -j8 -l8
+[0.183s] [ 50%] Built target simple_serial
+[0.212s] [ 75%] Building CXX object CMakeFiles/serial_node.dir/src/serial_node.cpp.o
+[2.192s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:102:72: warning: unused parameter 'length' [-Wunused-parameter]
+[2.192s]             [this](const boost::system::error_code& error, std::size_t length) {
+[2.192s]                                                                        ^
+[2.192s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:102:14: warning: lambda capture 'this' is not used [-Wunused-lambda-capture]
+[2.192s]             [this](const boost::system::error_code& error, std::size_t length) {
+[2.192s]              ^~~~
+[6.208s] 2 warnings generated.
+[6.236s] [100%] Linking CXX executable serial_node
+[6.359s] [100%] Built target serial_node
+[6.373s] Invoked command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/fergusproctor/miniforge3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake --build /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator -- -j8 -l8
+[6.461s] Invoking command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/fergusproctor/miniforge3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake --install /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator
+[6.474s] -- Install configuration: ""
+[6.474s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/lib/serial_communicator/serial_node
+[6.478s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/lib/serial_communicator/simple_serial
+[6.478s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/ament_index/resource_index/package_run_dependencies/serial_communicator
+[6.478s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/ament_index/resource_index/parent_prefix_path/serial_communicator
+[6.478s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/environment/ament_prefix_path.sh
+[6.479s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/environment/ament_prefix_path.dsv
+[6.479s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/environment/path.sh
+[6.479s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/environment/path.dsv
+[6.479s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/local_setup.bash
+[6.479s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/local_setup.sh
+[6.479s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/local_setup.zsh
+[6.479s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/local_setup.dsv
+[6.479s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/package.dsv
+[6.480s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/ament_index/resource_index/packages/serial_communicator
+[6.480s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/cmake/serial_communicatorConfig.cmake
+[6.481s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/cmake/serial_communicatorConfig-version.cmake
+[6.481s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/serial_communicator/share/serial_communicator/package.xml
+[6.482s] Invoked command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/fergusproctor/miniforge3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake --install /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator

@@ -1,0 +1,87 @@
+[0.018s] Invoking command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/fergusproctor/miniforge3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake --build /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator -- -j8 -l8
+[0.236s] [ 50%] Built target simple_serial
+[0.249s] [ 75%] Building CXX object CMakeFiles/serial_node.dir/src/serial_node.cpp.o
+[2.335s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:109:14: error: a type specifier is required for all declarations
+[2.335s]             *serial_port_,
+[2.335s]              ^
+[2.348s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:110:26: error: no type named 'buffer' in namespace 'boost::asio'
+[2.348s]             boost::asio::buffer(command),
+[2.348s]             ~~~~~~~~~~~~~^
+[2.348s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:111:14: error: invalid use of 'this' outside of a non-static member function
+[2.348s]             [this](const boost::system::error_code& error, std::size_t length) {
+[2.348s]              ^
+[2.348s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:111:13: error: a type specifier is required for all declarations
+[2.348s]             [this](const boost::system::error_code& error, std::size_t length) {
+[2.348s]             ^
+[2.348s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:111:80: error: expected ')'
+[2.348s]             [this](const boost::system::error_code& error, std::size_t length) {
+[2.348s]                                                                                ^
+[2.348s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:108:33: note: to match this '('
+[2.348s]         boost::asio::async_write(
+[2.348s]                                 ^
+[2.348s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:108:22: error: non-friend class member 'async_write' cannot have a qualified name
+[2.349s]         boost::asio::async_write(
+[2.349s]         ~~~~~~~~~~~~~^
+[2.349s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:108:22: error: a type specifier is required for all declarations
+[2.357s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:25:9: error: use of undeclared identifier 'io_'
+[2.358s]         io_ = std::make_shared<io_service>();
+[2.358s]         ^
+[2.368s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:28:9: error: use of undeclared identifier 'serial_port_'
+[2.368s]         serial_port_ = std::make_shared<serial_port>(*io_, "/dev/tty.HC05Ferg1"); // Adjust port name as needed
+[2.368s]         ^
+[2.378s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:28:55: error: use of undeclared identifier 'io_'
+[2.378s]         serial_port_ = std::make_shared<serial_port>(*io_, "/dev/tty.HC05Ferg1"); // Adjust port name as needed
+[2.378s]                                                       ^
+[2.389s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:31:9: error: unknown type name 'serial_port_'; did you mean 'serial_port'?
+[2.389s]         serial_port_->set_option(serial_port::baud_rate(38400));
+[2.389s]         ^~~~~~~~~~~~
+[2.389s]         serial_port
+[2.389s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:13:20: note: 'serial_port' declared here
+[2.389s] using boost::asio::serial_port;
+[2.389s]                    ^
+[2.389s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:31:21: error: cannot use arrow operator on a type
+[2.389s]         serial_port_->set_option(serial_port::baud_rate(38400));
+[2.389s]                     ^
+[2.399s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:32:9: error: unknown type name 'serial_port_'; did you mean 'serial_port'?
+[2.399s]         serial_port_->set_option(serial_port::character_size(8));
+[2.399s]         ^~~~~~~~~~~~
+[2.399s]         serial_port
+[2.399s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:13:20: note: 'serial_port' declared here
+[2.399s] using boost::asio::serial_port;
+[2.399s]                    ^
+[2.399s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:32:21: error: cannot use arrow operator on a type
+[2.399s]         serial_port_->set_option(serial_port::character_size(8));
+[2.399s]                     ^
+[2.409s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:33:9: error: unknown type name 'serial_port_'; did you mean 'serial_port'?
+[2.409s]         serial_port_->set_option(serial_port::parity(serial_port::parity::none));
+[2.410s]         ^~~~~~~~~~~~
+[2.410s]         serial_port
+[2.410s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:13:20: note: 'serial_port' declared here
+[2.410s] using boost::asio::serial_port;
+[2.410s]                    ^
+[2.410s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:33:21: error: cannot use arrow operator on a type
+[2.410s]         serial_port_->set_option(serial_port::parity(serial_port::parity::none));
+[2.410s]                     ^
+[2.419s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:34:9: error: unknown type name 'serial_port_'; did you mean 'serial_port'?
+[2.419s]         serial_port_->set_option(serial_port::stop_bits(serial_port::stop_bits::one));
+[2.419s]         ^~~~~~~~~~~~
+[2.419s]         serial_port
+[2.419s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:13:20: note: 'serial_port' declared here
+[2.420s] using boost::asio::serial_port;
+[2.420s]                    ^
+[2.420s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:34:21: error: cannot use arrow operator on a type
+[2.420s]         serial_port_->set_option(serial_port::stop_bits(serial_port::stop_bits::one));
+[2.420s]                     ^
+[2.429s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:35:9: error: unknown type name 'serial_port_'; did you mean 'serial_port'?
+[2.430s]         serial_port_->set_option(serial_port::flow_control(serial_port::flow_control::none));
+[2.430s]         ^~~~~~~~~~~~
+[2.430s]         serial_port
+[2.430s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:13:20: note: 'serial_port' declared here
+[2.430s] using boost::asio::serial_port;
+[2.430s]                    ^
+[2.430s] fatal error: too many errors emitted, stopping now [-ferror-limit=]
+[2.435s] 20 errors generated.
+[2.456s] make[2]: *** [CMakeFiles/serial_node.dir/build.make:76: CMakeFiles/serial_node.dir/src/serial_node.cpp.o] Error 1
+[2.457s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/serial_node.dir/all] Error 2
+[2.458s] make: *** [Makefile:146: all] Error 2
+[2.461s] Invoked command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/fergusproctor/miniforge3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake --build /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator -- -j8 -l8
