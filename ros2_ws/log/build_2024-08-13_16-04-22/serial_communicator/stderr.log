@@ -1,0 +1,83 @@
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:109:14: error: a type specifier is required for all declarations
+            *serial_port_,
+             ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:110:26: error: no type named 'buffer' in namespace 'boost::asio'
+            boost::asio::buffer(command),
+            ~~~~~~~~~~~~~^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:111:14: error: invalid use of 'this' outside of a non-static member function
+            [this](const boost::system::error_code& error, std::size_t length) {
+             ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:111:13: error: a type specifier is required for all declarations
+            [this](const boost::system::error_code& error, std::size_t length) {
+            ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:111:80: error: expected ')'
+            [this](const boost::system::error_code& error, std::size_t length) {
+                                                                               ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:108:33: note: to match this '('
+        boost::asio::async_write(
+                                ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:108:22: error: non-friend class member 'async_write' cannot have a qualified name
+        boost::asio::async_write(
+        ~~~~~~~~~~~~~^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:108:22: error: a type specifier is required for all declarations
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:25:9: error: use of undeclared identifier 'io_'
+        io_ = std::make_shared<io_service>();
+        ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:28:9: error: use of undeclared identifier 'serial_port_'
+        serial_port_ = std::make_shared<serial_port>(*io_, "/dev/tty.HC05Ferg1"); // Adjust port name as needed
+        ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:28:55: error: use of undeclared identifier 'io_'
+        serial_port_ = std::make_shared<serial_port>(*io_, "/dev/tty.HC05Ferg1"); // Adjust port name as needed
+                                                      ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:31:9: error: unknown type name 'serial_port_'; did you mean 'serial_port'?
+        serial_port_->set_option(serial_port::baud_rate(38400));
+        ^~~~~~~~~~~~
+        serial_port
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:13:20: note: 'serial_port' declared here
+using boost::asio::serial_port;
+                   ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:31:21: error: cannot use arrow operator on a type
+        serial_port_->set_option(serial_port::baud_rate(38400));
+                    ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:32:9: error: unknown type name 'serial_port_'; did you mean 'serial_port'?
+        serial_port_->set_option(serial_port::character_size(8));
+        ^~~~~~~~~~~~
+        serial_port
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:13:20: note: 'serial_port' declared here
+using boost::asio::serial_port;
+                   ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:32:21: error: cannot use arrow operator on a type
+        serial_port_->set_option(serial_port::character_size(8));
+                    ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:33:9: error: unknown type name 'serial_port_'; did you mean 'serial_port'?
+        serial_port_->set_option(serial_port::parity(serial_port::parity::none));
+        ^~~~~~~~~~~~
+        serial_port
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:13:20: note: 'serial_port' declared here
+using boost::asio::serial_port;
+                   ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:33:21: error: cannot use arrow operator on a type
+        serial_port_->set_option(serial_port::parity(serial_port::parity::none));
+                    ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:34:9: error: unknown type name 'serial_port_'; did you mean 'serial_port'?
+        serial_port_->set_option(serial_port::stop_bits(serial_port::stop_bits::one));
+        ^~~~~~~~~~~~
+        serial_port
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:13:20: note: 'serial_port' declared here
+using boost::asio::serial_port;
+                   ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:34:21: error: cannot use arrow operator on a type
+        serial_port_->set_option(serial_port::stop_bits(serial_port::stop_bits::one));
+                    ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:35:9: error: unknown type name 'serial_port_'; did you mean 'serial_port'?
+        serial_port_->set_option(serial_port::flow_control(serial_port::flow_control::none));
+        ^~~~~~~~~~~~
+        serial_port
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:13:20: note: 'serial_port' declared here
+using boost::asio::serial_port;
+                   ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make[2]: *** [CMakeFiles/serial_node.dir/build.make:76: CMakeFiles/serial_node.dir/src/serial_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/serial_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

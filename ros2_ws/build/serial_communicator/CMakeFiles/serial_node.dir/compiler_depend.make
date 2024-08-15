@@ -1975,6 +1975,12 @@ CMakeFiles/serial_node.dir/src/serial_node.cpp.o: /Users/fergusproctor/dev/SLAM-
   /Users/fergusproctor/miniforge3/envs/ros_env/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
   /Users/fergusproctor/miniforge3/envs/ros_env/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /Users/fergusproctor/miniforge3/envs/ros_env/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /Users/fergusproctor/miniforge3/envs/ros_env/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
+  /Users/fergusproctor/miniforge3/envs/ros_env/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /Users/fergusproctor/miniforge3/envs/ros_env/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
+  /Users/fergusproctor/miniforge3/envs/ros_env/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+  /Users/fergusproctor/miniforge3/envs/ros_env/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /Users/fergusproctor/miniforge3/envs/ros_env/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
   /Users/fergusproctor/miniforge3/envs/ros_env/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /Users/fergusproctor/miniforge3/envs/ros_env/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /Users/fergusproctor/miniforge3/envs/ros_env/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -2334,8 +2340,6 @@ CMakeFiles/serial_node.dir/src/serial_node.cpp.o: /Users/fergusproctor/dev/SLAM-
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
 
-/Users/fergusproctor/miniforge3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h:
-
 /Users/fergusproctor/miniforge3/envs/ros_env/include/rmw/rmw/visibility_control.h:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/rmw/rmw/topic_endpoint_info_array.h:
@@ -2653,6 +2657,10 @@ CMakeFiles/serial_node.dir/src/serial_node.cpp.o: /Users/fergusproctor/dev/SLAM-
 /Users/fergusproctor/miniforge3/envs/ros_env/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
+
+/Users/fergusproctor/miniforge3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h:
+
+/Users/fergusproctor/miniforge3/envs/ros_env/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
 
@@ -2981,6 +2989,8 @@ CMakeFiles/serial_node.dir/src/serial_node.cpp.o: /Users/fergusproctor/dev/SLAM-
 /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/predef/compiler/gcc.h:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/predef/compiler/ekopath.h:
+
+/Users/fergusproctor/miniforge3/envs/ros_env/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/predef/compiler/edg.h:
 
@@ -4432,6 +4442,8 @@ CMakeFiles/serial_node.dir/src/serial_node.cpp.o: /Users/fergusproctor/dev/SLAM-
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__type_traits/is_trivially_assignable.h:
 
+/Users/fergusproctor/miniforge3/envs/ros_env/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
+
 /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/core/addressof.hpp:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/any:
@@ -4698,6 +4710,8 @@ CMakeFiles/serial_node.dir/src/serial_node.cpp.o: /Users/fergusproctor/dev/SLAM-
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__thread/formatter.h:
 
+/Users/fergusproctor/miniforge3/envs/ros_env/include/geometry_msgs/geometry_msgs/msg/twist.hpp:
+
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__string/extern_template_lists.h:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__algorithm/pstl_backends/cpu_backends/find_if.h:
@@ -4899,6 +4913,8 @@ CMakeFiles/serial_node.dir/src/serial_node.cpp.o: /Users/fergusproctor/dev/SLAM-
 /Users/fergusproctor/miniforge3/envs/ros_env/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/asio/buffered_write_stream_fwd.hpp:
+
+/Users/fergusproctor/miniforge3/envs/ros_env/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/preprocessor/logical/bitand.hpp:
 
@@ -6587,6 +6603,8 @@ CMakeFiles/serial_node.dir/src/serial_node.cpp.o: /Users/fergusproctor/dev/SLAM-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale.h:
 
 /Users/fergusproctor/miniforge3/envs/ros_env/include/c++/v1/__memory/voidify.h:
+
+/Users/fergusproctor/miniforge3/envs/ros_env/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h:
 

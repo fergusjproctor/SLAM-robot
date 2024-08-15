@@ -1,0 +1,34 @@
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:81:9: error: statement requires expression of integer type ('float' invalid)
+        switch (lin_vel_x_){
+        ^       ~~~~~~~~~~
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:82:18: error: conversion from 'double' to 'int' is not allowed in a converted constant expression
+            case 2.0:
+                 ^~~
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:85:18: error: conversion from 'double' to 'int' is not allowed in a converted constant expression
+            case -2.0:
+                 ^~~~
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:88:18: error: conversion from 'double' to 'int' is not allowed in a converted constant expression
+            case 0.0:
+                 ^~~
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:89:17: error: statement requires expression of integer type ('float' invalid)
+                switch(ang_vel_){
+                ^      ~~~~~~~~
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:90:26: error: conversion from 'double' to 'int' is not allowed in a converted constant expression
+                    case 2.0:
+                         ^~~
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:93:26: error: conversion from 'double' to 'int' is not allowed in a converted constant expression
+                    case -2.0:
+                         ^~~~
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:96:26: error: conversion from 'double' to 'int' is not allowed in a converted constant expression
+                    case 0.0:
+                         ^~~
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:110:72: warning: unused parameter 'length' [-Wunused-parameter]
+            [this](const boost::system::error_code& error, std::size_t length) {
+                                                                       ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:110:14: warning: lambda capture 'this' is not used [-Wunused-lambda-capture]
+            [this](const boost::system::error_code& error, std::size_t length) {
+             ^~~~
+2 warnings and 8 errors generated.
+make[2]: *** [CMakeFiles/serial_node.dir/build.make:76: CMakeFiles/serial_node.dir/src/serial_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/serial_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

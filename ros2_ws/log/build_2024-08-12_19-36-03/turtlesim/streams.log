@@ -1,0 +1,320 @@
+[0.022s] Invoking command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/fergusproctor/miniforge3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/turtlesim -DCMAKE_INSTALL_PREFIX=/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim
+[0.516s] -- The C compiler identification is Clang 16.0.6
+[0.623s] -- The CXX compiler identification is Clang 16.0.6
+[0.659s] -- Detecting C compiler ABI info
+[0.851s] -- Detecting C compiler ABI info - done
+[0.855s] -- Check for working C compiler: /Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-clang - skipped
+[0.855s] -- Detecting C compile features
+[0.856s] -- Detecting C compile features - done
+[0.886s] -- Detecting CXX compiler ABI info
+[1.071s] -- Detecting CXX compiler ABI info - done
+[1.074s] -- Check for working CXX compiler: /Users/fergusproctor/miniforge3/envs/ros_env/bin/arm64-apple-darwin20.0.0-clang++ - skipped
+[1.075s] -- Detecting CXX compile features
+[1.075s] -- Detecting CXX compile features - done
+[1.107s] -- Found ament_cmake: 1.3.7 (/Users/fergusproctor/miniforge3/envs/ros_env/share/ament_cmake/cmake)
+[1.645s] -- Found Python3: /opt/homebrew/Frameworks/Python.framework/Versions/3.12/bin/python3.12 (found version "3.12.4") found components: Interpreter 
+[1.866s] -- Found ament_index_cpp: 1.4.0 (/Users/fergusproctor/miniforge3/envs/ros_env/share/ament_index_cpp/cmake)
+[1.876s] -- Found geometry_msgs: 4.2.3 (/Users/fergusproctor/miniforge3/envs/ros_env/share/geometry_msgs/cmake)
+[1.991s] -- Found rosidl_generator_c: 3.1.5 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rosidl_generator_c/cmake)
+[2.012s] -- Found rosidl_adapter: 3.1.5 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rosidl_adapter/cmake)
+[2.037s] -- Found rosidl_generator_cpp: 3.1.5 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rosidl_generator_cpp/cmake)
+[2.069s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.111s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.378s] -- Found rclcpp: 16.0.8 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rclcpp/cmake)
+[2.540s] -- Checking for module 'yaml-0.1'
+[2.685s] --   Found yaml-0.1, version 0.2.5
+[3.100s] -- Found rmw_implementation_cmake: 6.1.1 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rmw_implementation_cmake/cmake)
+[3.111s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rmw_cyclonedds_cpp/cmake)
+[3.184s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.214s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.394s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.395s] -- Found Threads: TRUE  
+[3.513s] -- Found rclcpp_action: 16.0.8 (/Users/fergusproctor/miniforge3/envs/ros_env/share/rclcpp_action/cmake)
+[3.620s] -- Found std_srvs: 4.2.3 (/Users/fergusproctor/miniforge3/envs/ros_env/share/std_srvs/cmake)
+[4.118s] -- Found ament_cmake_ros: 0.10.0 (/Users/fergusproctor/miniforge3/envs/ros_env/share/ament_cmake_ros/cmake)
+[5.002s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.332s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.348s] -- Configuring done (5.2s)
+[5.447s] -- Generating done (0.1s)
+[5.453s] -- Build files have been written to: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim
+[5.458s] Invoked command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/fergusproctor/miniforge3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/turtlesim -DCMAKE_INSTALL_PREFIX=/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim
+[5.460s] Invoking command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/fergusproctor/miniforge3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake --build /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim -- -j8 -l8
+[5.550s] [  1%] Built target turtlesim__cpp
+[5.561s] [ 13%] Built target turtlesim__rosidl_generator_c
+[5.637s] [ 25%] Built target turtlesim__rosidl_typesupport_introspection_c
+[5.640s] [ 37%] Built target turtlesim__rosidl_typesupport_c
+[5.677s] [ 49%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[5.684s] [ 73%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[5.684s] [ 73%] Built target turtlesim__rosidl_typesupport_cpp
+[5.693s] [ 85%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[5.743s] [ 85%] Built target turtlesim
+[5.764s] [ 92%] Built target draw_square
+[5.764s] [ 92%] Built target mimic
+[5.765s] [ 92%] Built target turtle_teleop_key
+[5.784s] [100%] Built target turtlesim_node
+[5.801s] Invoked command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/fergusproctor/miniforge3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake --build /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim -- -j8 -l8
+[6.389s] Invoking command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/fergusproctor/miniforge3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake --install /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim
+[6.402s] -- Install configuration: ""
+[6.402s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim
+[6.402s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim
+[6.402s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[6.402s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h
+[6.403s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.h
+[6.403s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h
+[6.403s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[6.403s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h
+[6.403s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h
+[6.403s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h
+[6.403s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h
+[6.403s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h
+[6.403s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c
+[6.403s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h
+[6.403s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c
+[6.403s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[6.403s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h
+[6.403s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[6.403s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c
+[6.403s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h
+[6.403s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h
+[6.404s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h
+[6.405s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h
+[6.405s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h
+[6.405s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h
+[6.405s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h
+[6.405s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h
+[6.405s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h
+[6.405s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.dylib
+[6.405s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim
+[6.405s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[6.405s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[6.405s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[6.405s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[6.405s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.405s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[6.405s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[6.406s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[6.406s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[6.406s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[6.406s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[6.406s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[6.406s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[6.406s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[6.406s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[6.406s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.dylib
+[6.412s] /Users/fergusproctor/miniforge3/envs/ros_env/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.dylib
+[6.412s] [cctools-port]: generating fake signature for '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.dylib'
+[6.424s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim
+[6.424s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[6.424s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp
+[6.424s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[6.424s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp
+[6.425s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp
+[6.425s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp
+[6.425s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp
+[6.425s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp
+[6.425s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp
+[6.425s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp
+[6.425s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[6.425s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp
+[6.425s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[6.425s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp
+[6.425s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp
+[6.425s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp
+[6.425s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[6.425s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp
+[6.425s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[6.425s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp
+[6.425s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[6.426s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps
+[6.427s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[6.427s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[6.427s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[6.427s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[6.427s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[6.427s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps
+[6.427s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[6.427s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[6.427s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.dylib
+[6.427s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim
+[6.427s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[6.427s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[6.427s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[6.427s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h
+[6.427s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c
+[6.428s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c
+[6.428s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.428s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[6.428s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[6.428s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[6.428s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c
+[6.428s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[6.428s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[6.428s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c
+[6.428s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[6.428s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c
+[6.428s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[6.428s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[6.428s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c
+[6.428s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[6.428s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c
+[6.428s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[6.428s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c
+[6.428s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.dylib
+[6.431s] /Users/fergusproctor/miniforge3/envs/ros_env/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.dylib
+[6.432s] [cctools-port]: generating fake signature for '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.dylib'
+[6.440s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.dylib
+[6.443s] /Users/fergusproctor/miniforge3/envs/ros_env/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.dylib
+[6.443s] [cctools-port]: generating fake signature for '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.dylib'
+[6.452s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim
+[6.452s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[6.452s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[6.452s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[6.452s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp
+[6.452s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp
+[6.452s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[6.452s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[6.452s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[6.452s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp
+[6.452s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[6.452s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[6.452s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[6.452s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[6.452s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.dylib
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.dylib
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.idl
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.idl
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.idl
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.msg
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.msg
+[6.453s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.srv
+[6.454s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg
+[6.454s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg
+[6.454s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv
+[6.454s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg
+[6.454s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg
+[6.454s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv
+[6.454s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg
+[6.454s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg
+[6.454s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv
+[6.454s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg
+[6.454s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg
+[6.454s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv
+[6.454s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg
+[6.454s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg
+[6.454s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node
+[6.456s] error: /Users/fergusproctor/miniforge3/envs/ros_env/bin/install_name_tool: no LC_RPATH load command with path: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim found in: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node (for architecture arm64), required for specified option "-delete_rpath /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim"
+[6.456s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[6.460s] /Users/fergusproctor/miniforge3/envs/ros_env/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[6.461s] [cctools-port]: generating fake signature for '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key'
+[6.470s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/draw_square
+[6.474s] /Users/fergusproctor/miniforge3/envs/ros_env/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/draw_square
+[6.474s] [cctools-port]: generating fake signature for '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/draw_square'
+[6.485s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/mimic
+[6.488s] /Users/fergusproctor/miniforge3/envs/ros_env/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/mimic
+[6.488s] [cctools-port]: generating fake signature for '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/lib/turtlesim/mimic'
+[6.498s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/images
+[6.499s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/images/skrey.png
+[6.499s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/images/humble.png
+[6.499s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/launch
+[6.499s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[6.499s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[6.499s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[6.499s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[6.499s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[6.500s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/environment/path.sh
+[6.500s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/environment/path.dsv
+[6.500s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/local_setup.bash
+[6.500s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/local_setup.sh
+[6.500s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/local_setup.zsh
+[6.500s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/local_setup.dsv
+[6.501s] -- Installing: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/package.dsv
+[6.501s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[6.501s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake
+[6.502s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake
+[6.502s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake
+[6.502s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.502s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake
+[6.502s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.502s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.503s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake
+[6.503s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.503s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake
+[6.503s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake
+[6.503s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake
+[6.503s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.504s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake
+[6.504s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake
+[6.504s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake
+[6.504s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.504s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.504s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake
+[6.504s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake
+[6.504s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.504s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.504s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[6.504s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[6.504s] -- Up-to-date: /Users/fergusproctor/dev/SLAM-robot/ros2_ws/install/turtlesim/share/turtlesim/package.xml
+[6.506s] Invoked command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/fergusproctor/miniforge3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake --install /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/turtlesim

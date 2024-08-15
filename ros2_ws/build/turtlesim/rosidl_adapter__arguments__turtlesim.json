@@ -1,0 +1,13 @@
+{
+  "package_name": "turtlesim",
+  "non_idl_tuples": [
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/turtlesim:action/RotateAbsolute.action",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/turtlesim:msg/Color.msg",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/turtlesim:msg/Pose.msg",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/turtlesim:srv/Kill.srv",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/turtlesim:srv/SetPen.srv",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/turtlesim:srv/Spawn.srv",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/turtlesim:srv/TeleportAbsolute.srv",
+    "/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/turtlesim:srv/TeleportRelative.srv"
+  ]
+}

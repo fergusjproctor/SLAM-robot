@@ -1,0 +1,32 @@
+[0.022s] Invoking command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/fergusproctor/miniforge3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake --build /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator -- -j8 -l8
+[0.254s] [ 50%] Built target simple_serial
+[0.263s] [ 75%] Building CXX object CMakeFiles/serial_node.dir/src/serial_node.cpp.o
+[2.427s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:46:23: error: no viable overloaded '='
+[2.427s]         subscription_ = this->create_subscription<geometry_msgs::msg::Twist>(
+[2.427s]         ~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.427s] /Users/fergusproctor/miniforge3/envs/ros_env/bin/../include/c++/v1/__memory/shared_ptr.h:651:42: note: candidate function not viable: no known conversion from 'shared_ptr<Subscription<geometry_msgs::msg::Twist_<std::allocator<void>>, [...], geometry_msgs::msg::Twist_<std::allocator<void>>, geometry_msgs::msg::Twist_<std::allocator<void>>, MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void>>, [...]>>>' to 'const shared_ptr<Subscription<std_msgs::msg::String_<std::allocator<void>>, [...], std_msgs::msg::String_<std::allocator<void>>, std_msgs::msg::String_<std::allocator<void>>, MessageMemoryStrategy<std_msgs::msg::String_<std::allocator<void>>, [...]>>>' for 1st argument
+[2.428s]   _LIBCPP_HIDE_FROM_ABI shared_ptr<_Tp>& operator=(const shared_ptr& __r) _NOEXCEPT {
+[2.428s]                                          ^
+[2.428s] /Users/fergusproctor/miniforge3/envs/ros_env/bin/../include/c++/v1/__memory/shared_ptr.h:657:42: note: candidate template ignored: requirement '__compatible_with<rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void>>, std::allocator<void>, geometry_msgs::msg::Twist_<std::allocator<void>>, geometry_msgs::msg::Twist_<std::allocator<void>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void>>, std::allocator<void>>>, rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void>>, std::allocator<void>, std_msgs::msg::String_<std::allocator<void>>, std_msgs::msg::String_<std::allocator<void>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::String_<std::allocator<void>>, std::allocator<void>>>>::value' was not satisfied [with _Yp = rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void>>, std::allocator<void>, geometry_msgs::msg::Twist_<std::allocator<void>>, geometry_msgs::msg::Twist_<std::allocator<void>>>]
+[2.428s]   _LIBCPP_HIDE_FROM_ABI shared_ptr<_Tp>& operator=(const shared_ptr<_Yp>& __r) _NOEXCEPT {
+[2.428s]                                          ^
+[2.428s] /Users/fergusproctor/miniforge3/envs/ros_env/bin/../include/c++/v1/__memory/shared_ptr.h:662:42: note: candidate function not viable: no known conversion from 'shared_ptr<Subscription<geometry_msgs::msg::Twist_<std::allocator<void>>, [...], geometry_msgs::msg::Twist_<std::allocator<void>>, geometry_msgs::msg::Twist_<std::allocator<void>>, MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void>>, [...]>>>' to 'shared_ptr<Subscription<std_msgs::msg::String_<std::allocator<void>>, [...], std_msgs::msg::String_<std::allocator<void>>, std_msgs::msg::String_<std::allocator<void>>, MessageMemoryStrategy<std_msgs::msg::String_<std::allocator<void>>, [...]>>>' for 1st argument
+[2.428s]   _LIBCPP_HIDE_FROM_ABI shared_ptr<_Tp>& operator=(shared_ptr&& __r) _NOEXCEPT {
+[2.428s]                                          ^
+[2.428s] /Users/fergusproctor/miniforge3/envs/ros_env/bin/../include/c++/v1/__memory/shared_ptr.h:668:42: note: candidate template ignored: requirement '__compatible_with<rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void>>, std::allocator<void>, geometry_msgs::msg::Twist_<std::allocator<void>>, geometry_msgs::msg::Twist_<std::allocator<void>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void>>, std::allocator<void>>>, rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void>>, std::allocator<void>, std_msgs::msg::String_<std::allocator<void>>, std_msgs::msg::String_<std::allocator<void>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::String_<std::allocator<void>>, std::allocator<void>>>>::value' was not satisfied [with _Yp = rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void>>, std::allocator<void>, geometry_msgs::msg::Twist_<std::allocator<void>>, geometry_msgs::msg::Twist_<std::allocator<void>>>]
+[2.428s]   _LIBCPP_HIDE_FROM_ABI shared_ptr<_Tp>& operator=(shared_ptr<_Yp>&& __r) {
+[2.428s]                                          ^
+[2.428s] /Users/fergusproctor/miniforge3/envs/ros_env/bin/../include/c++/v1/__memory/shared_ptr.h:688:42: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+[2.428s]   _LIBCPP_HIDE_FROM_ABI shared_ptr<_Tp>& operator=(unique_ptr<_Yp, _Dp>&& __r) {
+[2.428s]                                          ^
+[2.429s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:77:15: warning: unused variable 'lin_vel_x_' [-Wunused-variable]
+[2.429s]         float lin_vel_x_ = vel->linear.x;
+[2.429s]               ^
+[2.429s] /Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:78:15: warning: unused variable 'ang_vel_' [-Wunused-variable]
+[2.429s]         float ang_vel_ = vel->angular.z;
+[2.429s]               ^
+[3.420s] 2 warnings and 1 error generated.
+[3.426s] make[2]: *** [CMakeFiles/serial_node.dir/build.make:76: CMakeFiles/serial_node.dir/src/serial_node.cpp.o] Error 1
+[3.426s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/serial_node.dir/all] Error 2
+[3.427s] make: *** [Makefile:146: all] Error 2
+[3.428s] Invoked command in '/Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/fergusproctor/miniforge3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/Users/fergusproctor/miniforge3/envs/ros_env/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/fergusproctor/miniforge3/envs/ros_env/bin/cmake --build /Users/fergusproctor/dev/SLAM-robot/ros2_ws/build/serial_communicator -- -j8 -l8

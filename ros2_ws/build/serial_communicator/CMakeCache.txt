@@ -278,7 +278,7 @@ RMW_IMPLEMENTATION:STRING=rmw_cyclonedds_cpp
 SITE:STRING=Ferguss-MacBook-Air.local
 
 //Path to a library.
-_lib:FILEPATH=/Users/fergusproctor/miniforge3/envs/ros_env/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.dylib
+_lib:FILEPATH=/Users/fergusproctor/miniforge3/envs/ros_env/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.dylib
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/Users/fergusproctor/miniforge3/envs/ros_env/share/ament_cmake/cmake
@@ -384,6 +384,9 @@ fastrtps_cmake_module_DIR:PATH=/Users/fergusproctor/miniforge3/envs/ros_env/shar
 
 //The directory containing a CMake configuration file for fmt.
 fmt_DIR:PATH=/Users/fergusproctor/miniforge3/envs/ros_env/lib/cmake/fmt
+
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/Users/fergusproctor/miniforge3/envs/ros_env/share/geometry_msgs/cmake
 
 //The directory containing a CMake configuration file for iceoryx_binding_c.
 iceoryx_binding_c_DIR:PATH=/Users/fergusproctor/miniforge3/envs/ros_env/lib/cmake/iceoryx_binding_c

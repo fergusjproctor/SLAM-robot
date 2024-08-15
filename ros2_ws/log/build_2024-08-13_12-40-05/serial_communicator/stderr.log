@@ -1,0 +1,29 @@
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:79:21: error: no viable conversion from 'double' to 'std::string' (aka 'basic_string<char>')
+        std::string data = 0.0
+                    ^      ~~~
+/Users/fergusproctor/miniforge3/envs/ros_env/bin/../include/c++/v1/string:896:71: note: candidate constructor not viable: no known conversion from 'double' to 'const string &' for 1st argument
+  _LIBCPP_CONSTEXPR_SINCE_CXX20 _LIBCPP_STRING_INTERNAL_MEMORY_ACCESS basic_string(const basic_string& __str)
+                                                                      ^
+/Users/fergusproctor/miniforge3/envs/ros_env/bin/../include/c++/v1/string:916:55: note: candidate constructor not viable: no known conversion from 'double' to 'string &&' for 1st argument
+  _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX20 basic_string(basic_string&& __str)
+                                                      ^
+/Users/fergusproctor/miniforge3/envs/ros_env/bin/../include/c++/v1/string:951:55: note: candidate constructor template not viable: no known conversion from 'double' to 'const char *' for 1st argument
+  _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX20 basic_string(const _CharT* __s)
+                                                      ^
+/Users/fergusproctor/miniforge3/envs/ros_env/bin/../include/c++/v1/string:1091:55: note: candidate constructor not viable: no known conversion from 'double' to 'initializer_list<char>' for 1st argument
+  _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX20 basic_string(initializer_list<_CharT> __il)
+                                                      ^
+/Users/fergusproctor/miniforge3/envs/ros_env/bin/../include/c++/v1/string:886:64: note: explicit constructor is not a candidate
+  _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX20 explicit basic_string(const allocator_type& __a)
+                                                               ^
+/Users/fergusproctor/miniforge3/envs/ros_env/bin/../include/c++/v1/string:1047:93: note: explicit constructor is not a candidate
+  _LIBCPP_METHOD_TEMPLATE_IMPLICIT_INSTANTIATION_VIS _LIBCPP_CONSTEXPR_SINCE_CXX20 explicit basic_string(const _Tp& __t)
+                                                                                            ^
+/Users/fergusproctor/dev/SLAM-robot/ros2_ws/src/serial_communicator/src/serial_node.cpp:79:31: error: expected ';' at end of declaration
+        std::string data = 0.0
+                              ^
+                              ;
+2 errors generated.
+make[2]: *** [CMakeFiles/serial_node.dir/build.make:76: CMakeFiles/serial_node.dir/src/serial_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/serial_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

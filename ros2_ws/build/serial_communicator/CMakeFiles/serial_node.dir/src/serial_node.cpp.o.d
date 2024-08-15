@@ -2299,4 +2299,10 @@ CMakeFiles/serial_node.dir/src/serial_node.cpp.o: \
   /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/asio/windows/stream_handle.hpp \
   /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/asio/writable_pipe.hpp \
   /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/asio/write_at.hpp \
-  /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/asio/impl/write_at.hpp
+  /Users/fergusproctor/miniforge3/envs/ros_env/include/boost/asio/impl/write_at.hpp \
+  /Users/fergusproctor/miniforge3/envs/ros_env/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /Users/fergusproctor/miniforge3/envs/ros_env/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /Users/fergusproctor/miniforge3/envs/ros_env/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+  /Users/fergusproctor/miniforge3/envs/ros_env/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
+  /Users/fergusproctor/miniforge3/envs/ros_env/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
+  /Users/fergusproctor/miniforge3/envs/ros_env/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp

@@ -47,6 +47,10 @@
         "iostream": "cpp",
         "optional": "cpp",
         "unordered_map": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "__tree": "cpp",
+        "condition_variable": "cpp",
+        "future": "cpp",
+        "map": "cpp"
     }
 }
