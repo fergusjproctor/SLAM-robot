@@ -1,0 +1,79 @@
+import serial
+import time
+import numpy as np
+import matplotlib.pyplot as plt
+import csv  # Import csv module for saving the data
+
+# Configuration
+serial_port = '/dev/tty.usbmodem11101'  # Update this to your Arduino's serial port
+baud_rate = 115200
+duration = 5  # Duration to record data in seconds
+buffer_size = 2048  # Size of buffer to hold byte stream
+max_lag = 50  # Maximum lag to test (both positive and negative)
+csv_filename = 'byte_stream_data.csv'  # Name of the CSV file to save data
+
+# Open serial port
+ser = serial.Serial(serial_port, baud_rate, timeout=1)
+time.sleep(2)  # Wait for the connection to establish
+
+byte_buffer = []
+
+print("Recording data...")
+
+start_time = time.time()
+
+try:
+    while time.time() - start_time < duration:
+        if ser.in_waiting > 0:
+            byte = ser.read(1)  # Read one byte
+            if byte:
+                byte_value = ord(byte)  # Convert byte to integer
+                byte_buffer.append(byte_value)
+                
+                # Maintain buffer size
+                if len(byte_buffer) > buffer_size:
+                    byte_buffer.pop(0)
+
+finally:
+    ser.close()  # Close the serial port when done
+
+print("Recording stopped.")
+
+# Save byte stream to CSV file
+with open(csv_filename, 'w', newline='') as csvfile:
+    csv_writer = csv.writer(csvfile)
+    csv_writer.writerow(['Byte Value'])  # Write header
+    for byte in byte_buffer:
+        csv_writer.writerow([byte])
+
+print(f"Byte stream saved to {csv_filename}")
+
+# Convert buffer to numpy array for autocorrelation
+byte_stream = np.array(byte_buffer)
+
+# Compute autocorrelation
+autocorr = np.correlate(byte_stream, byte_stream, mode='full')
+
+# Define the range of lags to consider
+n = len(byte_stream)
+lags = np.arange(-max_lag, max_lag + 1)
+
+# Extract relevant autocorrelation values for lags from -max_lag to +max_lag
+start = len(byte_stream) - max_lag - 1  # Start index for lag -max_lag
+end = len(byte_stream) + max_lag  # End index for lag +max_lag
+autocorr_relevant = autocorr[start:end]
+
+# Ensure both x and y arrays are of the same length
+if len(lags) > len(autocorr_relevant):
+    lags = lags[:len(autocorr_relevant)]
+elif len(autocorr_relevant) > len(lags):
+    autocorr_relevant = autocorr_relevant[:len(lags)]
+
+# Plot autocorrelation for lags -max_lag to +max_lag
+plt.figure(figsize=(12, 6))
+plt.plot(lags, autocorr_relevant)
+plt.title(f'Autocorrelation of Byte Stream (Lags -{max_lag} to {max_lag})')
+plt.xlabel('Lag')
+plt.ylabel('Autocorrelation')
+plt.grid(True)
+plt.show()

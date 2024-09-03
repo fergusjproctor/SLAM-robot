@@ -1,0 +1,35 @@
+Total bytes transmitted: 133316
+Top 10 Byte Frequencies (Hex) : Frequency
+0x65 : 25960
+0x20 : 12982
+0x30 : 8628
+0x69 : 6495
+0x74 : 6491
+0x76 : 6490
+0x63 : 6490
+0x64 : 6490
+0x0D : 6489
+0x0A : 6489
+
+Top 10 Possible Start of Frame (SOF) Bytes Analysis:
+Position : Byte (Hex) : Frequency
+Position 10 : 0x65 : 25957
+Position 22 : 0x65 : 25957
+Position 21 : 0x65 : 25957
+Position 20 : 0x65 : 25957
+Position 19 : 0x65 : 25957
+Position 18 : 0x65 : 25957
+Position 17 : 0x65 : 25957
+Position 16 : 0x65 : 25957
+Position 1 : 0x65 : 25956
+Position 9 : 0x65 : 25956
+Position 8 : 0x65 : 25956
+Position 7 : 0x65 : 25956
+Position 15 : 0x65 : 25956
+Position 14 : 0x65 : 25956
+Position 13 : 0x65 : 25956
+Position 12 : 0x65 : 25956
+Position 11 : 0x65 : 25956
+Position 4 : 0x65 : 25955
+Position 3 : 0x65 : 25955
+Position 2 : 0x65 : 25955
